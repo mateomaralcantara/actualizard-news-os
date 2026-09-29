@@ -9,28 +9,34 @@ export function ArticleCard({
   featured?: boolean;
 }) {
   return (
-    <article className="card">
-      <img src={article.heroImage} alt={article.heroCaption ?? article.title} />
+    <Link
+      href={`/noticias/${article.slug}`}
+      className="article-card-link"
+      aria-label={`Abrir artículo: ${article.title}`}
+    >
+      <article className="card">
+        <img
+          src={article.heroImage}
+          alt={article.heroCaption ?? article.title}
+        />
 
-      <div className="card-pad">
-        <span className="badge">{article.category}</span>
+        <div className="card-pad">
+          <span className="badge">{article.category}</span>
 
-        {featured ? <h2>{article.title}</h2> : <h3>{article.title}</h3>}
+          {featured ? <h2>{article.title}</h2> : <h3>{article.title}</h3>}
 
-        <p className="meta">{article.dek}</p>
+          <p className="meta">{article.dek}</p>
 
-        <p className="meta">
-          {article.sourceCount} fuentes · consistencia editorial{" "}
-          {article.confidence}%
-        </p>
+          <p className="meta">
+            {article.sourceCount} fuentes · consistencia editorial{" "}
+            {article.confidence}%
+          </p>
 
-        <Link
-          href={`/noticias/${article.slug}`}
-          className="btn secondary"
-        >
-          Leer historia
-        </Link>
-      </div>
-    </article>
+          <span className="btn secondary article-card-cta">
+            Leer historia
+          </span>
+        </div>
+      </article>
+    </Link>
   );
 }
