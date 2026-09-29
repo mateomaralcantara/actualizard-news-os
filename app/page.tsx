@@ -195,7 +195,7 @@ export default function HomePage() {
                   >
                     {article.sourceCount}
                     {" "}fuentes ·
-                    {" "}confianza{" "}
+                    {" "}consistencia editorial{" "}
                     {article.confidence}%
                   </div>
 
