@@ -100,8 +100,7 @@ export const articles: Article[] = [
       "La nueva plataforma busca conectar personas y negocios que necesitan resolver gestiones cotidianas con trabajadores independientes y propietarios de vehículos disponibles para ejecutarlas, bajo una visión centrada en tiempo, movilidad y nuevas oportunidades de ingreso.",
     category: "Negocios",
     author: "Redacción Actualizard",
-    heroImage:
-      "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/uploads/diligencias-portada.jpg",
     heroCaption:
       "Imagen editorial ilustrativa. El artículo presenta los objetivos, la propuesta y las expectativas declaradas para el lanzamiento de DILIGENCIAS.",
     status: "published",
