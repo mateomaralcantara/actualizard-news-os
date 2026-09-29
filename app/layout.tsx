@@ -33,6 +33,10 @@ const mainNavigation = [
     href: "/categoria/geoeconomia"
   },
   {
+    label: "Negocios",
+    href: "/categoria/negocios"
+  },
+  {
     label: "Tecnología",
     href: "/categoria/tecnologia"
   },
