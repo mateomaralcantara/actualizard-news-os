@@ -2536,3 +2536,24 @@ body {
     padding: 20px 18px 20px 38px;
   }
 }
+
+
+/* ============================================================
+   ARTICLE HERO IMAGE - CENTERED
+============================================================ */
+
+.article-hero-image {
+  display: block;
+  width: min(100%, 1200px);
+  height: auto;
+  margin: 24px auto 0;
+  border-radius: 22px;
+  object-fit: cover;
+}
+
+.article-hero-image + .meta {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
