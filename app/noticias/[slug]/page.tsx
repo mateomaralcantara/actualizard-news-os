@@ -32,9 +32,9 @@ export default async function ArticlePage({
       </p>
 
       <img
+        className="article-hero-image"
         src={article.heroImage}
         alt={article.heroCaption ?? article.title}
-        style={{ borderRadius: 22, marginTop: 24 }}
       />
 
       {article.heroCaption && (
