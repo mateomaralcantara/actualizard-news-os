@@ -92,6 +92,125 @@ export const sources: SourceRecord[] = [
 
 export const articles: Article[] = [
   {
+    id: "launch-20260929-diligencias",
+    slug: "diligencias-lanzamiento-plataforma-mandados-entregas-trabajo-independiente",
+    title:
+      "DILIGENCIAS inicia operaciones con una apuesta por transformar los mandados, las entregas y el trabajo independiente",
+    dek:
+      "La nueva plataforma busca conectar personas y negocios que necesitan resolver gestiones cotidianas con trabajadores independientes y propietarios de vehículos disponibles para ejecutarlas, bajo una visión centrada en tiempo, movilidad y nuevas oportunidades de ingreso.",
+    category: "Negocios",
+    author: "Redacción Actualizard",
+    heroImage:
+      "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1600&q=80",
+    heroCaption:
+      "Imagen editorial ilustrativa. El artículo presenta los objetivos, la propuesta y las expectativas declaradas para el lanzamiento de DILIGENCIAS.",
+    status: "published",
+    confidence: 90,
+    sourceCount: 1,
+    createdAt: "2026-09-29T08:00:00-04:00",
+    updatedAt: "2026-09-29T08:00:00-04:00",
+    publishedAt: "2026-09-29T08:00:00-04:00",
+    tags: [
+      "DILIGENCIAS",
+      "emprendimiento",
+      "economía digital",
+      "mensajería",
+      "movilidad",
+      "trabajo independiente",
+      "República Dominicana"
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text:
+          "DILIGENCIAS inicia operaciones con una idea sencilla en su formulación, pero ambiciosa en su alcance: que una persona o una empresa no tenga que detener su día para resolver cada compra, entrega, envío, trámite o gestión que aparece en la vida cotidiana. La plataforma pretende organizar digitalmente una actividad que ya existe en las ciudades —hacer diligencias para otros— y convertirla en una red capaz de conectar necesidades concretas con personas disponibles para resolverlas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El proyecto parte de un problema reconocible. Buscar un documento, recoger una compra, entregar mercancía, llevar un paquete, retirar un artículo, realizar una gestión administrativa o mover un producto de un punto a otro puede consumir una o varias horas entre tránsito, desplazamientos y espera. Para quien trabaja, estudia, administra un negocio o tiene responsabilidades familiares, ese tiempo tiene un valor económico y personal. DILIGENCIAS quiere convertir esa pérdida de tiempo en una tarea delegable."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La propuesta no se limita a la mensajería tradicional. Su visión contempla un ecosistema de servicios de proximidad en el que una solicitud pueda ser atendida según el tipo de diligencia, la ubicación, la disponibilidad y el medio de transporte necesario. Una bicicleta puede resolver una entrega corta; una motocicleta o una passola puede atender documentos y compras pequeñas; un automóvil puede cubrir necesidades de mayor distancia o capacidad; y vehículos de mayor tamaño podrían incorporarse en servicios que requieran volumen adicional."
+      },
+      {
+        type: "quote",
+        text:
+          "La idea central de DILIGENCIAS es conectar una necesidad real con una persona disponible para resolverla, utilizando la tecnología para organizar tiempo, movilidad y capacidad ociosa.",
+        attribution: "Concepto de lanzamiento de DILIGENCIAS"
+      },
+      {
+        type: "paragraph",
+        text:
+          "Uno de los objetivos centrales de la plataforma es devolver tiempo al usuario. En este modelo, el servicio no consiste únicamente en transportar un objeto: consiste en permitir que otra persona continúe con su jornada mientras una tarea concreta se ejecuta por ella. Para un profesional puede significar no abandonar una oficina; para una familia, evitar un desplazamiento innecesario; para un comerciante, mantener una operación funcionando mientras una entrega o gestión ocurre en paralelo."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El segundo objetivo está del lado de quienes prestarán los servicios. Miles de personas poseen motocicletas, passolas, bicicletas, automóviles u otros vehículos que permanecen parte del día sin producir ingresos. DILIGENCIAS aspira a convertir parte de esa capacidad disponible en oportunidades de trabajo flexible. La expectativa es que una persona pueda conectarse cuando tenga disponibilidad, aceptar servicios compatibles con su ubicación y su medio de transporte y generar ingresos sin depender necesariamente de una jornada rígida."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La plataforma también mira hacia pequeños negocios, profesionales y empresas que necesitan logística, pero que no siempre justifican mantener una flotilla propia o un mensajero permanente. Una tienda puede requerir entregas durante determinadas horas; una oficina puede necesitar mover documentos; un emprendimiento digital puede despachar productos; y una empresa puede requerir gestiones específicas sin ampliar su estructura fija. En ese segmento, DILIGENCIAS busca funcionar como una red logística bajo demanda."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La tecnología será el mecanismo de coordinación, pero la confianza será el verdadero capital de la plataforma. Para crecer, DILIGENCIAS tendrá que demostrar que puede identificar adecuadamente a los participantes, registrar operaciones, permitir seguimiento, manejar incidencias y construir reputación entre usuarios y prestadores. La rapidez es importante, pero una plataforma que mueve productos, documentos y encargos personales necesita combinar velocidad con trazabilidad y responsabilidad."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Otro desafío será alcanzar densidad operativa. Una plataforma de dos lados necesita suficientes solicitudes para que quienes ofrecen el servicio encuentren oportunidades y suficientes prestadores para que quien solicita una diligencia reciba respuesta rápida. Tener cobertura nominal en muchas zonas vale menos que disponer de una red activa en los lugares donde se promete servicio. El crecimiento, por tanto, dependerá de equilibrar oferta y demanda."
+      },
+      {
+        type: "bullets",
+        items: [
+          "Reducir el tiempo que personas y negocios dedican a gestiones que pueden delegarse.",
+          "Crear oportunidades de ingreso flexible para propietarios de distintos medios de transporte.",
+          "Ofrecer a comercios y empresas una red logística utilizable cuando la necesiten.",
+          "Organizar mediante tecnología un mercado de mandados y diligencias que hoy funciona de forma fragmentada.",
+          "Construir una marca asociada a rapidez, confianza, disponibilidad y trazabilidad.",
+          "Desarrollar progresivamente una red capaz de atender desde encargos simples hasta necesidades logísticas más amplias."
+        ]
+      },
+      {
+        type: "paragraph",
+        text:
+          "La expectativa de largo plazo es que DILIGENCIAS deje de percibirse únicamente como una aplicación que se utiliza para enviar paquetes y se convierta en una herramienta cotidiana para resolver necesidades urbanas. El escenario al que apunta es sencillo de describir: cuando una persona piense «necesito que alguien me resuelva esto», la plataforma quiere estar entre las primeras opciones que considere."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Ese objetivo abre un mercado mayor que el de las entregas. Una red suficientemente amplia podría atender rutas programadas, encargos recurrentes, distribución de última milla, apoyo logístico a comercios y otras actividades que todavía se coordinan mediante llamadas, contactos informales o soluciones dispersas. En ese punto, el activo más importante de DILIGENCIAS no sería una función específica de la aplicación, sino la calidad y amplitud de su red."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El lanzamiento, sin embargo, es apenas el comienzo. El éxito no puede medirse solamente por descargas, registros o presencia en redes sociales. La prueba real será operativa: cuántas solicitudes pueden resolverse, cuánto tarda la respuesta, qué tan confiable es el servicio, cuánto valor genera para los prestadores y cuántos usuarios deciden volver después de su primera experiencia."
+      },
+      {
+        type: "paragraph",
+        text:
+          "DILIGENCIAS entra así en un espacio donde convergen economía digital, movilidad urbana, logística y trabajo independiente. Su propuesta parte de una premisa concreta: en una ciudad existen simultáneamente personas con necesidades por resolver y personas con tiempo, movilidad y capacidad para resolverlas. La plataforma quiere convertirse en el puente entre ambas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Si logra construir una red suficiente, ofrecer tiempos razonables, mantener costos competitivos y desarrollar mecanismos sólidos de confianza, DILIGENCIAS podría evolucionar de un servicio de mandados hacia una infraestructura flexible de soluciones cotidianas para personas y empresas. Esa es, por ahora, su principal expectativa y también su mayor desafío."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Este artículo de lanzamiento se basa en la descripción, objetivos y expectativas declaradas para el proyecto DILIGENCIAS. Las metas de crecimiento, cobertura y adopción corresponden a aspiraciones de la plataforma y deberán evaluarse conforme avance su operación."
+      }
+    ]
+  },
+
+  {
     id: "live-20260929-markets",
     slug: "mercados-globales-presion-bonos-petroleo-29-septiembre-2026",
     title:
