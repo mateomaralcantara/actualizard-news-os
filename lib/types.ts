@@ -13,7 +13,14 @@ export type ContentBlock =
   | { type: "image"; url: string; caption?: string }
   | { type: "video"; url: string; caption?: string }
   | { type: "quote"; text: string; attribution?: string }
-  | { type: "bullets"; items: string[] };
+  | { type: "bullets"; items: string[] }
+  | {
+      type: "sources";
+      items: Array<{
+        name: string;
+        url: string;
+      }>;
+    };
 
 export interface SourceRecord {
   id: string;
@@ -57,6 +64,7 @@ export interface Article {
   category: string;
   author: string;
   heroImage: string;
+  heroCaption?: string;
   status: ArticleStatus;
   confidence: number;
   sourceCount: number;
