@@ -2295,3 +2295,96 @@ body {
 
 
 /* ACTUALIZARD_BIG_HEADER_END */
+
+
+/* ============================================================
+   EDITORIAL ALIGNMENT RULES
+   - Cuerpo periodistico: texto justificado
+   - Portada publica: titulares centrados
+============================================================ */
+
+.article-body p,
+.article-lead {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: none;
+  -webkit-hyphens: none;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.homepage .hero {
+  text-align: center;
+  align-items: center;
+}
+
+.homepage .hero h1,
+.homepage .hero p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepage .hero h1 {
+  text-align: center;
+}
+
+.homepage .hero .eyebrow,
+.homepage .hero-actions {
+  justify-content: center;
+}
+
+.homepage .section-title {
+  justify-content: center;
+  text-align: center;
+}
+
+.homepage .section-title > div {
+  width: 100%;
+}
+
+.homepage .section-title::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.homepage .section-title > .meta {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.homepage .card h2,
+.homepage .card h3 {
+  text-align: center;
+}
+
+.homepage .card .meta {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+
+.homepage .story-row strong {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .homepage .section-title {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .homepage .section-title > .meta {
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
+
+  .article-body p,
+  .article-lead,
+  .homepage .card .meta {
+    text-align: justify;
+  }
+}
