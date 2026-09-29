@@ -1,11 +1,32 @@
+import type { ReactNode } from "react";
 import type { ContentBlock } from "@/lib/types";
+
+function renderInlineEditorial(text: string): ReactNode[] {
+  const parts = text.split(/(\*\*[^*]+\*\*|==[^=]+==)/g).filter(Boolean);
+
+  return parts.map((part, index) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={index}>{part.slice(2, -2)}</strong>;
+    }
+
+    if (part.startsWith("==") && part.endsWith("==")) {
+      return (
+        <mark key={index} className="editorial-highlight">
+          {part.slice(2, -2)}
+        </mark>
+      );
+    }
+
+    return <span key={index}>{part}</span>;
+  });
+}
 
 export function ArticleBlocks({ blocks }: { blocks: ContentBlock[] }) {
   return (
     <div className="article-body">
       {blocks.map((block, index) => {
         if (block.type === "paragraph") {
-          return <p key={index}>{block.text}</p>;
+          return <p key={index}>{renderInlineEditorial(block.text)}</p>;
         }
 
         if (block.type === "image") {
@@ -51,7 +72,7 @@ export function ArticleBlocks({ blocks }: { blocks: ContentBlock[] }) {
         if (block.type === "quote") {
           return (
             <blockquote key={index} className="quote">
-              “{block.text}”
+              “{renderInlineEditorial(block.text)}”
               {block.attribution && (
                 <div className="meta" style={{ marginTop: 10 }}>
                   — {block.attribution}
@@ -63,8 +84,8 @@ export function ArticleBlocks({ blocks }: { blocks: ContentBlock[] }) {
 
         if (block.type === "sources") {
           return (
-            <section key={index} className="card card-pad block">
-              <strong>Fuentes consultadas</strong>
+            <section key={index} className="card card-pad block article-sources">
+              <strong className="article-sources-title">Fuentes consultadas</strong>
               <ul>
                 {block.items.map((source) => (
                   <li key={source.url}>
@@ -83,9 +104,9 @@ export function ArticleBlocks({ blocks }: { blocks: ContentBlock[] }) {
         }
 
         return (
-          <ul key={index}>
+          <ul key={index} className="article-bullets">
             {block.items.map((item) => (
-              <li key={item}>{item}</li>
+              <li key={item}>{renderInlineEditorial(item)}</li>
             ))}
           </ul>
         );
