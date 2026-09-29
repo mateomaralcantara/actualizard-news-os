@@ -2388,3 +2388,24 @@ body {
     text-align: justify;
   }
 }
+
+
+/* ============================================================
+   PUBLICATION TITLES - GLOBAL CENTERING
+============================================================ */
+
+.card h2,
+.card h3,
+.story-row strong,
+.article-shell h1 {
+  text-align: center;
+}
+
+.article-shell h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-row strong {
+  display: block;
+}
