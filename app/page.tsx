@@ -15,7 +15,7 @@ export default function HomePage() {
 
 
   return (
-    <main>
+    <main className="homepage">
 
       <section className="hero-wrap">
 
