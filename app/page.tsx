@@ -160,9 +160,11 @@ export default function HomePage() {
           {published.map(
             (article, index) => (
 
-              <div
-                className="story-row"
+              <Link
+                href={`/noticias/${article.slug}`}
+                className="story-row story-row-link"
                 key={article.id}
+                aria-label={`Abrir artículo: ${article.title}`}
               >
 
                 <img
@@ -177,15 +179,9 @@ export default function HomePage() {
                     {article.category}
                   </div>
 
-                  <Link
-                    href={
-                      `/noticias/${article.slug}`
-                    }
-                  >
-                    <strong>
-                      {article.title}
-                    </strong>
-                  </Link>
+                  <strong>
+                    {article.title}
+                  </strong>
 
                   <div
                     className="meta"
@@ -206,7 +202,7 @@ export default function HomePage() {
                   {10 + index * 7} min
                 </div>
 
-              </div>
+              </Link>
 
             )
           )}
