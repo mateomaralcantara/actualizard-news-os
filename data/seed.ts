@@ -97,7 +97,7 @@ export const articles: Article[] = [
     title:
       "Bonos y petróleo elevan la presión sobre los mercados globales al cierre de septiembre",
     dek:
-      "Los rendimientos soberanos de Estados Unidos subieron con fuerza mientras el crudo siguió encareciéndose, una combinación que vuelve a poner la inflación y las tasas de interés en el centro del mercado.",
+      "Los rendimientos soberanos de Estados Unidos subieron con fuerza mientras el crudo siguió encareciéndose, una combinación que vuelve a colocar inflación, tasas y costo del financiamiento en el centro de la agenda económica.",
     category: "Geoeconomía",
     author: "Redacción Actualizard",
     heroImage:
@@ -107,33 +107,48 @@ export const articles: Article[] = [
     confidence: 94,
     sourceCount: 2,
     createdAt: "2026-09-29T08:00:00-04:00",
-    updatedAt: "2026-09-29T08:00:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-29T08:00:00-04:00",
     tags: ["mercados", "bonos", "petróleo", "tasas", "inflación"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "Los mercados globales comenzaron el 29 de septiembre bajo una nueva combinación de presión: mayores rendimientos de los bonos soberanos y petróleo más caro. Reuters informó que el rendimiento del bono del Tesoro estadounidense a 10 años alcanzó 5.27 %, su nivel más alto en 19 años, mientras los inversionistas ajustaban sus expectativas sobre la trayectoria de las tasas."
+          "Los mercados globales cerraron septiembre bajo una combinación particularmente incómoda para inversionistas y bancos centrales: petróleo caro y rendimientos de bonos soberanos en niveles no vistos en muchos años. Reuters informó que el rendimiento del bono del Tesoro estadounidense a 10 años superó 5.27 %, un máximo de 19 años, mientras el bono a dos años se acercó a 5 %. Cuando los rendimientos suben de esa manera, el mercado está exigiendo una mayor compensación por prestar dinero y, al mismo tiempo, está reflejando expectativas de inflación y tasas más altas durante más tiempo."
       },
       {
         type: "paragraph",
         text:
-          "Al mismo tiempo, el Brent avanzó por segunda sesión consecutiva y Reuters lo situó en torno a US$106.77 por barril durante la jornada. El aumento sigue vinculado a los riesgos de suministro en Oriente Medio y a la incertidumbre sobre el tránsito energético por el estrecho de Ormuz."
+          "Ese movimiento no se queda dentro de Wall Street. Los bonos del Tesoro sirven como referencia para gran parte del sistema financiero mundial. Una subida sostenida puede trasladarse al costo de las hipotecas, al financiamiento corporativo, a la deuda pública y a las condiciones de crédito. Para los gobiernos también significa una factura de intereses mayor cuando refinancian obligaciones; para las empresas, proyectos de inversión más costosos; y para los hogares, menos margen para consumir o endeudarse."
       },
       {
         type: "paragraph",
         text:
-          "La combinación importa porque un petróleo persistentemente caro puede alimentar la inflación, mientras mayores rendimientos soberanos encarecen el financiamiento de gobiernos, empresas y hogares. Ese escenario aumenta la sensibilidad de los mercados a los próximos datos de empleo, consumo e inflación de Estados Unidos."
+          "El segundo frente es la energía. El Brent cotizaba alrededor de US$106.77 por barril y el WTI cerca de US$93.94 durante la jornada, según Reuters. Aunque las exportaciones de grandes productores de Oriente Medio han mostrado recuperación, parte de ese flujo depende de rutas y operaciones más costosas. La incertidumbre sobre el estrecho de Ormuz mantiene una prima de riesgo sobre el petróleo porque se trata de una de las principales vías marítimas para el comercio global de crudo y gas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La relación entre petróleo y tasas es clave. Cuando suben de forma persistente los combustibles y los costos de transporte, pueden aumentar los precios de bienes, producción y logística. Si los bancos centrales interpretan ese impulso como una amenaza para la estabilidad de precios, disponen de menos espacio para reducir tasas. El resultado puede ser una economía que enfrenta simultáneamente energía cara y crédito caro."
+      },
+      {
+        type: "paragraph",
+        text:
+          "En renta variable, ese escenario suele castigar especialmente a empresas cuyo valor depende de ganancias esperadas a largo plazo, porque esas ganancias se descuentan a tasas más elevadas. También puede favorecer temporalmente activos con flujos más inmediatos o sectores relacionados con energía. No obstante, la reacción del mercado no es automática: depende de la duración del choque, del crecimiento económico y de cómo respondan la Reserva Federal y otros bancos centrales."
       },
       {
         type: "bullets",
         items: [
-          "Bono del Tesoro de EE. UU. a 10 años: 5.27 % según Reuters.",
-          "Brent: alrededor de US$106.77 por barril durante la jornada.",
-          "Los mercados siguen atentos al riesgo de nuevas alzas de tasas.",
-          "El conflicto y las restricciones en rutas energéticas continúan siendo un factor de riesgo."
+          "Tesoro estadounidense a 10 años: por encima de 5.27 % durante la jornada.",
+          "Brent: alrededor de US$106.77 por barril; WTI: cerca de US$93.94.",
+          "El mercado mantiene expectativas de política monetaria restrictiva durante más tiempo.",
+          "La energía y el estrecho de Ormuz siguen siendo factores relevantes para inflación y comercio mundial."
         ]
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para economías importadoras de combustibles, incluida República Dominicana, el punto de observación no es solo el precio internacional del barril. También importan el dólar, los costos de transporte, los mecanismos internos de fijación de combustibles y el efecto indirecto sobre electricidad, alimentos y logística. Por eso un movimiento prolongado en petróleo y tasas internacionales puede terminar sintiéndose lejos de los grandes centros financieros."
       },
       {
         type: "sources",
@@ -158,7 +173,7 @@ export const articles: Article[] = [
     title:
       "Mediadores impulsan nuevas conversaciones entre Estados Unidos e Irán, pero persisten grandes diferencias",
     dek:
-      "Los contactos indirectos buscan reducir una confrontación que ha afectado el tránsito energético y el comercio; las posiciones sobre sanciones, activos y el programa nuclear siguen separadas.",
+      "Los contactos indirectos buscan reducir un conflicto que ha alterado rutas energéticas y comercio internacional; sanciones, activos congelados, seguridad marítima y el programa nuclear siguen entre los puntos centrales.",
     category: "Geopolítica",
     author: "Redacción Actualizard",
     heroImage:
@@ -168,30 +183,54 @@ export const articles: Article[] = [
     confidence: 92,
     sourceCount: 2,
     createdAt: "2026-09-29T07:40:00-04:00",
-    updatedAt: "2026-09-29T07:40:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-29T07:40:00-04:00",
     tags: ["Estados Unidos", "Irán", "Ormuz", "diplomacia"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "Estados Unidos e Irán mantuvieron conversaciones separadas con mediadores en un nuevo intento por reducir el conflicto. Reuters informó que las discusiones se concentran en una propuesta revisada de cese de hostilidades presentada durante la Asamblea General de la ONU."
+          "Estados Unidos e Irán volvieron a utilizar mediadores para explorar una salida negociada a un conflicto que lleva meses y que ha tenido efectos más allá del terreno militar. Reuters y Associated Press informaron que representantes de ambas partes hablaron por separado con intermediarios mientras se discutía una versión revisada de una propuesta iraní presentada durante la Asamblea General de las Naciones Unidas."
       },
       {
         type: "paragraph",
         text:
-          "La propuesta iraní incluye demandas relacionadas con sanciones, activos congelados y restricciones sobre puertos. A cambio, Teherán plantea reabrir el estrecho de Ormuz y retomar conversaciones sobre su programa nuclear. Washington ha rechazado parte de esas condiciones y ambas partes mantienen diferencias sustanciales."
+          "El centro de la negociación es más amplio que un simple alto el fuego. La propuesta iraní vincula el cese de hostilidades con el levantamiento de sanciones sobre ventas de petróleo, el desbloqueo de activos iraníes y cambios en el bloqueo estadounidense de puertos. Irán plantea a cambio restablecer el paso marítimo por el estrecho de Ormuz y reanudar conversaciones sobre su programa nuclear. Washington ha mostrado reservas sobre varias de esas condiciones."
       },
       {
         type: "paragraph",
         text:
-          "Associated Press también informó sobre esfuerzos de mediación y señaló que el estrecho de Ormuz sigue siendo un punto central por su importancia para el comercio energético mundial. Las conversaciones están en curso y no existe todavía un acuerdo anunciado."
+          "El estrecho de Ormuz explica por qué una negociación regional tiene consecuencias globales. Es una vía esencial para el movimiento de petróleo y gas desde el Golfo Pérsico hacia mercados internacionales. Cuando su funcionamiento se reduce o se vuelve incierto, suben los costos de transporte, seguros y desvíos de cargamentos; esa presión puede trasladarse a combustibles e inflación en países que no participan directamente en el conflicto."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La desconfianza acumulada complica la negociación. Reuters señala que dos ceses de hostilidades anteriores, alcanzados mediante mediación en abril y junio, se deshicieron rápidamente. Ese antecedente significa que un nuevo entendimiento tendría que resolver no solo qué promete cada parte, sino también cómo se verifica el cumplimiento, qué ocurre primero y qué mecanismos se activarían ante una nueva violación."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El componente nuclear sigue siendo otro punto sensible. La discusión abarca la posibilidad de reanudar conversaciones sobre el programa iraní, las inspecciones y el material altamente enriquecido. Para Estados Unidos, cualquier arreglo sostenible tendría que responder a sus preocupaciones sobre proliferación. Para Irán, las sanciones, los activos congelados y su capacidad de comerciar petróleo son elementos fundamentales de la negociación."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Por ahora, el dato central es que existe un canal diplomático, no que exista un acuerdo. Los mediadores intentan acercar posiciones que siguen alejadas y las declaraciones públicas de ambos gobiernos continúan siendo duras. En una negociación de este tipo, la reapertura estable de rutas marítimas o un calendario verificable de medidas tendría más peso que las señales retóricas aisladas."
+      },
+      {
+        type: "bullets",
+        items: [
+          "Las conversaciones son indirectas y están siendo facilitadas por mediadores.",
+          "Ormuz, sanciones petroleras, activos congelados y el programa nuclear forman parte del paquete negociador.",
+          "Acuerdos anteriores de cese de hostilidades no se mantuvieron.",
+          "No existe todavía un acuerdo definitivo anunciado por ambas partes."
+        ]
       },
       {
         type: "sources",
         items: [
           {
-            name: "Reuters — U.S., Iran talks with mediators",
+            name: "Reuters — U.S., Iran separately talk with mediators",
             url:
               "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
           },
@@ -210,7 +249,7 @@ export const articles: Article[] = [
     title:
       "La Asamblea General reabre el debate sobre la reforma de la ONU y la representación global",
     dek:
-      "La 81.ª sesión llega marcada por reclamos de mayor representación, cuestionamientos al Consejo de Seguridad y llamados a recuperar la confianza en el multilateralismo.",
+      "La 81.ª sesión llega marcada por reclamos de mayor representación, cuestionamientos al funcionamiento del Consejo de Seguridad y una agenda internacional dominada por guerras, inteligencia artificial y presiones sobre el multilateralismo.",
     category: "Mundo",
     author: "Redacción Actualizard",
     heroImage:
@@ -218,26 +257,46 @@ export const articles: Article[] = [
     heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 93,
-    sourceCount: 2,
+    sourceCount: 3,
     createdAt: "2026-09-29T07:20:00-04:00",
-    updatedAt: "2026-09-29T07:20:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-29T07:20:00-04:00",
     tags: ["ONU", "Asamblea General", "multilateralismo", "reforma"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "La 81.ª sesión de la Asamblea General de las Naciones Unidas se desarrolla bajo el lema de restaurar la confianza y gestionar la transformación para producir resultados para todos. El debate general se celebró del 22 al 28 de septiembre en Nueva York."
+          "La 81.ª sesión de la Asamblea General de las Naciones Unidas comenzó el 8 de septiembre de 2026 y se desarrollará hasta septiembre de 2027. El tema elegido para el período es restaurar la confianza y gestionar la transformación para que la ONU produzca resultados para todos, una formulación que refleja una preocupación de fondo: la organización sigue siendo el foro universal más amplio del sistema internacional, pero enfrenta cuestionamientos sobre su capacidad para responder con rapidez a crisis cada vez más complejas."
       },
       {
         type: "paragraph",
         text:
-          "Associated Press reportó que numerosos líderes utilizaron la semana de alto nivel para reclamar cambios en la estructura de gobernanza global, particularmente en el Consejo de Seguridad. Entre los planteamientos más reiterados aparece una mayor representación para África y otras regiones."
+          "A diferencia del Consejo de Seguridad, la Asamblea General reúne a los 193 Estados miembros en condiciones formales de igualdad, con un voto por país. Esa amplitud le da legitimidad política y capacidad para fijar agendas, aunque muchas de sus resoluciones no tengan el carácter obligatorio de las decisiones adoptadas por el Consejo de Seguridad bajo determinadas disposiciones de la Carta."
       },
       {
         type: "paragraph",
         text:
-          "El debate refleja una tensión de fondo: los Estados reclaman mayor capacidad soberana al mismo tiempo que problemas como el cambio climático, la inteligencia artificial, la seguridad y el comercio requieren coordinación internacional."
+          "Uno de los debates estructurales volvió a ser la reforma del Consejo de Seguridad. El presidente de la Asamblea General ha defendido un órgano más representativo, transparente y ajustado a la realidad geopolítica actual, con especial atención a la subrepresentación africana. La discusión no es nueva, pero cobra más fuerza cuando conflictos prolongados dejan expuestas las limitaciones del sistema de veto y la dificultad para producir consensos entre las grandes potencias."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La semana de alto nivel tampoco produjo soluciones inmediatas para los principales conflictos. Reuters describió avances modestos en contactos vinculados con Irán y Ucrania, pero sin grandes rupturas diplomáticas. Esa diferencia entre la intensidad de la actividad diplomática y la dificultad para cerrar acuerdos explica parte del debate sobre la efectividad del multilateralismo."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La inteligencia artificial ganó una visibilidad excepcional dentro de la agenda. Gobiernos, organismos internacionales y líderes empresariales discutieron riesgos, seguridad y cooperación internacional. Esto muestra una ampliación del concepto tradicional de seguridad: además de guerras, armas y fronteras, los Estados están tratando como asuntos internacionales tecnologías capaces de afectar infraestructura, información, economía y administración pública."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La ONU también enfrenta un problema de capacidad institucional. Presiones financieras, menor confianza entre bloques políticos y múltiples crisis simultáneas limitan su margen de acción. Reformar el sistema, sin embargo, exige acuerdos entre los mismos Estados cuyos intereses son diferentes. Esa paradoja explica por qué muchas propuestas de reforma acumulan años de discusión."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El punto a observar durante esta sesión no será únicamente la cantidad de discursos o reuniones, sino si los Estados logran convertir algunos de esos consensos generales en mecanismos concretos: reglas sobre inteligencia artificial, acuerdos humanitarios, reformas de representación o compromisos verificables en conflictos abiertos."
       },
       {
         type: "sources",
@@ -247,9 +306,14 @@ export const articles: Article[] = [
             url: "https://www.un.org/es/ga/81/"
           },
           {
-            name: "Associated Press — Debate sobre cooperación y reforma de la ONU",
+            name: "Presidencia de la Asamblea General — Apertura del debate general",
             url:
-              "https://apnews.com/article/9998d2175f7a3b47301497f74c7aad2d"
+              "https://www.un.org/pga/81/documents/speeches/general-debate-opening-22-september-2026/"
+          },
+          {
+            name: "Reuters — Six big takeaways from a turbulent week of UN diplomacy",
+            url:
+              "https://www.reuters.com/world/americas/six-big-takeaways-turbulent-week-un-diplomacy-2026-09-26/"
           }
         ]
       }
@@ -261,39 +325,59 @@ export const articles: Article[] = [
     title:
       "Poder Ejecutivo deposita el proyecto de Presupuesto 2027 con énfasis en gasto social e infraestructura",
     dek:
-      "La propuesta remitida al Congreso proyecta crecimiento real de 4.75 % para 2027 y asigna una parte relevante del gasto a educación, salud y protección social.",
+      "La propuesta remitida al Congreso combina una proyección de crecimiento real de 4.75 % con mayores partidas sociales y obras de transporte, agua, vivienda y energía; ahora comienza su discusión legislativa.",
     category: "Política",
     author: "Redacción Actualizard",
     heroImage:
       "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1600&q=80",
     heroCaption: ILLUSTRATIVE,
     status: "published",
-    confidence: 95,
+    confidence: 96,
     sourceCount: 2,
     createdAt: "2026-09-25T11:30:00-04:00",
-    updatedAt: "2026-09-29T06:50:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-25T11:30:00-04:00",
     tags: ["Presupuesto 2027", "Congreso", "educación", "salud", "República Dominicana"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "El Poder Ejecutivo remitió al Congreso Nacional el proyecto de Ley de Presupuesto General del Estado para 2027. De acuerdo con la Presidencia, la propuesta contempla erogaciones consolidadas por RD$2.084 billones, ingresos por RD$1.620 billones y un techo de gasto de RD$1.945 billones."
+          "El Poder Ejecutivo remitió al Congreso Nacional el Proyecto de Ley de Presupuesto General del Estado para 2027. La entrega inicia la etapa legislativa de un documento que no solo autoriza gastos: también revela las prioridades del Gobierno, los supuestos con los que espera que se comporte la economía y la forma en que pretende financiar los compromisos del próximo año."
       },
       {
         type: "paragraph",
         text:
-          "El documento utiliza como supuestos una expansión real de la economía de 4.75 % y una inflación promedio de 4.5 % para 2027. La Presidencia informó que los servicios sociales concentran RD$907,116.9 millones, equivalentes a 46.6 % del techo de gasto consolidado del Gobierno General Nacional."
+          "En términos consolidados, la Presidencia informó erogaciones por RD$2.084 billones, ingresos por RD$1.620 billones y un techo de gasto de RD$1.945 billones. El proyecto utiliza como escenario una expansión real de la economía de 4.75 % y una inflación promedio de 4.5 % en 2027. Como toda proyección presupuestaria, estas cifras dependen de que variables como crecimiento, recaudación, tasas y precios internacionales no se desvíen de forma significativa."
       },
       {
         type: "paragraph",
         text:
-          "En educación, el Gobierno señala que el Ministerio de Educación y el Mescyt concentrarían RD$391,303.1 millones. Para Salud Pública se contemplan RD$198,727 millones. Las cifras son parte de una propuesta que ahora debe seguir el proceso legislativo correspondiente."
+          "La dimensión social ocupa una parte importante de la propuesta. Los servicios sociales concentran RD$907,116.9 millones, equivalentes al 46.6 % del techo de gasto consolidado del Gobierno General Nacional. Educación, salud y protección social representan conjuntamente cerca del 43 % del presupuesto, según la información oficial."
       },
       {
         type: "paragraph",
         text:
-          "Como contexto macroeconómico, el Banco Central reporta una inflación interanual de 5.13 % en agosto de 2026, crecimiento acumulado del IMAE de 4.5 % entre enero y agosto y una tasa de política monetaria de 5.25 % en septiembre."
+          "En educación, la función recibe RD$364,399.5 millones. El Ministerio de Educación y el Mescyt concentran RD$391,303.1 millones a nivel del Gobierno central. La propuesta incluye RD$30,814.5 millones para alimentación escolar dirigida a cerca de 1.96 millones de estudiantes y RD$4,134 millones para servicios de apoyo estudiantil a población vulnerable."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para Salud Pública se contemplan RD$198,727 millones, con énfasis en el primer nivel de atención y la red hospitalaria. En protección social, incluyendo pensiones, asistencia y vivienda social, la propuesta señala RD$317,340.6 millones. Estas asignaciones ayudan a entender la orientación del proyecto, pero su impacto final dependerá de la ejecución efectiva y no únicamente del monto aprobado."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El componente de infraestructura incluye RD$6,371 millones para el monorriel de Santiago, RD$1,465.6 millones para la ampliación de la Línea 2 del Metro de Santo Domingo y RD$1,565 millones para obras de resiliencia climática en infraestructura vial. La función transporte recibe RD$113,434.2 millones. También aparecen partidas para redes eléctricas, la presa Monte Grande, reducción de pérdidas técnicas, agua potable y el programa habitacional Mi Vivienda."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El proyecto debe ser evaluado ahora por el Congreso. Durante esa etapa pueden discutirse montos, prioridades, fuentes de financiamiento y modificaciones. Por eso conviene distinguir entre el presupuesto depositado y el presupuesto finalmente aprobado y ejecutado: son tres momentos distintos del ciclo fiscal."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El contexto macroeconómico será determinante. El Banco Central reportó inflación interanual de 5.13 % en agosto y mantiene una tasa de política monetaria de 5.25 % en septiembre. Si el costo del financiamiento internacional, el petróleo o la inflación cambian de forma importante, pueden afectar tanto ingresos como gastos públicos y modificar el escenario sobre el cual fue elaborado el presupuesto."
       },
       {
         type: "sources",
@@ -315,43 +399,69 @@ export const articles: Article[] = [
     id: "live-20260929-bcrd",
     slug: "banco-central-inflacion-agosto-actividad-economica-rd-2026",
     title:
-      "Banco Central reporta inflación interanual de 5.13 % y crecimiento acumulado de 4.5 % hasta agosto",
+      "Banco Central reporta inflación interanual de 5.13 % y mantiene la atención sobre precios y actividad",
     dek:
-      "Los indicadores oficiales muestran inflación por encima del centro de la meta y una expansión acumulada del IMAE de 4.5 % entre enero y agosto de 2026.",
+      "El IPC subió 0.38 % en agosto y la inflación interanual descendió por segundo mes consecutivo, mientras la economía mantiene señales de crecimiento y la política monetaria continúa siendo restrictiva.",
     category: "RD",
     author: "Redacción Actualizard",
     heroImage:
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
     heroCaption: ILLUSTRATIVE,
     status: "published",
-    confidence: 97,
-    sourceCount: 1,
+    confidence: 98,
+    sourceCount: 2,
     createdAt: "2026-09-29T06:40:00-04:00",
-    updatedAt: "2026-09-29T06:40:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-29T06:40:00-04:00",
     tags: ["Banco Central", "inflación", "IMAE", "tasa de interés", "RD"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "El Banco Central de la República Dominicana publica para agosto de 2026 una inflación interanual de 5.13 %, inflación acumulada de 2.60 % y una variación mensual de 0.38 %. La inflación subyacente interanual se situó en 4.76 %."
+          "El índice de precios al consumidor aumentó 0.38 % en agosto de 2026 y la inflación interanual se situó en 5.13 %, según el Banco Central de la República Dominicana. Aunque esa tasa sigue ligeramente por encima del límite superior de la meta de 4.0 % ± 1.0 %, el BCRD destacó que la inflación interanual bajó por segundo mes consecutivo desde el 5.67 % registrado en junio."
       },
       {
         type: "paragraph",
         text:
-          "En actividad económica, el IMAE original registró un crecimiento interanual de 3.8 % en agosto y de 4.5 % en el período enero-agosto. La tasa de política monetaria para septiembre figura en 5.25 %."
+          "La inflación subyacente, una medida que excluye algunos componentes de alta volatilidad o precios regulados para observar mejor la tendencia interna, se situó en 4.76 % interanual. Esa diferencia entre inflación general y subyacente ayuda a separar movimientos temporales de combustibles o alimentos de presiones más persistentes dentro de la economía."
       },
       {
         type: "paragraph",
         text:
-          "El Banco Central mantiene una meta de inflación de 4.0 % ± 1.0 %. Los datos actuales colocan la inflación interanual ligeramente por encima del límite superior de ese rango, por lo que la evolución de precios y tasas seguirá siendo una referencia central para hogares, empresas y decisiones de política económica."
+          "Los grupos que más incidieron en la inflación mensual fueron alimentos y bebidas no alcohólicas, educación, transporte, bienes y servicios diversos, restaurantes y hoteles, y muebles y artículos para el hogar. En alimentos, el Banco Central señaló aumentos en productos como papas, pollo fresco, arroz, agua purificada, hortalizas, guandules verdes, refrescos y chinolas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El comportamiento tampoco fue idéntico en todo el país. El BCRD reportó una variación mensual de 0.49 % en la región Norte o Cibao, 0.46 % en el Sur, 0.34 % en el Este y 0.29 % en la región Ozama. Esto importa porque una tasa nacional promedio puede ocultar diferencias en el costo de vida según territorio, composición del consumo y precios de productos específicos."
+      },
+      {
+        type: "paragraph",
+        text:
+          "En actividad económica, el Banco Central había informado que el IMAE creció 4.6 % interanual en julio y 4.5 % en promedio durante los primeros siete meses del año. Entre los sectores con mejor desempeño figuraban construcción, manufactura de zonas francas, manufactura local y varios servicios, incluidos financieros, hoteles, bares y restaurantes."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La tasa de política monetaria aparece en 5.25 % para septiembre. Esa tasa funciona como una referencia para las condiciones monetarias y termina influyendo, junto con la liquidez, el riesgo y la competencia bancaria, sobre tasas de préstamos y depósitos. El propio portal del Banco Central muestra para agosto tasas activas promedio de la banca múltiple superiores a la tasa de política monetaria, lo que recuerda que la transmisión hacia consumidores y empresas no es uno a uno."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para hogares y empresas, la lectura más útil es doble: la inflación está mostrando señales de moderación desde niveles recientes más altos, pero todavía no ha desaparecido como problema. Al mismo tiempo, el crecimiento económico ofrece soporte a ingresos y empleo, aunque tasas elevadas pueden limitar crédito, inversión y consumo."
       },
       {
         type: "sources",
         items: [
           {
-            name: "Banco Central de la República Dominicana — Variables macroeconómicas",
-            url: "https://www.bancentral.gov.do/"
+            name: "BCRD — IPC de agosto 2026",
+            url:
+              "https://www.bancentral.gov.do/a/d/6653-bcrd-informa-que-la-variacion-del-ipc-en-agosto-2026-fue-de-038-"
+          },
+          {
+            name: "BCRD — Economía dominicana creció 4.6 % interanual en julio",
+            url:
+              "https://bancentral.gov.do/a/d/6644-economia-dominicana-experimento-un-crecimiento-interanual-de-46--en-julio"
           }
         ]
       }
@@ -363,41 +473,57 @@ export const articles: Article[] = [
     title:
       "Aduanas informa diferencias fiscales por más de RD$66 millones en fiscalizaciones post despacho",
     dek:
-      "La DGA reportó RD$66.45 millones en diferencias de impuestos determinadas entre enero y agosto en operaciones vinculadas a comercios de capital asiático.",
+      "La DGA reportó RD$66.45 millones en diferencias de impuestos determinadas entre enero y agosto y explicó que mantiene fiscalizaciones posteriores al despacho para revisar declaraciones y obligaciones aduaneras.",
     category: "RD",
     author: "Redacción Actualizard",
     heroImage:
       "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1600&q=80",
     heroCaption: ILLUSTRATIVE,
     status: "published",
-    confidence: 96,
+    confidence: 97,
     sourceCount: 1,
     createdAt: "2026-09-22T15:00:00-04:00",
-    updatedAt: "2026-09-29T06:20:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-22T15:00:00-04:00",
     tags: ["Aduanas", "impuestos", "fiscalización", "La Vega"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "La Dirección General de Aduanas informó que sus fiscalizaciones post despacho determinaron RD$66,451,346 en diferencias de impuestos entre enero y agosto de 2026 en operaciones vinculadas a comercios de capital asiático."
+          "La Dirección General de Aduanas informó que las fiscalizaciones post despacho realizadas entre enero y agosto de 2026 determinaron RD$66,451,346 en diferencias de impuestos en operaciones relacionadas con empresas de capital asiático. Al momento del reporte, la institución registraba 14 casos finalizados y 51 casos todavía en proceso."
       },
       {
         type: "paragraph",
         text:
-          "Según la institución, al momento del reporte había 14 casos finalizados y 51 en proceso. La DGA enmarca estas actuaciones en sus mecanismos de control posterior al despacho y cumplimiento tributario y aduanero."
+          "La fiscalización post despacho ocurre después de que una mercancía ya ha sido liberada. Su propósito es comprobar posteriormente si la clasificación, el valor declarado, el origen, las exenciones y los impuestos aplicados fueron correctos. Este tipo de revisión permite a una administración aduanera controlar operaciones sin detener físicamente cada carga durante largos períodos en puertos y aeropuertos."
       },
       {
         type: "paragraph",
         text:
-          "La cifra corresponde a diferencias determinadas por la autoridad aduanera y no debe interpretarse, por sí sola, como una sentencia judicial ni como una conclusión general sobre todos los comercios de un origen determinado."
+          "La DGA informó además intervenciones de fiscalización en establecimientos comerciales ubicados en Moca, provincia Espaillat, y en La Vega. Estas actuaciones forman parte de sus mecanismos de verificación tributaria y aduanera y pueden implicar revisión documental, trazabilidad de importaciones y comparación entre declaraciones y operaciones comerciales."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Es importante interpretar correctamente la cifra divulgada. Una diferencia de impuestos determinada por la autoridad administrativa indica que la DGA entiende que existe una obligación fiscal adicional, pero no equivale automáticamente a una condena penal ni permite generalizar sobre todos los negocios de un origen nacional o de capital determinado. Cada expediente tiene que ser analizado conforme al procedimiento correspondiente."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para el comercio formal, la fiscalización post despacho tiene otro efecto: busca reducir ventajas obtenidas mediante subvaloración, clasificación incorrecta u otras inconsistencias que puedan afectar la competencia. El desafío institucional es aplicar estos controles con criterios técnicos, trazabilidad y debido proceso para evitar que la fiscalización se convierta en incertidumbre para operadores que cumplen."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La noticia también muestra cómo ha evolucionado el control aduanero. El enfoque moderno no depende únicamente de inspeccionar contenedores en frontera; combina gestión de riesgo, datos, auditoría posterior y verificación de operaciones. Eso permite concentrar recursos en transacciones consideradas de mayor riesgo y facilitar las de operadores con historial de cumplimiento."
       },
       {
         type: "sources",
         items: [
           {
-            name: "Dirección General de Aduanas — Noticias, 22 de septiembre de 2026",
-            url: "https://www.aduanas.gob.do/noticias/"
+            name: "Dirección General de Aduanas — Fiscalizaciones post despacho, 22 de septiembre de 2026",
+            url:
+              "https://www.aduanas.gob.do/noticias/dga-determina-mas-de-rd-66-millones-en-diferencias-de-impuestos-a-comercios-de-capital-asiatico/"
           }
         ]
       }
@@ -409,7 +535,7 @@ export const articles: Article[] = [
     title:
       "Google presenta Gemini 3.8 Live y una variante de razonamiento extendido para interacción en tiempo real",
     dek:
-      "Los nuevos modelos de diálogo en vivo están orientados a conversaciones más fluidas, contexto visual y tareas complejas ejecutadas mientras continúa la interacción.",
+      "Los nuevos modelos apuntan a agentes de voz que pueden mantener conversaciones fluidas, interpretar contexto visual, cambiar entre idiomas y ejecutar herramientas mientras la conversación continúa.",
     category: "IA",
     author: "Actualizard Tecnología",
     heroImage:
@@ -419,24 +545,44 @@ export const articles: Article[] = [
     confidence: 98,
     sourceCount: 2,
     createdAt: "2026-09-15T13:00:00-04:00",
-    updatedAt: "2026-09-29T06:00:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-15T13:00:00-04:00",
     tags: ["Gemini", "Google", "IA", "voz", "agentes"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "Google presentó Gemini 3.8 Live y Gemini 3.8 Live Extended Thinking, dos modelos orientados a interacción de voz en tiempo casi real. La compañía afirma que incorporan mejoras en razonamiento paralelo, contexto visual y ejecución de tareas durante una conversación."
+          "Google presentó Gemini 3.8 Live y Gemini 3.8 Live Extended Thinking como una nueva generación de modelos orientados a diálogo de voz y ejecución de tareas en tiempo casi real. La diferencia principal frente a un chatbot tradicional no es solamente que responden por voz: están diseñados para mantener una conversación mientras interpretan información visual y coordinan acciones mediante herramientas."
       },
       {
         type: "paragraph",
         text:
-          "Gemini 3.8 Live está planteado para escala y eficiencia, mientras la variante Extended Thinking se enfoca en tareas de mayor complejidad y razonamiento de varios pasos."
+          "Gemini 3.8 Live está orientado a escala y eficiencia, mientras Extended Thinking se enfoca en tareas de mayor complejidad y razonamiento de varios pasos. En la práctica, eso permite separar experiencias que necesitan mucha concurrencia y baja latencia de aquellas donde el usuario acepta más procesamiento a cambio de una respuesta más elaborada."
       },
       {
         type: "paragraph",
         text:
-          "El cambio es relevante para productos que requieren asistentes de voz, agentes conversacionales y experiencias multimodales en las que el modelo debe escuchar, interpretar contexto visual y mantener acciones en segundo plano."
+          "Uno de los cambios más relevantes es la ejecución asíncrona de herramientas. Google explica que el modelo puede iniciar llamadas a herramientas o APIs y continuar la conversación mientras esas operaciones terminan. Para un agente real esto es importante: evita que cada consulta externa convierta la experiencia en una secuencia de silencios y esperas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "También incorpora grounding visual en tiempo casi real. Eso significa que una cámara o flujo visual puede convertirse en parte del contexto de la conversación. Un sistema de soporte podría, por ejemplo, observar un equipo, una interfaz o un documento y utilizar esa información para responder de manera más situada."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Google afirma que Gemini 3.8 Live puede detectar y cambiar entre 97 idiomas durante una misma conversación. Esa capacidad tiene especial valor para productos globales, centros de atención, educación y asistentes personales, donde el usuario puede mezclar idiomas o cambiar de lengua sin reiniciar el contexto."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Extended Thinking añade una capa de razonamiento más profundo para flujos complejos. La compañía muestra ejemplos como coordinación de reservas, transformación de bocetos y retroalimentación verbal en componentes funcionales y generación de planes de negocio mientras la conversación se mantiene activa."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para empresas y desarrolladores, la oportunidad viene acompañada de nuevos retos: control de permisos, registro de acciones, manejo de errores, privacidad de audio y video y límites sobre qué herramientas puede ejecutar un agente. El modelo puede ser más capaz, pero la seguridad de un sistema productivo depende también de la arquitectura que rodea al modelo."
       },
       {
         type: "sources",
@@ -458,9 +604,9 @@ export const articles: Article[] = [
     id: "live-20260923-gemini-connected-apps",
     slug: "gemini-amplia-apps-conectadas-productividad-creatividad-servicios",
     title:
-      "Gemini amplía sus aplicaciones conectadas con herramientas de productividad, creatividad y servicios",
+      "Gemini amplía sus aplicaciones conectadas y avanza hacia un asistente que opera sobre servicios externos",
     dek:
-      "Google anunció integraciones con plataformas como Airtable, Linear, monday.com, Adobe, Webflow, Peloton y otras para ejecutar tareas desde Gemini.",
+      "La nueva ola de integraciones incluye herramientas de productividad, creatividad y estilo de vida; el cambio refuerza la transición desde el chatbot que responde hacia el asistente que también ejecuta tareas.",
     category: "Tecnología",
     author: "Actualizard Tecnología",
     heroImage:
@@ -470,24 +616,39 @@ export const articles: Article[] = [
     confidence: 98,
     sourceCount: 1,
     createdAt: "2026-09-23T14:00:00-04:00",
-    updatedAt: "2026-09-29T05:45:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-23T14:00:00-04:00",
     tags: ["Gemini", "apps", "productividad", "Adobe", "Webflow"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "Google comenzó a desplegar una nueva ola de aplicaciones conectadas a Gemini. La lista anunciada incluye herramientas de productividad como Airtable, Linear, monday.com, PandaDoc y Zoho; servicios creativos como Adobe, Picsart, Squarespace y Webflow; y aplicaciones de estilo de vida como Peloton y SeatGeek."
+          "Google comenzó a desplegar una nueva ola de aplicaciones conectadas dentro de Gemini. La lista incluye Airtable, Linear, monday.com, PandaDoc, Wispr AI y Zoho para productividad; Adobe, Picsart, Squarespace y Webflow para creatividad; y servicios como apartments.com, Experian, Peloton y SeatGeek en categorías de vida cotidiana."
       },
       {
         type: "paragraph",
         text:
-          "La estrategia apunta a que Gemini funcione menos como una ventana de consulta aislada y más como una capa capaz de operar sobre servicios externos desde una misma conversación."
+          "La importancia del anuncio no está únicamente en la cantidad de marcas. El modelo de uso cambia cuando la inteligencia artificial puede trabajar con una aplicación externa en lugar de limitarse a explicar qué debería hacer el usuario. El objetivo es reducir cambios de contexto entre pestañas, copiar y pegar información y repetir instrucciones en múltiples interfaces."
       },
       {
         type: "paragraph",
         text:
-          "El despliegue es gradual y la disponibilidad puede variar por producto, cuenta, región y plan. Google indica que las conexiones pueden gestionarse desde la configuración de Gemini o mediante menciones directas dentro del chat."
+          "En productividad, una integración puede permitir que una conversación termine convertida en una tarea, un registro estructurado o una acción dentro de una herramienta de gestión. En creatividad, el flujo puede pasar de una idea escrita a un activo visual o una actualización de un sitio web. El valor real dependerá de qué acciones estén disponibles en cada integración y de los permisos concedidos por el usuario."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Ese último punto es fundamental. Un asistente conectado a servicios externos puede ser más útil, pero también maneja más contexto y puede actuar sobre sistemas que contienen información personal o empresarial. Por eso la experiencia debe dejar claro qué aplicación se está usando, qué datos recibe y qué acción se va a ejecutar."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Google indica que las conexiones se administran desde la configuración de Gemini y también pueden invocarse desde el chat mediante menciones o peticiones directas. El despliegue es progresivo, por lo que no todas las integraciones necesariamente aparecen al mismo tiempo para todos los usuarios, cuentas o regiones."
+      },
+      {
+        type: "paragraph",
+        text:
+          "A nivel de industria, la tendencia es clara: los grandes asistentes de IA compiten cada vez menos solo por la calidad de una respuesta aislada y más por su capacidad para convertirse en una capa de trabajo entre distintas aplicaciones. Esa evolución acerca el concepto de agente digital, pero también vuelve más importantes la autenticación, los permisos, la trazabilidad y la confirmación de acciones sensibles."
       },
       {
         type: "sources",
@@ -505,9 +666,9 @@ export const articles: Article[] = [
     id: "live-20260924-live-avatar",
     slug: "gemini-3-8-live-avatar-presencia-visual-tiempo-real",
     title:
-      "Gemini 3.8 Live with Live Avatar combina conversación y presencia visual en tiempo casi real",
+      "Gemini 3.8 Live with Live Avatar combina conversación, visión y presencia visual en tiempo casi real",
     dek:
-      "Google presentó una capacidad que une diálogo en vivo y generación de video de baja latencia para crear una persona visual que escucha, observa y responde.",
+      "La propuesta de Google une diálogo en vivo con video de baja latencia para crear agentes visuales capaces de escuchar, observar, hablar y ejecutar herramientas sin detener la conversación.",
     category: "Video",
     author: "Actualizard Video",
     heroImage:
@@ -517,24 +678,44 @@ export const articles: Article[] = [
     confidence: 98,
     sourceCount: 1,
     createdAt: "2026-09-24T13:00:00-04:00",
-    updatedAt: "2026-09-29T05:30:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-24T13:00:00-04:00",
     tags: ["video", "avatar", "Gemini", "IA generativa"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "Google presentó Gemini 3.8 Live with Live Avatar, una función que combina sus modelos de diálogo en vivo con generación de video de baja latencia. El objetivo es producir interacciones en las que una presencia visual responda de forma sincronizada a la conversación."
+          "Gemini 3.8 Live with Live Avatar lleva la conversación con inteligencia artificial a una interfaz donde la respuesta no es solo texto o audio. Google combina diálogo en vivo con generación de video de baja latencia para producir una presencia visual que puede escuchar, observar y responder con voz, movimiento facial y sincronización labial."
       },
       {
         type: "paragraph",
         text:
-          "La compañía describe la función como una experiencia capaz de escuchar, ver y hablar mediante una persona visual dinámica. El anuncio se apoya en Gemini 3.8 Live, presentado una semana antes."
+          "La diferencia frente a un avatar tradicional es que la representación visual está conectada al mismo sistema que interpreta la conversación y el contexto. Google describe procesamiento simultáneo de entradas de audio y video, lo que permite que la respuesta visual se adapte a lo que el agente oye y ve."
       },
       {
         type: "paragraph",
         text:
-          "Para medios, formación, atención al cliente y productos conversacionales, este tipo de tecnología abre una nueva categoría de interfaces donde el usuario no solo oye una voz sintética, sino que interactúa con una representación visual generada."
+          "La compañía plantea casos empresariales como atención al cliente y recorridos interactivos. Además, el sistema puede ejecutar herramientas de manera asíncrona: mientras una llamada externa consulta datos o completa una tarea, el avatar puede mantener el diálogo y comunicar progreso al usuario."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Live Avatar admite transiciones entre 97 idiomas y ajusta voz, sincronización labial y expresiones al cambio de idioma. Para organizaciones internacionales, esa combinación puede reducir la necesidad de crear una experiencia visual distinta para cada lengua, aunque la calidad real deberá evaluarse según acento, contexto y dominio específico."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Las organizaciones también pueden personalizar avatares a partir de imágenes de referencia, aunque Google señala que la creación de avatares personalizados está limitada mediante allowlisting empresarial. Esto introduce una cuestión especialmente sensible: identidad y representación. Cuanto más realista es un avatar, más importante es informar al usuario de que interactúa con contenido generado por IA."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Google afirma que el contenido generado por Live Avatar incorpora SynthID, su sistema de marca de agua para contenido de IA. Esa medida busca facilitar detección y reducir riesgos de atribución errónea, aunque la transparencia también depende de cómo cada empresa presente la experiencia al usuario."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para medios, educación, ventas o servicio al cliente, la tecnología abre posibilidades importantes, pero no elimina la necesidad de diseño editorial y control. Un avatar convincente puede mejorar presencia y accesibilidad; también puede amplificar errores si el sistema que lo alimenta responde con información incorrecta o ejecuta acciones sin controles adecuados."
       },
       {
         type: "sources",
@@ -552,9 +733,9 @@ export const articles: Article[] = [
     id: "live-20260929-mlb",
     slug: "mlb-abre-ronda-wild-card-cuatro-series-29-septiembre-2026",
     title:
-      "MLB abre la ronda de Wild Card con cuatro partidos este 29 de septiembre",
+      "MLB abre la ronda de Wild Card con cuatro series y una jornada completa este 29 de septiembre",
     dek:
-      "El calendario oficial incluye Phillies-Braves, White Sox-Astros, Red Sox-Yankees y Cubs-Padres en la primera jornada de la postemporada.",
+      "La postemporada comienza con Phillies-Braves, White Sox-Astros, Red Sox-Yankees y Cubs-Padres en un formato al mejor de tres que concentra toda la presión en pocos partidos.",
     category: "Deportes",
     author: "Actualizard Deportes",
     heroImage:
@@ -562,37 +743,62 @@ export const articles: Article[] = [
     heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 99,
-    sourceCount: 1,
+    sourceCount: 2,
     createdAt: "2026-09-29T05:10:00-04:00",
-    updatedAt: "2026-09-29T05:10:00-04:00",
+    updatedAt: "2026-09-29T09:30:00-04:00",
     publishedAt: "2026-09-29T05:10:00-04:00",
     tags: ["MLB", "Wild Card", "postemporada", "béisbol"],
     blocks: [
       {
         type: "paragraph",
         text:
-          "La postemporada de Grandes Ligas abre este martes 29 de septiembre con cuatro partidos de Wild Card, de acuerdo con el calendario oficial de MLB."
+          "La postemporada de Grandes Ligas comienza este martes 29 de septiembre con cuatro Series de Wild Card. El formato es al mejor de tres partidos, lo que convierte cada decisión de pitcheo, bullpen y alineación en un factor inmediato: dos derrotas terminan la temporada y dos victorias abren la puerta a la siguiente ronda."
       },
       {
         type: "bullets",
         items: [
-          "Phillies vs. Braves — 2:00 p. m. ET.",
-          "White Sox vs. Astros — 5:00 p. m. ET.",
-          "Red Sox vs. Yankees — 8:00 p. m. ET.",
-          "Cubs vs. Padres — 10:00 p. m. ET."
+          "Phillies vs. Braves — 2:00 p. m. ET, NBC/Peacock.",
+          "White Sox vs. Astros — 5:00 p. m. ET, Peacock/NBCSN.",
+          "Red Sox vs. Yankees — 8:00 p. m. ET, NBC/Peacock.",
+          "Cubs vs. Padres — 10:00 p. m. ET, Peacock/NBCSN."
         ]
       },
       {
         type: "paragraph",
         text:
-          "Los horarios están publicados en hora del Este y pueden estar sujetos a cambios. MLB mantiene en su calendario oficial las actualizaciones de sede, transmisión y abridores."
+          "La serie entre Boston y Nueva York concentra una parte importante de la atención por la historia de la rivalidad y porque ambos equipos llegan a una fase en la que una mala entrada puede cambiar una temporada completa. En un formato corto, el margen para corregir errores es mucho menor que en una serie de siete juegos."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Chicago y San Diego también aparecen en una ventana nocturna de alta exposición, mientras Philadelphia visita Atlanta en el primer turno. Los White Sox viajan a Houston para completar el cuadro de cuatro enfrentamientos. Todas las series están programadas de martes a jueves, con el tercer partido únicamente si es necesario."
+      },
+      {
+        type: "paragraph",
+        text:
+          "MLB programó toda la ronda sobre plataformas de NBC Sports. También habrá opciones en español: Universo ofrecerá cobertura televisiva y Univision Radio audio en español, mientras ESPN Radio mantendrá cobertura nacional de la postemporada."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El formato al mejor de tres modifica la estrategia habitual. Los equipos tienen menos incentivos para reservar sus mejores relevistas y pueden tratar cada juego como una situación de eliminación potencial. El manejo del abridor, el uso temprano del bullpen y la defensa adquieren un peso mayor porque no existe una serie larga para absorber un mal comienzo."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para seguir la jornada conviene revisar el calendario oficial cerca de la hora de juego. MLB advierte que horarios, transmisiones y asignaciones pueden cambiar, especialmente si condiciones meteorológicas o ajustes operativos obligan a modificar la programación."
       },
       {
         type: "sources",
         items: [
           {
             name: "MLB — Calendario oficial, 29 de septiembre de 2026",
-            url: "https://www.mlb.com/schedule"
+            url: "https://www.mlb.com/schedule/2026-09-29"
+          },
+          {
+            name: "MLB — 2026 Wild Card Series game times and broadcast schedule",
+            url:
+              "https://www.mlb.com/news/2026-mlb-playoff-and-world-series-schedule"
           }
         ]
       }
