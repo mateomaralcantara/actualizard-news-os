@@ -1,0 +1,26 @@
+node_modules
+.next
+.env
+.env.local
+dist
+coverage
+*.log
+.DS_Store
+
+# Actualizard Local Database
+data/actualizard.sqlite
+data/actualizard.sqlite-wal
+data/actualizard.sqlite-shm
+data/backups/*.sqlite
+# Actualizard - archivos privados
+.env.*
+!.env.example
+node_modules/
+.next/
+out/
+.vercel/
+data/backups/
+.actualizard-backups/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
