@@ -102,7 +102,7 @@ export const articles: Article[] = [
     author: "Redacción Actualizard",
     heroImage: "/uploads/tserv-libroseller-57-martin-mateo.jpg",
     heroCaption:
-      "Imagen editorial generada con IA a partir de referencias aportadas para representar la presentación de Martín Mateo, CEO de TServ, durante la cobertura de Libroseller 5.7.",
+      "Imagen editorial a partir de referencias aportadas para representar la presentación de Martín Mateo, CEO de TServ, durante la cobertura de Libroseller 5.7.",
     status: "published",
     confidence: 88,
     sourceCount: 1,
