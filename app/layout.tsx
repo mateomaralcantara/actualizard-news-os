@@ -1,10 +1,31 @@
 import "./globals.css";
+import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Actualizard — La actualidad ahora",
+import { getSiteUrl } from "@/lib/site-url";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(getSiteUrl()),
+  title: {
+    default: "Actualizard — La actualidad ahora",
+    template: "%s | Actualizard"
+  },
   description:
-    "Noticias, inteligencia, investigación, geopolítica, geoeconomía, tecnología, deportes y video en tiempo real."
+    "Noticias, inteligencia, investigación, geopolítica, geoeconomía, tecnología, deportes y video en tiempo real.",
+  openGraph: {
+    type: "website",
+    locale: "es_DO",
+    siteName: "Actualizard",
+    title: "Actualizard — La actualidad ahora",
+    description:
+      "Noticias, inteligencia, investigación, geopolítica, geoeconomía, tecnología, deportes y video en tiempo real."
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Actualizard — La actualidad ahora",
+    description:
+      "Noticias, inteligencia, investigación, geopolítica, geoeconomía, tecnología, deportes y video en tiempo real."
+  }
 };
 
 const mainNavigation = [
