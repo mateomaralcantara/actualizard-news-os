@@ -100,7 +100,7 @@ export const articles: Article[] = [
       "Especialistas reunidos en la edición dedicada a la salud mental coincidieron en fortalecer la prevención desde la familia y la escuela, ampliar el acceso a atención profesional y enfrentar la desinformación que circula en redes y herramientas digitales.",
     category: "Salud",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/rd-debate-salud-mental-portada.webp",
+    heroImage: "/uploads/rd-debate-salud-mental-portada-final.jpg",
     heroCaption:
       "Imagen de la edición de RD Debate dedicada a la salud mental. Fotografía aportada a Actualizard.",
     status: "published",
