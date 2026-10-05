@@ -92,6 +92,78 @@ export const sources: SourceRecord[] = [
 
 export const articles: Article[] = [
   {
+    id: "launch-20260929-tserv-libroseller-57",
+    slug: "tserv-lanzo-libroseller-57-ecosistema-crear-maquetar-vender-libros",
+    title:
+      "TServ lanzó Libroseller 5.7, un ecosistema para crear, maquetar y vender libros",
+    dek:
+      "La plataforma integra generación de libros, maquetación profesional y comercialización web. Martín Mateo, CEO de TServ, presentó además su visión sobre la superinteligencia y el futuro de la automatización.",
+    category: "Tecnología",
+    author: "Redacción Actualizard",
+    heroImage: "/uploads/tserv-libroseller-57-martin-mateo.jpg",
+    heroCaption:
+      "Imagen editorial generada con IA a partir de referencias aportadas para representar la presentación de Martín Mateo, CEO de TServ, durante la cobertura de Libroseller 5.7.",
+    status: "published",
+    confidence: 88,
+    sourceCount: 1,
+    createdAt: "2026-09-29T10:00:00-04:00",
+    updatedAt: "2026-10-05T01:10:00-04:00",
+    publishedAt: "2026-09-29T10:00:00-04:00",
+    tags: [
+      "TServ",
+      "Libroseller 5.7",
+      "Martín Mateo",
+      "inteligencia artificial",
+      "superinteligencia",
+      "automatización",
+      "tecnología editorial"
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text:
+          "**TServ lanzó oficialmente el 29 de septiembre de 2026 Libroseller 5.7**, un ecosistema tecnológico diseñado para integrar en una sola plataforma tres etapas clave de la producción editorial: ==generación de libros, maquetación profesional y venta mediante una aplicación web==."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La propuesta busca reducir la fragmentación que obliga a autores y pequeñas editoriales a utilizar herramientas diferentes para desarrollar un manuscrito, organizarlo, convertirlo en una publicación profesional y finalmente comercializarlo. El flujo planteado por la plataforma puede resumirse como **idea → manuscrito → maquetación → publicación → venta**."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Detrás del proyecto se encuentra **Martín Mateo, CEO de TServ**, presentado en el marco de la iniciativa como ==filántropo de la Inteligencia Artificial y científico de datos==. Durante la presentación, Mateo sostuvo que la aceleración de los sistemas de IA está llevando a la sociedad hacia una nueva etapa tecnológica que describió como la **era de la superinteligencia**."
+      },
+      {
+        type: "quote",
+        text:
+          "Para 2030, más del 45 % de las tareas cotidianas estarán cerca de un 85 % de automatización.",
+        attribution:
+          "Martín Mateo, CEO de TServ — proyección presentada durante el lanzamiento"
+      },
+      {
+        type: "paragraph",
+        text:
+          "La cifra corresponde a una **proyección formulada por Mateo** sobre la velocidad de adopción de la automatización. El ejecutivo también instó a los nuevos profesionales a estudiar inteligencia artificial y desarrollar competencias en estas tecnologías, al considerar que serán determinantes para desenvolverse en el mercado laboral de los próximos años."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Con Libroseller 5.7, TServ apuesta por convertir la inteligencia artificial en una capa transversal del proceso editorial y no únicamente en una herramienta para generar texto. El reto de la plataforma será demostrar que esa integración puede traducirse en ==producción editorial más rápida, profesional y accesible== para autores, instituciones y pequeñas editoriales."
+      },
+      {
+        type: "sources",
+        items: [
+          {
+            name: "Libroseller — plataforma oficial",
+            url: "https://www.libroseller.com/"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     id: "launch-20260929-diligencias",
     slug: "diligencias-lanzamiento-plataforma-mandados-entregas-trabajo-independiente",
     title:
