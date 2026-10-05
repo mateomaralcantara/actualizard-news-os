@@ -97,17 +97,17 @@ export const articles: Article[] = [
     title:
       "RD Debate pone bajo foco la prevención, la desigualdad y el autodiagnóstico en salud mental",
     dek:
-      "Especialistas reunidos en la edición dedicada a salud mental coincidieron en fortalecer la prevención desde la familia y la escuela, ampliar el acceso a atención profesional y enfrentar la desinformación que circula en redes y herramientas digitales.",
+      "Especialistas reunidos en la edición dedicada a la salud mental coincidieron en fortalecer la prevención desde la familia y la escuela, ampliar el acceso a atención profesional y enfrentar la desinformación que circula en redes y herramientas digitales.",
     category: "Salud",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/rd-debate-salud-mental-2026.jpg",
+    heroImage: "/uploads/rd-debate-salud-mental-portada.webp",
     heroCaption:
-      "Imagen editorial ilustrativa creada para Actualizard sobre la edición de RD Debate dedicada a la salud mental.",
+      "Imagen de la edición de RD Debate dedicada a la salud mental. Fotografía aportada a Actualizard.",
     status: "published",
     confidence: 92,
     sourceCount: 5,
     createdAt: "2026-10-05T08:00:00-04:00",
-    updatedAt: "2026-10-05T08:00:00-04:00",
+    updatedAt: "2026-10-05T09:30:00-04:00",
     publishedAt: "2026-10-05T08:00:00-04:00",
     tags: [
       "RD Debate",
@@ -123,27 +123,67 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text:
-          "**La salud mental fue colocada en el centro del debate público dominicano** durante la edición de RD Debate celebrada el 4 de octubre, en la que especialistas analizaron prevención, acceso a tratamiento, desigualdad social y el impacto de la información psicológica que circula en internet."
+          "**La salud mental fue colocada en el centro del debate público dominicano** durante la edición de RD Debate dedicada a este tema, en la que especialistas analizaron prevención, acceso a tratamiento, desigualdad social y el impacto de la información psicológica que circula en internet."
       },
       {
         type: "paragraph",
         text:
-          "Uno de los ejes principales fue la ==prevención desde la familia y la escuela==. El psiquiatra **José Dunker** planteó que estos espacios deben funcionar como primera línea de apoyo antes de que determinadas situaciones evolucionen hasta requerir atención especializada."
+          "El intercambio dejó una idea transversal: ==la salud mental no puede abordarse únicamente desde el consultorio==. Los participantes defendieron una mirada que incorpore familia, escuela, comunidad, condiciones económicas y políticas públicas como parte del entorno que influye en el bienestar emocional."
       },
       {
         type: "paragraph",
         text:
-          "La psicoterapeuta **Vanessa Espaillat** vinculó el deterioro del bienestar emocional con factores como pobreza, marginalidad y falta de oportunidades, y defendió una respuesta que incluya a familias, centros educativos, empresas e instituciones públicas. También advirtió sobre el uso de redes sociales y herramientas digitales para realizar **autodiagnósticos**, señalando la importancia de la evaluación profesional."
+          "Uno de los ejes principales fue la **prevención desde la familia y la escuela**. El psiquiatra **José Dunker** planteó que estos espacios deben funcionar como primera línea de apoyo antes de que determinadas situaciones evolucionen hasta requerir atención especializada."
       },
       {
         type: "paragraph",
         text:
-          "Por su parte, el psicólogo **Noel de la Rosa** llamó la atención sobre la comercialización y banalización de conceptos de salud mental en las redes sociales. Su planteamiento apunta a que hablar más de ansiedad, trauma o trastornos no necesariamente significa comprenderlos mejor, especialmente cuando esos términos se utilizan fuera de una evaluación clínica."
+          "La discusión también subrayó la importancia de detectar señales tempranas y normalizar la conversación sobre el sufrimiento emocional. La prevención, según el enfoque expuesto, implica crear condiciones para que niños, adolescentes y adultos puedan pedir ayuda antes de que una crisis alcance niveles más difíciles de manejar."
       },
       {
         type: "paragraph",
         text:
-          "El debate dejó como mensaje transversal que la salud mental no puede abordarse únicamente desde el consultorio. ==Prevención, condiciones económicas, educación, acceso a profesionales y redes de apoyo== forman parte de una respuesta más amplia para enfrentar los desafíos que atraviesan las familias dominicanas."
+          "La psicoterapeuta **Vanessa Espaillat** vinculó el deterioro del bienestar emocional con factores como pobreza, marginalidad y falta de oportunidades. Su planteamiento amplió la discusión más allá del diagnóstico clínico y situó las condiciones de vida como un componente que puede aumentar la presión sobre individuos y familias."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Ese enfoque abrió otro punto central del programa: ==el acceso desigual a la atención profesional==. Recibir terapia, mantener consultas continuas o acceder a especialistas puede convertirse en una barrera para quienes disponen de menos recursos, lo que obliga a pensar la salud mental también desde la cobertura, la prevención comunitaria y la respuesta institucional."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Espaillat también advirtió sobre un fenómeno cada vez más visible: el uso de redes sociales y herramientas digitales para realizar **autodiagnósticos**. La disponibilidad inmediata de información puede ayudar a reconocer determinados síntomas, pero no sustituye una evaluación profesional capaz de considerar historia clínica, contexto y evolución de cada caso."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La advertencia adquiere especial relevancia en un momento en que conceptos psicológicos circulan masivamente en videos cortos, publicaciones virales, buscadores y sistemas de inteligencia artificial. El riesgo aparece cuando una descripción general termina siendo interpretada como un diagnóstico personal sin evaluación clínica."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Por su parte, el psicólogo **Noel de la Rosa** llamó la atención sobre la comercialización y banalización de conceptos de salud mental en las redes sociales. Ansiedad, trauma, depresión o trastorno son términos utilizados con creciente frecuencia, pero su popularidad no garantiza que estén siendo empleados con el rigor necesario."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La discusión dejó así dos retos simultáneos: ampliar el conocimiento público sobre salud mental y, al mismo tiempo, evitar que la divulgación termine simplificando problemas complejos. ==Hablar más del tema es positivo, pero la información debe estar acompañada de responsabilidad y orientación profesional==."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Otro componente importante fue el papel de las instituciones. El debate apuntó hacia una respuesta en la que centros educativos, servicios de salud, familias, empleadores y organismos públicos puedan actuar de manera más coordinada, especialmente en prevención y detección temprana."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para República Dominicana, el desafío planteado por los especialistas no consiste solamente en disponer de más profesionales, sino también en reducir barreras de acceso, fortalecer la educación emocional y construir redes de apoyo capaces de intervenir antes de que una situación alcance niveles críticos."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La principal conclusión de la jornada fue que **hablar más de salud mental no basta**. El reto es traducir la conversación en prevención real, acceso a atención, acompañamiento oportuno y mayor responsabilidad frente a la información que circula en internet sobre el bienestar emocional."
       },
       {
         type: "sources",
