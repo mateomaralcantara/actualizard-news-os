@@ -92,6 +92,88 @@ export const sources: SourceRecord[] = [
 
 export const articles: Article[] = [
   {
+    id: "news-20261005-rd-debate-salud-mental",
+    slug: "rd-debate-salud-mental-familia-escuela-pobreza-autodiagnostico",
+    title:
+      "RD Debate pone bajo foco la prevención, la desigualdad y el autodiagnóstico en salud mental",
+    dek:
+      "Especialistas reunidos en la edición dedicada a salud mental coincidieron en fortalecer la prevención desde la familia y la escuela, ampliar el acceso a atención profesional y enfrentar la desinformación que circula en redes y herramientas digitales.",
+    category: "Salud",
+    author: "Redacción Actualizard",
+    heroImage: "/uploads/rd-debate-salud-mental-2026.svg",
+    heroCaption:
+      "Imagen editorial ilustrativa creada para Actualizard sobre la edición de RD Debate dedicada a la salud mental.",
+    status: "published",
+    confidence: 92,
+    sourceCount: 5,
+    createdAt: "2026-10-05T08:00:00-04:00",
+    updatedAt: "2026-10-05T08:00:00-04:00",
+    publishedAt: "2026-10-05T08:00:00-04:00",
+    tags: [
+      "RD Debate",
+      "salud mental",
+      "República Dominicana",
+      "prevención",
+      "familia",
+      "escuela",
+      "ansiedad",
+      "autodiagnóstico"
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text:
+          "**La salud mental fue colocada en el centro del debate público dominicano** durante la edición de RD Debate celebrada el 4 de octubre, en la que especialistas analizaron prevención, acceso a tratamiento, desigualdad social y el impacto de la información psicológica que circula en internet."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Uno de los ejes principales fue la ==prevención desde la familia y la escuela==. El psiquiatra **José Dunker** planteó que estos espacios deben funcionar como primera línea de apoyo antes de que determinadas situaciones evolucionen hasta requerir atención especializada."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La psicoterapeuta **Vanessa Espaillat** vinculó el deterioro del bienestar emocional con factores como pobreza, marginalidad y falta de oportunidades, y defendió una respuesta que incluya a familias, centros educativos, empresas e instituciones públicas. También advirtió sobre el uso de redes sociales y herramientas digitales para realizar **autodiagnósticos**, señalando la importancia de la evaluación profesional."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Por su parte, el psicólogo **Noel de la Rosa** llamó la atención sobre la comercialización y banalización de conceptos de salud mental en las redes sociales. Su planteamiento apunta a que hablar más de ansiedad, trauma o trastornos no necesariamente significa comprenderlos mejor, especialmente cuando esos términos se utilizan fuera de una evaluación clínica."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El debate dejó como mensaje transversal que la salud mental no puede abordarse únicamente desde el consultorio. ==Prevención, condiciones económicas, educación, acceso a profesionales y redes de apoyo== forman parte de una respuesta más amplia para enfrentar los desafíos que atraviesan las familias dominicanas."
+      },
+      {
+        type: "sources",
+        items: [
+          {
+            name: "RD Debate anuncia edición sobre salud mental",
+            url: "https://2028.do/noticias/rd-debate-dedicara-su-proxima-edicion-a-la-salud-mental-con-seis-espec-918d50"
+          },
+          {
+            name: "José Dunker: familia y escuela como primera línea",
+            url: "https://deultimominuto.com/nacionales/dunker-apuesta/"
+          },
+          {
+            name: "Vanessa Espaillat: pobreza y falta de oportunidades",
+            url: "https://deultimominuto.com/nacionales/vanessa-espaillat/"
+          },
+          {
+            name: "Vanessa Espaillat sobre autodiagnóstico y salud mental",
+            url: "https://www.touringdominicanrepublic.com/2026/10/04/psicologa-vanessa-espaillat-alerta-sobre-uso-de-chatgpt-para-autodiagnostico-de-salud-mental/"
+          },
+          {
+            name: "Noel de la Rosa sobre salud mental y redes sociales",
+            url: "https://despiertaquisqueya.com/sociales/2026/10/noel-de-la-rosa-alerta-sobre-comercializacion-de-la-salud-mental-en-las-redes-sociales/"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     id: "launch-20260929-tserv-libroseller-57",
     slug: "tserv-lanzo-libroseller-57-ecosistema-crear-maquetar-vender-libros",
     title:
