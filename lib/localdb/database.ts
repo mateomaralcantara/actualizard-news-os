@@ -22,20 +22,43 @@ export function getActualizardDatabasePath() {
 
   const configured =
     process.env
-      .ACTUALIZARD_DB_PATH ||
-    "data/actualizard.sqlite";
+      .ACTUALIZARD_DB_PATH;
+
+  if (configured) {
+
+    if (
+      path.isAbsolute(
+        configured
+      )
+    ) {
+      return configured;
+    }
+
+    return path.join(
+      process.cwd(),
+      configured
+    );
+  }
+
+  /*
+   * Vercel Functions have a read-only deployment filesystem.
+   * /tmp is writable, but ephemeral. This keeps the newsroom
+   * operational until production persistence is moved to Supabase.
+   */
 
   if (
-    path.isAbsolute(
-      configured
-    )
+    process.env.VERCEL === "1"
   ) {
-    return configured;
+    return path.join(
+      "/tmp",
+      "actualizard.sqlite"
+    );
   }
 
   return path.join(
     process.cwd(),
-    configured
+    "data",
+    "actualizard.sqlite"
   );
 }
 
