@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020b1f"/>
+      <stop offset="0.52" stop-color="#08214d"/>
+      <stop offset="1" stop-color="#05070d"/>
+    </linearGradient>
+    <radialGradient id="redGlow">
+      <stop offset="0" stop-color="#ff2a2a" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ff2a2a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow">
+      <stop offset="0" stop-color="#1b7cff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#1b7cff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".5"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <ellipse cx="385" cy="510" rx="380" ry="230" fill="url(#blueGlow)" filter="url(#blur)"/>
+  <ellipse cx="1210" cy="510" rx="390" ry="230" fill="url(#redGlow)" filter="url(#blur)"/>
+
+  <g opacity=".28">
+    <rect x="0" y="690" width="1600" height="210" fill="#03050a"/>
+    <path d="M0 735 C240 690 390 770 590 726 S1000 690 1600 755 V900 H0Z" fill="#101a2e"/>
+  </g>
+
+  <g transform="translate(105,150)" filter="url(#shadow)">
+    <rect x="0" y="315" width="620" height="185" rx="38" fill="#111927" stroke="#516079" stroke-width="6"/>
+    <path d="M115 315 L210 190 H470 L560 315Z" fill="#111927" stroke="#516079" stroke-width="6"/>
+    <rect x="235" y="215" width="112" height="82" rx="10" fill="#4b648c" opacity=".58"/>
+    <rect x="360" y="215" width="100" height="82" rx="10" fill="#4b648c" opacity=".58"/>
+    <circle cx="155" cy="506" r="72" fill="#06090f" stroke="#49566b" stroke-width="14"/>
+    <circle cx="500" cy="506" r="72" fill="#06090f" stroke="#49566b" stroke-width="14"/>
+    <rect x="245" y="170" width="170" height="26" rx="9" fill="#e7f1ff"/>
+    <rect x="245" y="170" width="84" height="26" rx="9" fill="#1976ff"/>
+    <rect x="329" y="170" width="86" height="26" rx="9" fill="#ff3131"/>
+    <text x="60" y="425" fill="#f6f8fb" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="72">POLICÍA</text>
+  </g>
+
+  <g transform="translate(960,160)" filter="url(#shadow)">
+    <rect x="70" y="140" width="390" height="24" fill="#d2b071"/>
+    <rect x="95" y="165" width="340" height="270" rx="2" fill="#d9c79f"/>
+    <polygon points="70,140 265,20 460,140" fill="#eadab6"/>
+    <g fill="#b69c6c">
+      <rect x="120" y="175" width="42" height="230"/>
+      <rect x="205" y="175" width="42" height="230"/>
+      <rect x="290" y="175" width="42" height="230"/>
+      <rect x="375" y="175" width="42" height="230"/>
+    </g>
+    <rect x="80" y="435" width="370" height="28" fill="#a98c60"/>
+  </g>
+
+  <g transform="translate(1110,520)" filter="url(#shadow)">
+    <line x1="170" y1="0" x2="170" y2="210" stroke="#d7b25c" stroke-width="14"/>
+    <line x1="70" y1="45" x2="270" y2="45" stroke="#d7b25c" stroke-width="14"/>
+    <circle cx="170" cy="20" r="20" fill="#f0cf7e"/>
+    <line x1="95" y1="48" x2="55" y2="120" stroke="#d7b25c" stroke-width="6"/>
+    <line x1="245" y1="48" x2="285" y2="120" stroke="#d7b25c" stroke-width="6"/>
+    <path d="M10 120 Q55 195 100 120Z" fill="#b8872e" stroke="#f2d88d" stroke-width="4"/>
+    <path d="M240 120 Q285 195 330 120Z" fill="#b8872e" stroke="#f2d88d" stroke-width="4"/>
+    <rect x="95" y="210" width="150" height="24" rx="8" fill="#d7b25c"/>
+  </g>
+
+  <g transform="translate(70,45)">
+    <rect x="0" y="0" width="230" height="140" rx="16" fill="#fff" opacity=".95"/>
+    <rect x="0" y="0" width="230" height="68" fill="#cf1f2b"/>
+    <rect x="106" y="0" width="24" height="140" fill="#fff"/>
+    <rect x="0" y="58" width="230" height="24" fill="#fff"/>
+    <rect x="18" y="15" width="75" height="35" fill="#0a3473"/>
+    <rect x="137" y="15" width="75" height="35" fill="#0a3473"/>
+    <rect x="18" y="92" width="75" height="35" fill="#0a3473"/>
+    <rect x="137" y="92" width="75" height="35" fill="#0a3473"/>
+  </g>
+
+  <rect x="0" y="0" width="1600" height="900" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="2"/>
+  <text x="800" y="760" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="72">SEGURIDAD Y ESTADO DE DERECHO</text>
+  <text x="800" y="822" text-anchor="middle" fill="#d8e4f8" font-family="Arial,Helvetica,sans-serif" font-size="34">El debate detrás del “29” en República Dominicana</text>
+  <rect x="660" y="850" width="280" height="8" rx="4" fill="#ffd400"/>
+</svg>

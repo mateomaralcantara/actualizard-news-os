@@ -92,6 +92,139 @@ export const sources: SourceRecord[] = [
 
 export const articles: Article[] = [
   {
+    id: "analysis-20261006-poner-en-29-derechos-humanos",
+    slug: "poner-en-29-delincuencia-seguridad-derechos-humanos-republica-dominicana",
+    title:
+      "El “29” frente al crimen: seguridad, derechos humanos y el límite del poder policial en República Dominicana",
+    dek:
+      "La expresión popular resume una demanda social de respuestas contundentes frente a la delincuencia, pero también abre un debate sobre uso legítimo de la fuerza, debido proceso, percepción de impunidad y los límites que debe conservar el Estado.",
+    category: "RD",
+    author: "Redacción Actualizard",
+    heroImage: "/uploads/29-seguridad-derechos-humanos-rd.svg",
+    heroCaption:
+      "Ilustración editorial de Actualizard sobre el debate entre seguridad ciudadana, actuación policial, justicia y derechos fundamentales en República Dominicana.",
+    status: "published",
+    confidence: 92,
+    sourceCount: 4,
+    createdAt: "2026-10-06T22:00:00-04:00",
+    updatedAt: "2026-10-06T22:00:00-04:00",
+    publishedAt: "2026-10-06T22:00:00-04:00",
+    tags: [
+      "República Dominicana",
+      "seguridad ciudadana",
+      "Policía Nacional",
+      "derechos humanos",
+      "debido proceso",
+      "delincuencia",
+      "uso de la fuerza",
+      "análisis"
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text:
+          "En República Dominicana, la expresión popular **“poner en 29”** se utiliza para describir, de manera cruda, la muerte de presuntos delincuentes durante actuaciones policiales. Para una parte de la sociedad, cansada de atracos, homicidios y estructuras criminales, la frase puede representar autoridad, respuesta inmediata y una forma de justicia frente a un sistema penal que muchas veces se percibe lento o insuficiente."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Sin embargo, detrás de esa aparente solución existe un debate mucho más complejo sobre **seguridad pública, derechos humanos y los límites del poder del Estado**. El punto central es que combatir con firmeza la delincuencia no es lo mismo que legitimar ejecuciones extrajudiciales."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Un agente policial puede utilizar fuerza letal cuando su vida o la de terceros se encuentra ante una amenaza real e inmediata. Esa facultad forma parte del deber estatal de proteger a la población. Pero si una persona podía ser detenida y, en cambio, es eliminada deliberadamente por considerársele delincuente, la actuación deja de ser una respuesta defensiva y entra en un terreno incompatible con el debido proceso."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La Constitución dominicana protege el derecho a la vida, prohíbe la pena de muerte y reconoce garantías de debido proceso y presunción de inocencia. Eso significa que una persona buscada por homicidio, robo, narcotráfico u otro delito continúa siendo jurídicamente un acusado o sospechoso hasta que los tribunales determinen su responsabilidad."
+      },
+      {
+        type: "paragraph",
+        text:
+          "==La aceptación social del llamado “29” no surge de la nada.== Se alimenta de la frustración frente a la inseguridad, de casos de reincidencia y de la percepción de que algunos procesos judiciales no producen consecuencias suficientemente rápidas. Cuando el ciudadano cree que el delincuente entra por una puerta y sale por otra, aumenta la tolerancia hacia respuestas extremas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Ese razonamiento, aunque comprensible desde el miedo o la indignación, contiene un riesgo institucional serio: **la Policía podría pasar de detener a decidir quién merece vivir y quién merece morir**. El problema no afecta solamente a quienes son señalados como delincuentes. También alcanza a cualquier ciudadano que pueda ser confundido, acusado erróneamente o colocado bajo sospecha."
+      },
+      {
+        type: "paragraph",
+        text:
+          "En un Estado democrático, las funciones están separadas deliberadamente. La Policía investiga y detiene; el Ministerio Público acusa; los tribunales juzgan; y el sistema penitenciario ejecuta las condenas. Cuando una persona es eliminada fuera de una situación estrictamente necesaria para proteger una vida, esas funciones terminan concentrándose en segundos y sin posibilidad de defensa, revisión judicial o apelación."
+      },
+      {
+        type: "paragraph",
+        text:
+          "También existe un efecto cultural. Si una sociedad comienza a celebrar sistemáticamente las muertes de sospechosos como evidencia de eficacia, la muerte puede convertirse en un indicador informal de éxito policial. Una operación con varios fallecidos puede percibirse como más contundente que una captura realizada sin disparos, aunque desde el punto de vista institucional la segunda pueda demostrar mayor capacidad operativa."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La seguridad pública debería medirse por otros resultados: reducción de homicidios y robos, captura de prófugos, desmantelamiento de estructuras criminales, calidad de las investigaciones, recuperación de armas, protección de víctimas y condenas obtenidas mediante expedientes sólidos."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Otro error frecuente consiste en presentar los derechos humanos como una protección exclusiva del delincuente. **No lo son.** Los derechos fundamentales limitan el poder del Estado precisamente porque ese poder puede ejercerse contra cualquier persona. Exigir que un sospechoso sea detenido y juzgado no implica pedir que un policía se deje matar frente a una agresión armada."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La diferencia decisiva está en determinar si la muerte fue consecuencia inevitable de una confrontación en la que existía un peligro inmediato para una vida, o si la muerte era el objetivo de la operación. Esa frontera debe ser investigable, documentada y sometida a control institucional."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Reducir la aceptación social del “29” requiere algo más que discursos sobre derechos humanos. Requiere una justicia que funcione: investigaciones profesionales, fiscales capaces de construir expedientes robustos, tribunales eficientes, sanciones proporcionales y un sistema penitenciario que reduzca la reincidencia."
+      },
+      {
+        type: "paragraph",
+        text:
+          "República Dominicana necesita una Policía fuerte, bien equipada y capaz de actuar con rapidez. Pero **fuerza institucional no significa mayor cantidad de muertos**. Una Policía moderna debería poder localizar al delincuente, neutralizar una amenaza cuando sea indispensable, capturar cuando sea posible, preservar evidencias y entregar al sospechoso a la justicia."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Incluso desde una perspectiva estratégica, capturar a un integrante de una organización criminal puede resultar más útil que matarlo: un detenido puede aportar información sobre armas, cómplices, estructuras financieras, rutas y cadenas de mando."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El verdadero dilema dominicano no debería reducirse a escoger entre policías y delincuentes. La pregunta de fondo es si el país puede construir un sistema de seguridad suficientemente firme para enfrentar al criminal **sin entregar al Estado un poder ilimitado para decidir quién vive y quién muere**."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La respuesta debería ser afirmativa. El país necesita autoridad, inteligencia policial, mejores investigaciones y consecuencias reales para quien delinque. Pero también necesita preservar una frontera institucional que no puede desaparecer: ==la Policía puede neutralizar una amenaza, pero no sustituir al tribunal==."
+      },
+      {
+        type: "sources",
+        items: [
+          {
+            name: "Constitución de la República Dominicana",
+            url: "https://www.consultoria.gov.do/Consulta/Home/FileManagement?documentId=3403197&managementType=1"
+          },
+          {
+            name: "Ley Orgánica de la Policía Nacional núm. 590-16",
+            url: "https://transparencia.policianacional.gob.do/wp-content/uploads/2022/10/LEY-590-16-ORGANICA-DE-LA-POLICIA-NACIONAL.pdf"
+          },
+          {
+            name: "Naciones Unidas — Principios básicos sobre el empleo de la fuerza y de armas de fuego",
+            url: "https://www.ohchr.org/es/instruments-mechanisms/instruments/basic-principles-use-force-and-firearms-law-enforcement"
+          },
+          {
+            name: "Comisión Interamericana de Derechos Humanos",
+            url: "https://www.oas.org/es/cidh/"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     id: "news-20261005-rd-debate-salud-mental",
     slug: "rd-debate-salud-mental-familia-escuela-pobreza-autodiagnostico",
     title:
