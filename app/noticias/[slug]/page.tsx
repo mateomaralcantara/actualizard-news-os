@@ -26,8 +26,10 @@ export async function generateMetadata({
     `/noticias/${article.slug}`
   );
 
+  // Una sola fuente para Facebook, WhatsApp, X y otros previsualizadores.
+  // La versión cambia al actualizar la noticia y evita reutilizar la portada anterior.
   const socialImage = absoluteUrl(
-    `/noticias/${article.slug}/opengraph-image`
+    `/api/social-image/${encodeURIComponent(article.slug)}?v=${encodeURIComponent(article.updatedAt || article.createdAt)}`
   );
 
   return {
@@ -54,6 +56,7 @@ export async function generateMetadata({
           url: socialImage,
           width: 1200,
           height: 630,
+          type: "image/jpeg",
           alt: article.heroCaption ?? article.title
         }
       ]
@@ -62,7 +65,12 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: article.title,
       description: article.dek,
-      images: [socialImage]
+      images: [
+        {
+          url: socialImage,
+          alt: article.heroCaption ?? article.title
+        }
+      ]
     }
   };
 }
