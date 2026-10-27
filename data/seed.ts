@@ -1004,8 +1004,7 @@ export const articles: Article[] = [
       "La 81.ª sesión llega marcada por reclamos de mayor representación, cuestionamientos al funcionamiento del Consejo de Seguridad y una agenda internacional dominada por guerras, inteligencia artificial y presiones sobre el multilateralismo.",
     category: "Mundo",
     author: "Redacción Actualizard",
-    heroImage:
-      "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/uploads/onu-reforma-representacion-global.svg",
     heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 93,
@@ -1156,8 +1155,7 @@ export const articles: Article[] = [
       "El IPC subió 0.38 % en agosto y la inflación interanual descendió por segundo mes consecutivo, mientras la economía mantiene señales de crecimiento y la política monetaria continúa siendo restrictiva.",
     category: "RD",
     author: "Redacción Actualizard",
-    heroImage:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/uploads/bcrd-inflacion-actividad-economica.svg",
     heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 98,
@@ -1228,8 +1226,7 @@ export const articles: Article[] = [
       "La DGA reportó RD$66.45 millones en diferencias de impuestos determinadas entre enero y agosto y explicó que mantiene fiscalizaciones posteriores al despacho para revisar declaraciones y obligaciones aduaneras.",
     category: "RD",
     author: "Redacción Actualizard",
-    heroImage:
-      "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/uploads/aduanas-fiscalizacion-comercio.svg",
     heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 97,
@@ -1290,8 +1287,7 @@ export const articles: Article[] = [
       "Los nuevos modelos apuntan a agentes de voz que pueden mantener conversaciones fluidas, interpretar contexto visual, cambiar entre idiomas y ejecutar herramientas mientras la conversación continúa.",
     category: "IA",
     author: "Actualizard Tecnología",
-    heroImage:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/uploads/gemini-live-razonamiento-tiempo-real.svg",
     heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 98,
@@ -1361,8 +1357,7 @@ export const articles: Article[] = [
       "La nueva ola de integraciones incluye herramientas de productividad, creatividad y estilo de vida; el cambio refuerza la transición desde el chatbot que responde hacia el asistente que también ejecuta tareas.",
     category: "Tecnología",
     author: "Actualizard Tecnología",
-    heroImage:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/uploads/gemini-apps-conectadas.svg",
     heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 98,

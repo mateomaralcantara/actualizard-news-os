@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#062b42"/><stop offset="1" stop-color="#0097a7"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity=".3"/></filter></defs>
+<rect width="1600" height="900" fill="url(#g)"/>
+<circle cx="1320" cy="130" r="210" fill="#fff" opacity=".08"/><circle cx="180" cy="720" r="260" fill="#fff" opacity=".06"/>
+<g transform="translate(1040 220)" filter="url(#s)"><g fill="#fff"><rect x="35" y="55" width="110" height="110" rx="24"/><rect x="265" y="55" width="110" height="110" rx="24"/><rect x="35" y="265" width="110" height="110" rx="24"/><rect x="265" y="265" width="110" height="110" rx="24"/></g><circle cx="205" cy="215" r="82" fill="#FFD400"/><path d="M145 110l60 75 60-75M145 320l60-75 60 75M95 165l85 50-85 50M315 165l-85 50 85 50" fill="none" stroke="#75f0ff" stroke-width="16" stroke-linecap="round"/></g>
+<rect x="70" y="70" width="370" height="68" rx="34" fill="#fff" opacity=".95"/><text x="105" y="116" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="800" fill="#073B8C">ACTUALIZARD</text>
+<text x="80" y="565" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="800" fill="#fff">GEMINI Y APPS CONECTADAS</text>
+<text x="82" y="632" font-family="Arial,Helvetica,sans-serif" font-size="30" fill="#e7f2ff">Servicios externos · productividad · automatización</text>
+<rect x="80" y="690" width="260" height="8" rx="4" fill="#FFD400"/>
+</svg>
