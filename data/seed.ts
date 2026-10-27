@@ -92,6 +92,187 @@ export const sources: SourceRecord[] = [
 
 export const articles: Article[] = [
   {
+    id: "weather-20261027-radiografia-rd-vaguada",
+    slug: "radiografia-tiempo-republica-dominicana-vaguada-lluvias-tormentas-27-octubre-2026",
+    title:
+      "Radiografía del tiempo en República Dominicana: vaguada mantiene lluvias, tormentas y riesgo de inundaciones",
+    dek:
+      "El panorama meteorológico de este martes 27 de octubre está marcado por una vaguada que mantiene condiciones húmedas e inestables en buena parte del país, con aguaceros moderados a fuertes, tormentas eléctricas, ráfagas de viento y provincias bajo alerta y aviso.",
+    category: "Meteorología",
+    author: "Redacción Actualizard",
+    heroImage: "/uploads/meteorologia-radiografia-rd-2026-10-27.webp",
+    heroCaption:
+      "Composición editorial de Actualizard para ilustrar el panorama meteorológico nacional de este 27 de octubre de 2026. La imagen no constituye una fotografía documental del estado simultáneo del tiempo en todo el país.",
+    status: "published",
+    confidence: 97,
+    sourceCount: 3,
+    createdAt: "2026-10-27T10:45:00-04:00",
+    updatedAt: "2026-10-27T10:45:00-04:00",
+    publishedAt: "2026-10-27T10:45:00-04:00",
+    tags: [
+      "Meteorología",
+      "República Dominicana",
+      "INDOMET",
+      "vaguada",
+      "lluvias",
+      "tormentas eléctricas",
+      "alerta meteorológica",
+      "La Vega",
+      "Santo Domingo",
+      "Santiago"
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text:
+          "República Dominicana transita este martes **27 de octubre de 2026** bajo un patrón de alta humedad e inestabilidad asociado a una vaguada en distintos niveles de la troposfera. El Instituto Dominicano de Meteorología (INDOMET) prevé aguaceros de moderados a fuertes, tormentas eléctricas y ráfagas de viento en numerosas provincias, con riesgo de inundaciones urbanas repentinas y crecidas de ríos, arroyos y cañadas en zonas vulnerables."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La situación no afecta al territorio de manera uniforme. La radiografía nacional muestra un país dividido entre zonas con lluvias activas desde la mañana, áreas donde la inestabilidad aumentará durante la tarde y regiones que, aunque reciban menos precipitación, continúan bajo un ambiente caluroso y húmedo por el flujo de viento del sur/sureste."
+      },
+      {
+        type: "paragraph",
+        text:
+          "**Durante la mañana**, las precipitaciones de moderadas a fuertes se concentran principalmente sobre La Altagracia, La Romana, San Pedro de Macorís, el Gran Santo Domingo, Pedernales, Puerto Plata y Santiago, entre otras localidades. En estos puntos pueden producirse ráfagas de viento y reducciones temporales de visibilidad."
+      },
+      {
+        type: "paragraph",
+        text:
+          "**Para la tarde**, el foco de mayor inestabilidad se desplaza hacia Monseñor Nouel, San José de Ocoa, La Vega, San Juan y Monte Plata. INDOMET anticipa aguaceros fuertes en ocasiones, acompañados de tormentas eléctricas y ráfagas de viento."
+      },
+      {
+        type: "paragraph",
+        text:
+          "==La Vega figura entre las provincias bajo alerta meteorológica==, por lo que las condiciones de lluvia deben seguirse con especial atención en sectores urbanos, comunidades próximas a ríos y cañadas y zonas con antecedentes de inundaciones o deslizamientos."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Según el reporte oficial, permanecen bajo **Alerta Meteorológica** San Juan, La Vega, Monseñor Nouel, Monte Plata, Elías Piña y Sánchez Ramírez. Bajo **Aviso Meteorológico** se encuentran Barahona, Pedernales, Bahoruco, Azua, el Gran Santo Domingo, San Cristóbal, Independencia, Peravia y San José de Ocoa."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La diferencia entre alerta y aviso es importante para la lectura del riesgo: ambas categorías indican necesidad de vigilancia y prevención, pero los avisos corresponden a escenarios en los que el peligro meteorológico puede tener una probabilidad o impacto más inmediato según la evaluación oficial."
+      },
+      {
+        type: "paragraph",
+        text:
+          "### Radiografía por regiones"
+      },
+      {
+        type: "paragraph",
+        text:
+          "**Cibao y norte:** Santiago y Puerto Plata presentan episodios de lluvia desde horas matutinas. Hacia la tarde, La Vega y Monseñor Nouel aparecen entre los puntos de mayor actividad. La combinación de relieve montañoso, humedad disponible y desarrollo convectivo puede favorecer aguaceros intensos de corta duración."
+      },
+      {
+        type: "paragraph",
+        text:
+          "**Gran Santo Domingo y sureste:** el Gran Santo Domingo, San Pedro de Macorís, La Romana y La Altagracia están dentro del corredor de precipitaciones matutinas. Las lluvias pueden provocar acumulaciones rápidas de agua en vías con drenaje deficiente y reducir la visibilidad durante los desplazamientos."
+      },
+      {
+        type: "paragraph",
+        text:
+          "**Sur y suroeste:** Pedernales, Barahona, Bahoruco, Azua, Independencia, Peravia y San José de Ocoa están entre las provincias con niveles de alerta o aviso. En el suroeste, la vigilancia debe concentrarse además en cauces, pasos vulnerables y comunidades cercanas a zonas montañosas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "**Cordillera Central:** La Vega, Monseñor Nouel y San José de Ocoa forman parte de una franja donde la orografía puede reforzar la formación de nubes y la intensidad local de las precipitaciones. Los sectores próximos a pendientes y cursos de agua requieren especial precaución."
+      },
+      {
+        type: "paragraph",
+        text:
+          "**Zona fronteriza:** San Juan y Elías Piña se mantienen bajo alerta meteorológica. Los episodios fuertes pueden ser puntuales, por lo que una localidad puede registrar lluvias intensas mientras otra cercana recibe acumulados menores."
+      },
+      {
+        type: "paragraph",
+        text:
+          "### Temperaturas: lluvia no significa ambiente fresco"
+      },
+      {
+        type: "paragraph",
+        text:
+          "A pesar de la nubosidad y los aguaceros, INDOMET prevé que continúe un ambiente caluroso debido al viento cálido del sur/sureste. Las temperaturas mínimas se sitúan aproximadamente entre **22 °C y 23 °C**, mientras que las máximas rondan **29 °C a 31 °C**."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La recomendación oficial es mantener una adecuada hidratación, utilizar ropa ligera y evitar la exposición prolongada al sol entre las 11:00 de la mañana y las 4:00 de la tarde, especialmente en el caso de niños, adultos mayores y embarazadas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "### El mar también requiere vigilancia"
+      },
+      {
+        type: "paragraph",
+        text:
+          "En la costa atlántica, INDOMET recomienda a operadores de embarcaciones frágiles, pequeñas y medianas navegar con precaución cerca del perímetro costero y evitar aventurarse mar adentro por vientos fuertes y oleaje anormal. Desde **Cabo San Rafael, en La Altagracia, hasta Cabo Cabrón, en Samaná**, la recomendación oficial es permanecer en puerto."
+      },
+      {
+        type: "paragraph",
+        text:
+          "En la costa caribeña se mantiene la precaución por aguaceros, descargas eléctricas, ráfagas de viento y reducción de visibilidad durante los episodios de precipitación."
+      },
+      {
+        type: "paragraph",
+        text:
+          "### Qué se espera para miércoles y jueves"
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para el **miércoles 28**, el patrón lluvioso continuará. Durante la madrugada y la mañana se esperan lluvias débiles a moderadas en el Gran Santo Domingo, San Cristóbal y San Pedro de Macorís. En la tarde, los aguaceros podrían intensificarse sobre Santiago, Santiago Rodríguez, Puerto Plata, Monte Cristi, Dajabón y Pedernales."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para el **jueves 29**, la vaguada todavía ejercerá influencia, aunque los pronósticos apuntan a una disminución de la cantidad y frecuencia de las precipitaciones. Aun así, durante la tarde podrían desarrollarse aguaceros con tronadas y ráfagas aisladas sobre localidades próximas a zonas montañosas, incluyendo Monseñor Nouel, La Vega, Santiago Rodríguez, Santiago y San Juan."
+      },
+      {
+        type: "paragraph",
+        text:
+          "### La lectura de Actualizard"
+      },
+      {
+        type: "paragraph",
+        text:
+          "El dato más importante de la jornada no es únicamente que está lloviendo. La combinación de **suelo húmedo, aguaceros intensos localizados, actividad eléctrica, ráfagas y provincias bajo niveles de alerta o aviso** convierte la situación en un escenario que requiere seguimiento continuo."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Para la ciudadanía, la prioridad debe ser evitar cruzar ríos, cañadas o pasos inundados, reducir desplazamientos innecesarios durante tormentas fuertes y prestar atención a las actualizaciones de INDOMET y los organismos de protección civil. En meteorología, una tormenta localizada puede cambiar rápidamente la realidad de una comunidad aunque el resto de la provincia mantenga condiciones relativamente tranquilas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Actualizard mantendrá esta sección de **Meteorología** como un espacio para interpretar el tiempo desde una perspectiva nacional: qué sistema está actuando, qué regiones concentran el mayor riesgo, cómo evolucionan las temperaturas y qué puede esperarse durante las siguientes horas."
+      },
+      {
+        type: "sources",
+        items: [
+          {
+            name: "INDOMET — Instituto Dominicano de Meteorología",
+            url: "https://indomet.gob.do/"
+          },
+          {
+            name: "Presidencia de la República Dominicana — reporte meteorológico del 27 de octubre de 2026",
+            url: "https://presidencia.gob.do/noticias/vaguada-seguira-provocando-aguaceros-moderados-fuertes-tormentas-electricas-y-rafagas-de"
+          },
+          {
+            name: "Diario Libre — Vaguada provocará lluvias, tormentas eléctricas y ráfagas de viento este martes",
+            url: "https://www.diariolibre.com/planeta/clima/2026/10/27/vaguada-provocara-lluvias-y-tormentas-electricas-en-el-clima-en-rd/3701928"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     id: "column-20261027-francelis-turismo-mas-alla-sol-playa",
     slug: "republica-dominicana-mas-alla-sol-playa-proximo-gran-salto-turismo",
     title: "República Dominicana más allá del sol y playa: el próximo gran salto del turismo",

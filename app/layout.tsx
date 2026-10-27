@@ -38,6 +38,10 @@ const mainNavigation = [
     href: "/categoria/rd"
   },
   {
+    label: "Meteorología",
+    href: "/categoria/meteorologia"
+  },
+  {
     label: "Mundo",
     href: "/categoria/mundo"
   },
