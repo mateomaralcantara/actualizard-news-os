@@ -280,14 +280,13 @@ export const articles: Article[] = [
       "La provincia permanece en alerta amarilla mientras una vaguada mantiene aguaceros fuertes, tormentas eléctricas y ráfagas; el desbordamiento de Arroyo La Piedra ya afectó temporalmente varias comunidades.",
     category: "Meteorología",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/ocoa-lluvias-portada-2026-10-27.svg",
-    heroCaption:
-      "Ilustración editorial de Actualizard sobre los riesgos asociados a lluvias intensas en carreteras y zonas montañosas de San José de Ocoa.",
+    heroImage: "/media/ocoa-lluvias-portada",
+    heroCaption: "Imagen aportada para ilustrar la cobertura de las lluvias, crecidas y riesgo de deslizamientos en San José de Ocoa.",
     status: "published",
     confidence: 96,
     sourceCount: 2,
     createdAt: "2026-10-27T18:06:00-04:00",
-    updatedAt: "2026-10-27T18:06:00-04:00",
+    updatedAt: "2026-10-27T19:10:00-04:00",
     publishedAt: "2026-10-27T18:06:00-04:00",
     tags: [
       "Meteorología",
