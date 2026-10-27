@@ -100,9 +100,8 @@ export const articles: Article[] = [
       "El panorama meteorológico de este martes 27 de octubre está marcado por una vaguada que mantiene condiciones húmedas e inestables en buena parte del país, con aguaceros moderados a fuertes, tormentas eléctricas, ráfagas de viento y provincias bajo alerta y aviso.",
     category: "Meteorología",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/meteorologia-radiografia-rd-2026-10-27.webp",
-    heroCaption:
-      "Composición editorial de Actualizard para ilustrar el panorama meteorológico nacional de este 27 de octubre de 2026. La imagen no constituye una fotografía documental del estado simultáneo del tiempo en todo el país.",
+    heroImage: "/uploads/meteorologia-la-vega-portada-principal.webp",
+    heroCaption: "La Vega bajo la lluvia y tormentas durante una jornada de alta inestabilidad. Imagen de portada de Actualizard para la cobertura meteorológica nacional.",
     status: "published",
     confidence: 97,
     sourceCount: 3,
