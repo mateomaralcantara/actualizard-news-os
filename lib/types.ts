@@ -63,7 +63,6 @@ export interface Article {
   dek: string;
   category: string;
   author: string;
-  authorImage?: string;
   heroImage: string;
   heroCaption?: string;
   status: ArticleStatus;
