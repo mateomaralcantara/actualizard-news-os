@@ -92,6 +92,311 @@ export const sources: SourceRecord[] = [
 
 export const articles: Article[] = [
   {
+    id: "column-20261027-francelis-turismo-mas-alla-sol-playa",
+    slug: "republica-dominicana-mas-alla-sol-playa-proximo-gran-salto-turismo",
+    title: "República Dominicana más allá del sol y playa: el próximo gran salto del turismo",
+    dek: "Francelis Solís analiza por qué el próximo salto del turismo dominicano debe combinar el éxito de los resorts con cultura, gastronomía, naturaleza, ciudades y una mayor integración de las comunidades.",
+    category: "Turismo",
+    author: "Francelis Solís",
+    heroImage: "/uploads/francelis-turismo-diversificacion.svg",
+    heroCaption: "Ilustración editorial de Actualizard sobre la diversificación del turismo dominicano más allá del modelo tradicional de sol y playa.",
+    status: "published",
+    confidence: 94,
+    sourceCount: 3,
+    createdAt: "2026-10-27T21:05:00-04:00",
+    updatedAt: "2026-10-27T21:05:00-04:00",
+    publishedAt: "2026-10-27T21:05:00-04:00",
+    tags: ["turismo","República Dominicana","diversificación turística","gastronomía","cultura","ecoturismo","comunidades","Francelis Solís"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Durante décadas, **República Dominicana ha construido una de las marcas turísticas más reconocidas del Caribe** sobre una combinación extraordinariamente poderosa: playas, clima tropical, hospitalidad, conectividad aérea y una infraestructura hotelera capaz de competir con algunos de los destinos más importantes del continente."
+      },
+      {
+        type: "paragraph",
+        text: "Ese modelo ha funcionado y continúa funcionando. El Banco Central informó que el país recibió alrededor de **US$9,700 millones en ingresos por turismo entre enero y septiembre de 2026**, un dato que confirma el peso que la actividad conserva dentro de la economía nacional."
+      },
+      {
+        type: "paragraph",
+        text: "Sin embargo, precisamente porque hemos tenido éxito, ha llegado el momento de plantearnos una pregunta diferente: **¿cuál debe ser la próxima etapa del turismo dominicano?**"
+      },
+      {
+        type: "paragraph",
+        text: "Mi respuesta es clara: debemos continuar fortaleciendo el turismo de sol y playa, pero simultáneamente convertir a República Dominicana en un país de **experiencias turísticas múltiples**. El visitante contemporáneo ya no necesariamente quiere permanecer todos sus días dentro de un mismo complejo hotelero. Cada vez existe mayor interés por conocer cómo vive la población, qué come, qué produce, cuáles son sus tradiciones y qué particularidades distinguen a una comunidad de otra."
+      },
+      {
+        type: "paragraph",
+        text: "Ahí el país posee una enorme riqueza todavía subutilizada. Punta Cana puede representar resorts y playas; Puerto Plata puede integrar historia, costa, aventura y patrimonio urbano; Samaná combina naturaleza, montañas, gastronomía y experiencias marinas; Santo Domingo posee historia, arquitectura, cultura y vida urbana; Jarabacoa y Constanza representan montañas, agricultura, clima y ecoturismo; Pedernales abre una nueva frontera asociada a naturaleza y conservación; y Santiago tiene potencial para profundizar el turismo empresarial, cultural, gastronómico y de eventos."
+      },
+      {
+        type: "paragraph",
+        text: "El desafío consiste en dejar de entender estos lugares únicamente como localidades y comenzar a gestionarlos como **productos turísticos diferenciados**, con identidad, conectividad, señalización, experiencias comercializables y estándares de servicio."
+      },
+      {
+        type: "paragraph",
+        text: "Existe una enorme diferencia económica entre recibir un turista y lograr que ese turista consuma la diversidad del territorio. Un visitante puede hospedarse en un hotel, comer dentro del hotel y consumir prácticamente todos sus servicios dentro de una misma propiedad. Ese modelo genera empleo e inversión y debe seguir siendo importante. Pero otro modelo puede multiplicar el impacto."
+      },
+      {
+        type: "paragraph",
+        text: "Imagine un visitante que llega a Punta Cana, pero dedica un día a conocer una comunidad agrícola, compra productos artesanales, visita un restaurante dominicano, contrata a un guía local y posteriormente pasa dos noches en Santo Domingo. Ese mismo turista ha creado una cadena económica mucho más extensa: el dinero llega al hotel, pero también al transportista, al restaurante, al guía, al agricultor, al artesano y al pequeño comerciante."
+      },
+      {
+        type: "paragraph",
+        text: "==Ese debería ser uno de los grandes objetivos de la próxima década turística dominicana: aumentar el valor económico que cada visitante deja distribuido en la sociedad.=="
+      },
+      {
+        type: "paragraph",
+        text: "La gastronomía tiene condiciones para convertirse en una marca internacional mucho más poderosa. Mangú, sancocho, pescado con coco, chivo, casabe, cacao, café, ron y una gran diversidad de platos regionales forman parte de un patrimonio que puede convertirse en experiencia turística. Pero para lograrlo no basta con tener buena comida: hay que construir rutas gastronómicas, documentar historias, identificar productos territoriales y profesionalizar la oferta."
+      },
+      {
+        type: "paragraph",
+        text: "Lo mismo ocurre con la cultura. Música, artesanía, museos, fiestas patronales, carnaval, tradiciones religiosas y arquitectura pueden formar parte de experiencias comercializables sin convertir nuestra identidad en una representación artificial. El objetivo no debe ser modificar la cultura para entretener al turista, sino **permitir que el visitante conozca la República Dominicana auténtica**."
+      },
+      {
+        type: "paragraph",
+        text: "Diversificar también exige conectar al pequeño empresario con la gran cadena turística. Miles de negocios dominicanos todavía operan lejos de los circuitos de compra de hoteles, operadores y grandes plataformas. Necesitamos mecanismos que conecten hoteles con productores agrícolas, visitantes con experiencias locales y restaurantes con proveedores nacionales."
+      },
+      {
+        type: "paragraph",
+        text: "Esa inclusión debe venir acompañada de estándares. El pequeño empresario necesita dominar calidad, puntualidad, higiene, servicio al cliente, pagos electrónicos, idiomas, marketing digital y manejo de reservas. La inclusión turística no consiste simplemente en permitir que alguien venda un producto: consiste en ayudarlo a convertirse en una empresa competitiva."
+      },
+      {
+        type: "paragraph",
+        text: "Diversificar no significa abandonar Punta Cana ni cuestionar el modelo de grandes hoteles. Sería un error. Los grandes complejos turísticos han ayudado a construir conectividad aérea, reconocimiento internacional, empleos e inversión. El objetivo debe ser utilizar esa plataforma como punto de partida para algo todavía mayor."
+      },
+      {
+        type: "paragraph",
+        text: "**El resort puede ser la puerta de entrada; República Dominicana completa debe convertirse en el destino.** Tenemos playas, montañas, historia, gastronomía, música, ciudades, naturaleza y, fundamentalmente, una hospitalidad que continúa siendo uno de los principales activos del país."
+      },
+      {
+        type: "paragraph",
+        text: "La siguiente revolución turística dominicana no necesariamente consistirá en recibir únicamente más personas. Consistirá en lograr que quienes nos visiten descubran más lugares, permanezcan más tiempo, consuman más productos dominicanos y regresen porque comprendieron que República Dominicana es mucho más que una extraordinaria playa."
+      },
+      {
+        type: "sources",
+        items: [
+          { name: "Banco Central de la República Dominicana — contexto macroeconómico y turismo 2026", url: "https://www.bancentral.gov.do/a/d/6705" },
+          { name: "SITUR — Ministerio de Turismo de la República Dominicana", url: "https://situr.mitur.gob.do/informes/reporte-semanal/" },
+          { name: "Ministerio de Turismo de la República Dominicana", url: "https://www.mitur.gob.do/" }
+        ]
+      }
+    ]
+  },
+  {
+    id: "column-20261027-francelis-ia-turismo",
+    slug: "inteligencia-artificial-turismo-revolucion-cambiara-forma-viajar",
+    title: "Inteligencia artificial y turismo: la revolución que cambiará la forma de viajar",
+    dek: "La IA está entrando en cada etapa del viaje. Francelis Solís plantea que República Dominicana debe pasar de utilizar tecnología turística a construir un verdadero destino inteligente.",
+    category: "Turismo",
+    author: "Francelis Solís",
+    heroImage: "/uploads/francelis-turismo-ia.svg",
+    heroCaption: "Ilustración editorial de Actualizard sobre inteligencia artificial, datos, planificación y experiencias personalizadas aplicadas al turismo dominicano.",
+    status: "published",
+    confidence: 91,
+    sourceCount: 3,
+    createdAt: "2026-10-27T21:10:00-04:00",
+    updatedAt: "2026-10-27T21:10:00-04:00",
+    publishedAt: "2026-10-27T21:10:00-04:00",
+    tags: ["turismo","inteligencia artificial","tecnología","datos","hotelería","innovación","República Dominicana","Francelis Solís"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "La próxima gran competencia entre destinos turísticos posiblemente no se decidirá únicamente por quién tenga mejores hoteles, playas más atractivas o aeropuertos más modernos. También se decidirá por **quién conozca mejor al viajero y pueda responder con mayor precisión a sus necesidades**."
+      },
+      {
+        type: "paragraph",
+        text: "La inteligencia artificial, el análisis de datos, la automatización y los asistentes digitales están modificando prácticamente todas las etapas de un viaje: inspiración, búsqueda, reservación, transporte, alojamiento, entretenimiento, consumo y evaluación posterior de la experiencia."
+      },
+      {
+        type: "paragraph",
+        text: "República Dominicana tiene ante sí una oportunidad extraordinaria. Somos una potencia turística regional y, por esa misma razón, no deberíamos limitarnos a observar la transformación tecnológica del sector. **Debemos participar en ella.**"
+      },
+      {
+        type: "paragraph",
+        text: "Durante muchos años, el proceso de elegir vacaciones comenzaba visitando una agencia de viajes o comparando hoteles y vuelos en diferentes páginas. Hoy un viajero puede pedir a un asistente digital un itinerario de siete días, especificar presupuesto, intereses, edades, restricciones alimentarias y estilo de viaje, y obtener en segundos una propuesta completa."
+      },
+      {
+        type: "paragraph",
+        text: "Eso significa que los destinos turísticos tendrán que competir también dentro de los sistemas digitales que ayudan al consumidor a decidir dónde viajar. Si una experiencia dominicana no tiene información estructurada, fotografías adecuadas, ubicación correcta, reputación digital y sistemas de reserva accesibles, corre el riesgo de convertirse en invisible para este nuevo viajero."
+      },
+      {
+        type: "paragraph",
+        text: "La promoción turística también puede evolucionar. No todos los visitantes quieren lo mismo: una pareja puede buscar romance; una familia, seguridad y actividades infantiles; un joven, aventura; un adulto mayor, tranquilidad y accesibilidad; un empresario, conectividad; y un amante de la naturaleza puede preferir Samaná, Jarabacoa o Pedernales antes que un gran resort."
+      },
+      {
+        type: "paragraph",
+        text: "Con suficientes datos, el marketing puede dejar de vender exactamente el mismo país a todo el mundo y comenzar a mostrar **la República Dominicana específica que corresponde a cada perfil de visitante**."
+      },
+      {
+        type: "paragraph",
+        text: "La transformación también llegará con más fuerza a los hoteles. La IA puede ayudar a anticipar ocupación, organizar inventarios, optimizar consumo energético, identificar preferencias, responder preguntas frecuentes, gestionar reservas internas y detectar patrones de satisfacción antes de que un problema termine convertido en una mala evaluación pública."
+      },
+      {
+        type: "paragraph",
+        text: "Pero aquí debemos evitar un error: **automatizar el turismo no significa eliminar la hospitalidad humana**. Una máquina puede confirmar una reservación o recomendar un restaurante; existen momentos, sin embargo, donde una conversación, una sonrisa o la sensibilidad de un trabajador continúan siendo insustituibles."
+      },
+      {
+        type: "paragraph",
+        text: "El turismo es tecnología, pero también es emoción. La gran ventaja competitiva será combinar ambas."
+      },
+      {
+        type: "paragraph",
+        text: "Cada visitante genera información: cómo llegó, dónde se hospedó, cuánto tiempo permaneció, qué lugares visitó, qué actividades realizó y qué valoró positiva o negativamente. Analizados correctamente y respetando la privacidad, esos datos pueden convertirse en una extraordinaria herramienta de planificación."
+      },
+      {
+        type: "paragraph",
+        text: "Podemos comprender qué mercados crecen, qué destinos necesitan infraestructura, qué temporadas requieren promoción adicional, qué experiencias generan mayor gasto y qué servicios necesitan mejorar. La política turística del futuro deberá apoyarse cada vez menos exclusivamente en intuiciones y cada vez más en **inteligencia de datos**."
+      },
+      {
+        type: "paragraph",
+        text: "La revolución tecnológica tampoco puede quedarse únicamente dentro de las grandes cadenas hoteleras. Una pequeña empresa de excursiones puede utilizar IA para traducir su oferta; una artesana puede crear un catálogo digital; un restaurante puede organizar reservaciones; un guía puede preparar contenidos multilingües; una casa rural puede optimizar precios y disponibilidad."
+      },
+      {
+        type: "paragraph",
+        text: "La tecnología puede democratizar herramientas que antes estaban reservadas a grandes organizaciones. Pero para conseguirlo necesitamos formación. Los profesionales del turismo de los próximos años necesitarán combinar servicio al cliente e idiomas con análisis de datos, inteligencia artificial, comercio electrónico, reputación digital y ciberseguridad."
+      },
+      {
+        type: "paragraph",
+        text: "También existen riesgos: los algoritmos pueden equivocarse, los datos personales pueden utilizarse incorrectamente y una dependencia excesiva de plataformas puede perjudicar a pequeños negocios. La estrategia debe ser responsable."
+      },
+      {
+        type: "paragraph",
+        text: "==El objetivo no es construir hoteles donde nadie hable con nadie. Es construir un turismo donde la tecnología sea casi invisible porque todo funciona mejor.=="
+      },
+      {
+        type: "paragraph",
+        text: "República Dominicana ya posee una formidable base turística. La siguiente etapa debe incorporar una dimensión tecnológica más profunda: no solamente promocionar destinos digitalmente, sino convertirnos en un **destino inteligente**, capaz de entender al visitante, anticipar necesidades, gestionar recursos, integrar pequeños empresarios y mejorar utilizando información."
+      },
+      {
+        type: "paragraph",
+        text: "La inteligencia artificial no sustituirá aquello que hace especial al país. No reemplazará nuestras playas, gastronomía, música ni hospitalidad. Pero puede ayudarnos a conseguir que millones de personas las descubran de una manera más personalizada, eficiente y memorable."
+      },
+      {
+        type: "paragraph",
+        text: "La pregunta ya no es si la inteligencia artificial llegará al turismo. **Ya llegó.** La verdadera pregunta es si República Dominicana será simplemente usuaria de esa transformación o decidirá convertirse en uno de sus protagonistas."
+      },
+      {
+        type: "sources",
+        items: [
+          { name: "SITUR — Sistema de Inteligencia Turística de República Dominicana", url: "https://situr.mitur.gob.do/" },
+          { name: "ONU Turismo — innovación y transformación digital", url: "https://www.unwto.org/innovation-investment-and-digital-transformation" },
+          { name: "Banco Central de la República Dominicana", url: "https://www.bancentral.gov.do/" }
+        ]
+      }
+    ]
+  },
+  {
+    id: "column-20261027-francelis-turismo-sostenible",
+    slug: "turismo-sostenible-crecer-sin-destruir-lo-que-vienen-a-conocer",
+    title: "Turismo sostenible: crecer sin destruir aquello que vienen a conocer",
+    dek: "Francelis Solís analiza por qué el crecimiento turístico dominicano debe proteger playas, agua, comunidades y ecosistemas si quiere seguir siendo competitivo durante las próximas décadas.",
+    category: "Turismo",
+    author: "Francelis Solís",
+    heroImage: "/uploads/francelis-turismo-sostenible.svg",
+    heroCaption: "Ilustración editorial de Actualizard sobre turismo responsable, conservación, comunidades y desarrollo sostenible en República Dominicana.",
+    status: "published",
+    confidence: 92,
+    sourceCount: 3,
+    createdAt: "2026-10-27T21:15:00-04:00",
+    updatedAt: "2026-10-27T21:15:00-04:00",
+    publishedAt: "2026-10-27T21:15:00-04:00",
+    tags: ["turismo","sostenibilidad","medio ambiente","comunidades","agua","economía circular","República Dominicana","Francelis Solís"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Existe una paradoja que todo gran destino turístico debe enfrentar tarde o temprano: **el éxito puede convertirse en una amenaza para aquello que produjo el éxito**."
+      },
+      {
+        type: "paragraph",
+        text: "Una playa atrae visitantes porque está limpia. Una montaña porque conserva su naturaleza. Una comunidad porque mantiene su identidad. Una ciudad histórica porque preserva su patrimonio. Pero si el crecimiento turístico aumenta sin planificación, también puede aumentar el consumo de agua, la producción de residuos, la presión inmobiliaria, el tránsito y la transformación del territorio."
+      },
+      {
+        type: "paragraph",
+        text: "Por eso hablar de **turismo sostenible** ya no es una moda ambiental. Es hablar de supervivencia económica. República Dominicana continúa mostrando en 2026 el enorme peso de la actividad turística en la generación de divisas, inversión y empleo. Proteger esa industria significa también proteger el territorio del cual depende."
+      },
+      {
+        type: "paragraph",
+        text: "Durante muchos años, uno de los principales indicadores del éxito turístico ha sido sencillo: ¿cuántos visitantes llegaron? Naturalmente, ese número importa. Pero no debería ser el único."
+      },
+      {
+        type: "paragraph",
+        text: "También debemos preguntarnos cuánto gastó cada visitante, cuántos empleos formales generó, cuánto dinero permaneció dentro de las comunidades, cuánta agua consumió la actividad, cuántos residuos produjo, cómo afectó los ecosistemas y si mejoró o empeoró la calidad de vida de quienes residen en el destino."
+      },
+      {
+        type: "paragraph",
+        text: "Un país puede aumentar la cantidad de turistas mientras reduce la calidad de su producto. Incluso puede aumentar ingresos en el corto plazo destruyendo valor a largo plazo. Por eso necesitamos indicadores más sofisticados."
+      },
+      {
+        type: "paragraph",
+        text: "Cuando pensamos en infraestructura turística imaginamos aeropuertos, carreteras, hoteles y puertos. Pero también son infraestructura **los arrecifes, manglares, playas, ríos, bosques, montañas y la biodiversidad**."
+      },
+      {
+        type: "paragraph",
+        text: "La diferencia es que muchas de estas infraestructuras naturales tardaron siglos o miles de años en formarse y algunas no pueden reconstruirse después de ser destruidas. Una playa erosionada afecta directamente el valor de los hoteles que dependen de ella. Un río contaminado elimina oportunidades ecoturísticas. Un bosque degradado reduce el atractivo de una región."
+      },
+      {
+        type: "paragraph",
+        text: "Por eso conservación y rentabilidad turística no son objetivos opuestos. En numerosos casos son exactamente la misma cosa."
+      },
+      {
+        type: "paragraph",
+        text: "El agua será uno de los grandes debates del desarrollo turístico. Hoteles, piscinas, jardines, lavanderías, restaurantes y campos de golf pueden requerir cantidades significativas, pero las comunidades también necesitan agua. El crecimiento debe incorporar tecnologías de ahorro, tratamiento y reutilización, detección de fugas y paisajismo adaptado a cada zona."
+      },
+      {
+        type: "paragraph",
+        text: "Otro desafío está en los residuos. Un destino turístico genera alimentos, envases, botellas y materiales de todo tipo. La respuesta no puede seguir siendo simplemente recogerlos y trasladarlos a otro lugar. Tenemos que avanzar hacia separación, reciclaje, compostaje y reducción de productos desechables."
+      },
+      {
+        type: "paragraph",
+        text: "Aquí también existe una oportunidad económica: los residuos orgánicos pueden convertirse en compost; materiales reciclables pueden alimentar nuevas industrias; hoteles y restaurantes pueden modificar sus compras y sus proveedores pueden rediseñar envases. El turismo puede convertirse en un laboratorio de **economía circular**."
+      },
+      {
+        type: "paragraph",
+        text: "Existe además una dimensión social de la sostenibilidad que recibe menos atención. Un destino no puede considerarse verdaderamente sostenible si los hoteles prosperan mientras las comunidades cercanas permanecen excluidas. La población local debe encontrar oportunidades reales dentro de la economía turística."
+      },
+      {
+        type: "paragraph",
+        text: "Empleos, empresas, proveedores, restaurantes, transporte, agricultura, artesanía, excursiones y servicios culturales deben formar parte de esa integración. Cuando las comunidades reciben beneficios, también existe mayor incentivo para proteger los recursos turísticos."
+      },
+      {
+        type: "paragraph",
+        text: "Una de las grandes oportunidades consiste en profundizar la relación entre turismo y producción dominicana. Cada hotel necesita alimentos y servicios. Cuanto mayor sea la cantidad de productos nacionales que puedan integrarse a esa cadena cumpliendo estándares de calidad y suministro, mayor será el impacto económico del turismo."
+      },
+      {
+        type: "paragraph",
+        text: "Los países del Caribe tienen otra razón para tomarse seriamente la sostenibilidad: su exposición a fenómenos meteorológicos extremos, erosión costera y otras presiones climáticas. La resiliencia debe formar parte del diseño turístico, desde códigos de construcción y sistemas energéticos hasta gestión de emergencias y ordenamiento territorial."
+      },
+      {
+        type: "paragraph",
+        text: "En ocasiones se presenta el debate ambiental como si existieran solamente dos opciones: desarrollar o conservar. Esa es una falsa disyuntiva. La verdadera pregunta es **cómo desarrollar**."
+      },
+      {
+        type: "paragraph",
+        text: "Una inversión bien planificada puede crear miles de empleos y simultáneamente proteger el ambiente. Un hotel energéticamente eficiente puede reducir costos. Una playa limpia tiene mayor valor económico. Un ecosistema protegido puede producir experiencias turísticas durante generaciones."
+      },
+      {
+        type: "paragraph",
+        text: "==La sostenibilidad bien implementada no debe entenderse como un obstáculo al empresario, sino como una forma de proteger su inversión a largo plazo.=="
+      },
+      {
+        type: "paragraph",
+        text: "República Dominicana está construyendo hoy el turismo que existirá dentro de veinte años. Las decisiones sobre costas, montañas, agua, residuos y urbanización determinarán la calidad de ese futuro."
+      },
+      {
+        type: "paragraph",
+        text: "Queremos más turismo, inversión y empleos. Pero también debemos querer mejores ciudades, playas protegidas, comunidades prósperas y recursos naturales conservados. Porque existe una verdad sencilla: **nadie viaja miles de kilómetros para conocer un destino que destruyó precisamente aquello que lo hacía especial**."
+      },
+      {
+        type: "sources",
+        items: [
+          { name: "Ministerio de Turismo de la República Dominicana", url: "https://www.mitur.gob.do/" },
+          { name: "SITUR — Sistema de Inteligencia Turística", url: "https://situr.mitur.gob.do/" },
+          { name: "ONU Turismo — desarrollo sostenible", url: "https://www.unwto.org/sustainable-development" }
+        ]
+      }
+    ]
+  },
+  {
     id: "analysis-20261006-poner-en-29-derechos-humanos",
     slug: "poner-en-29-delincuencia-seguridad-derechos-humanos-republica-dominicana",
     title:

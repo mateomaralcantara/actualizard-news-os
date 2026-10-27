@@ -58,6 +58,10 @@ const mainNavigation = [
     href: "/categoria/negocios"
   },
   {
+    label: "Turismo",
+    href: "/categoria/turismo"
+  },
+  {
     label: "Tecnología",
     href: "/categoria/tecnologia"
   },

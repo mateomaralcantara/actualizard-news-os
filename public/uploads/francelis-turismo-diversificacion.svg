@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffbf67"/><stop offset=".45" stop-color="#6db8ff"/><stop offset="1" stop-color="#073b8c"/></linearGradient><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2ba6da"/><stop offset="1" stop-color="#073b8c"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity=".35"/></filter></defs>
+<rect width="1600" height="900" fill="url(#sky)"/><circle cx="1280" cy="150" r="86" fill="#ffd98e" opacity=".92"/>
+<path d="M0 470 C250 390 390 480 610 410 C820 345 990 380 1180 330 C1370 280 1490 330 1600 300 L1600 900 L0 900Z" fill="#173d55" opacity=".85"/>
+<path d="M0 585 C270 520 520 560 760 520 C1020 475 1220 510 1600 450 L1600 900 L0 900Z" fill="url(#sea)"/>
+<path d="M0 690 C320 650 520 700 760 650 C1030 595 1210 650 1600 590 L1600 900 L0 900Z" fill="#f3d28f"/>
+<g transform="translate(120 500)" filter="url(#sh)"><rect x="0" y="120" width="350" height="150" rx="8" fill="#d9c49b"/><rect x="55" y="30" width="110" height="240" fill="#c7ac7d"/><polygon points="30,30 110,-30 190,30" fill="#e4d5b3"/><rect x="210" y="80" width="95" height="190" fill="#bf9f6d"/><polygon points="190,80 258,20 325,80" fill="#e4d5b3"/><g fill="#544b42"><rect x="86" y="70" width="45" height="70" rx="20"/><rect x="235" y="125" width="42" height="62" rx="18"/></g></g>
+<g transform="translate(1000 430)" fill="#173b25"><path d="M120 300 C100 160 145 50 220 0 C180 120 190 210 210 300Z"/><path d="M240 310 C230 170 280 90 360 45 C310 150 300 230 325 310Z"/><path d="M40 310 C30 220 60 145 125 100 C95 195 100 250 120 310Z"/></g>
+<rect x="70" y="60" width="425" height="74" rx="37" fill="#ffffff" opacity=".94"/><text x="105" y="110" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800" fill="#073b8c">ACTUALIZARD · TURISMO</text>
+<rect x="70" y="715" width="1090" height="118" rx="20" fill="#02142f" opacity=".86"/><text x="105" y="770" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" fill="white">REPÚBLICA DOMINICANA MÁS ALLÁ DEL SOL Y PLAYA</text><text x="105" y="816" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#ffd400">Cultura · gastronomía · naturaleza · comunidades</text>
+</svg>
