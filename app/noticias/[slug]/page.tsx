@@ -88,10 +88,46 @@ export default async function ArticlePage({
 
       <p className="article-lead">{article.dek}</p>
 
-      <p className="meta">
-        {article.author} · {article.sourceCount} fuentes · consistencia editorial{" "}
-        {article.confidence}% · {article.status}
-      </p>
+      <div
+        className="article-author-profile"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 16,
+          margin: "22px auto 28px",
+          textAlign: "left"
+        }}
+      >
+        {article.authorImage && (
+          <img
+            src={article.authorImage}
+            alt={article.author}
+            width={76}
+            height={76}
+            style={{
+              width: 76,
+              height: 76,
+              borderRadius: "50%",
+              objectFit: "cover",
+              objectPosition: "center 30%",
+              border: "3px solid white",
+              boxShadow: "0 8px 24px rgba(0,0,0,.16)"
+            }}
+          />
+        )}
+
+        <div>
+          <strong style={{ display: "block", fontSize: 19 }}>
+            {article.author}
+          </strong>
+          <span className="meta">
+            {article.category === "Turismo" ? "Columnista de Turismo · " : ""}
+            {article.sourceCount} fuentes · consistencia editorial{" "}
+            {article.confidence}% · {article.status}
+          </span>
+        </div>
+      </div>
 
       <img
         className="article-hero-image"
@@ -106,6 +142,40 @@ export default async function ArticlePage({
       )}
 
       <ArticleBlocks blocks={article.blocks} />
+
+      {article.authorImage && (
+        <section
+          className="card card-pad block"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 18
+          }}
+        >
+          <img
+            src={article.authorImage}
+            alt={article.author}
+            width={88}
+            height={88}
+            style={{
+              width: 88,
+              height: 88,
+              borderRadius: "50%",
+              objectFit: "cover",
+              objectPosition: "center 30%"
+            }}
+          />
+          <div>
+            <div className="eyebrow">Sobre la autora</div>
+            <strong style={{ display: "block", fontSize: 21 }}>
+              {article.author}
+            </strong>
+            <p className="meta" style={{ margin: "5px 0 0" }}>
+              Columna de análisis sobre turismo, innovación y desarrollo.
+            </p>
+          </div>
+        </section>
+      )}
 
       <section className="card card-pad block">
         <strong>Transparencia editorial</strong>
