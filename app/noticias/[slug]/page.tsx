@@ -88,10 +88,45 @@ export default async function ArticlePage({
 
       <p className="article-lead">{article.dek}</p>
 
-      <p className="meta">
-        {article.author} · {article.sourceCount} fuentes · consistencia editorial{" "}
-        {article.confidence}% · {article.status}
-      </p>
+      <div
+        className="article-author-profile"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 14,
+          margin: "22px auto",
+          textAlign: "left"
+        }}
+      >
+        {article.authorImage && (
+          <img
+            src={article.authorImage}
+            alt={article.author}
+            width={64}
+            height={64}
+            style={{
+              width: 64,
+              height: 64,
+              borderRadius: "50%",
+              objectFit: "cover",
+              border: "3px solid #fff",
+              boxShadow: "0 5px 20px rgba(0,0,0,.14)"
+            }}
+          />
+        )}
+
+        <div>
+          <strong style={{ display: "block", fontSize: 18 }}>
+            {article.author}
+          </strong>
+          <span className="meta">
+            {article.category === "Turismo" ? "Columnista de Turismo · " : ""}
+            {article.sourceCount} fuentes · consistencia editorial{" "}
+            {article.confidence}% · {article.status}
+          </span>
+        </div>
+      </div>
 
       <img
         className="article-hero-image"
