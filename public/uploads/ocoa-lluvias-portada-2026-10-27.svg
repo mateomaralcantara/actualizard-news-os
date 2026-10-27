@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#293646"/><stop offset="1" stop-color="#6d7d88"/></linearGradient>
+  <linearGradient id="road" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2f3336"/><stop offset="1" stop-color="#151719"/></linearGradient>
+  <pattern id="rain" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+    <line x1="0" y1="0" x2="0" y2="25" stroke="#d9efff" stroke-width="3" opacity=".55"/>
+  </pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<path d="M0 330 L180 180 L330 285 L520 125 L700 275 L930 105 L1160 270 L1380 130 L1600 290 L1600 520 L0 520 Z" fill="#213c32"/>
+<path d="M0 440 C280 390 510 415 760 380 C1030 342 1270 360 1600 315 L1600 900 L0 900 Z" fill="#39463f"/>
+<path d="M0 570 C320 530 610 515 960 495 L1120 900 L0 900 Z" fill="url(#road)"/>
+<path d="M970 495 C1150 490 1360 470 1600 430 L1600 900 L1190 900 L1100 700 Z" fill="#6d503b"/>
+<path d="M1040 520 C1200 590 1270 690 1600 750 L1600 900 L1210 900 Z" fill="#8a6748"/>
+<path d="M1110 550 C1270 630 1430 680 1600 735" fill="none" stroke="#c99a65" stroke-width="18" opacity=".8"/>
+<path d="M70 700 C390 650 650 610 975 585" fill="none" stroke="#f4c542" stroke-width="12"/>
+<g transform="translate(145 455)">
+  <rect x="0" y="70" width="190" height="95" rx="16" fill="#f5f7f9"/>
+  <rect x="34" y="35" width="110" height="55" rx="8" fill="#f5f7f9"/>
+  <rect x="60" y="46" width="48" height="32" fill="#75a8c5"/>
+  <circle cx="45" cy="170" r="28" fill="#111"/><circle cx="155" cy="170" r="28" fill="#111"/>
+  <rect x="65" y="18" width="45" height="10" rx="5" fill="#e33"/><rect x="110" y="18" width="45" height="10" rx="5" fill="#2e7de1"/>
+</g>
+<g transform="translate(420 500)">
+  <circle cx="40" cy="40" r="26" fill="#ffd400"/>
+  <path d="M20 150 L28 68 L52 68 L62 150 Z" fill="#ffd400"/>
+</g>
+<g transform="translate(800 420)">
+  <rect x="0" y="80" width="170" height="70" rx="10" fill="#d8a22c"/>
+  <rect x="85" y="0" width="35" height="100" fill="#d8a22c" transform="rotate(18 102 50)"/>
+  <rect x="118" y="-5" width="105" height="28" rx="8" fill="#d8a22c" transform="rotate(12 118 -5)"/>
+</g>
+<rect width="1600" height="900" fill="url(#rain)"/>
+<rect x="62" y="60" width="360" height="64" rx="32" fill="#ffffff" opacity=".95"/>
+<text x="96" y="104" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800" fill="#073B8C">ACTUALIZARD · METEOROLOGÍA</text>
+<text x="70" y="745" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="800" fill="#fff">San José de Ocoa bajo vigilancia</text>
+<text x="72" y="810" font-family="Arial,Helvetica,sans-serif" font-size="30" fill="#e8f2f7">Lluvias · crecidas · deslizamientos · alerta amarilla</text>
+</svg>

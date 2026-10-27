@@ -272,6 +272,85 @@ export const articles: Article[] = [
   },
 
   {
+    id: "weather-20261027-ocoa-lluvias-riesgo",
+    slug: "san-jose-de-ocoa-lluvias-alerta-amarilla-crecidas-deslizamientos",
+    title:
+      "San José de Ocoa bajo vigilancia: lluvias elevan riesgo de crecidas y deslizamientos",
+    dek:
+      "La provincia permanece en alerta amarilla mientras una vaguada mantiene aguaceros fuertes, tormentas eléctricas y ráfagas; el desbordamiento de Arroyo La Piedra ya afectó temporalmente varias comunidades.",
+    category: "Meteorología",
+    author: "Redacción Actualizard",
+    heroImage: "/uploads/ocoa-lluvias-portada-2026-10-27.svg",
+    heroCaption:
+      "Ilustración editorial de Actualizard sobre los riesgos asociados a lluvias intensas en carreteras y zonas montañosas de San José de Ocoa.",
+    status: "published",
+    confidence: 96,
+    sourceCount: 2,
+    createdAt: "2026-10-27T18:06:00-04:00",
+    updatedAt: "2026-10-27T18:06:00-04:00",
+    publishedAt: "2026-10-27T18:06:00-04:00",
+    tags: [
+      "Meteorología",
+      "San José de Ocoa",
+      "lluvias",
+      "alerta amarilla",
+      "vaguada",
+      "crecidas",
+      "deslizamientos"
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text:
+          "San José de Ocoa permanece este martes **27 de octubre de 2026** bajo **alerta amarilla** ante la continuidad de las lluvias. INDOMET prevé para la provincia aguaceros que pueden ser fuertes en ocasiones, acompañados de tormentas eléctricas y ráfagas de viento."
+      },
+      {
+        type: "paragraph",
+        text:
+          "Las precipitaciones ya han dejado efectos concretos. El desbordamiento del **río Arroyo La Piedra** afectó temporalmente la comunicación terrestre con La Ciénega, Los Tramojos, Los Limones, Los Negros, Mesa de Domingo, Sabana Abajo, El Cercado, El Mancebo, Arroyo Hondo y Palo Esquina. La comunicación fue restablecida, pero las autoridades mantienen vigilancia por la saturación de los suelos."
+      },
+      {
+        type: "image",
+        url: "/uploads/grafico-meteorologico-ocoa-2026-10-27.svg",
+        caption:
+          "Gráfico meteorológico de Actualizard basado en los reportes de INDOMET y COE disponibles este 27 de octubre de 2026."
+      },
+      {
+        type: "paragraph",
+        text:
+          "La geografía montañosa de Ocoa aumenta la sensibilidad ante episodios de lluvia persistente. Con terrenos ya húmedos, nuevos aguaceros pueden favorecer **crecidas repentinas, deslizamientos y bloqueos temporales de carreteras**, especialmente cerca de ríos, arroyos y laderas."
+      },
+      {
+        type: "paragraph",
+        text:
+          "El panorama seguirá requiriendo atención durante **miércoles 28 y jueves 29**, cuando las lluvias continuarán en distintas regiones del país. Las autoridades meteorológicas esperan una disminución más significativa de los aguaceros hacia el **viernes 30 de octubre**."
+      },
+      {
+        type: "bullets",
+        items: [
+          "**Evitar** cruzar ríos, arroyos y cañadas con alto volumen de agua.",
+          "**Vigilar** taludes, caminos rurales y zonas con antecedentes de deslizamientos.",
+          "**Seguir** los boletines de INDOMET, COE y organismos de protección civil."
+        ]
+      },
+      {
+        type: "sources",
+        items: [
+          {
+            name: "Presidencia RD / INDOMET — Vaguada seguirá provocando aguaceros fuertes",
+            url: "https://presidencia.gob.do/noticias/vaguada-seguira-provocando-aguaceros-moderados-fuertes-tormentas-electricas-y-rafagas-de"
+          },
+          {
+            name: "Diario Libre — Lluvias dejan comunidades incomunicadas y suelos saturados",
+            url: "https://www.diariolibre.com/planeta/medioambiente/2026/10/27/mas-de-485-mil-hogares-se-quedan-sin-agua-por-las-lluvias/3702453"
+          }
+        ]
+      }
+    ]
+  },
+
+
+  {
     id: "column-20261027-francelis-turismo-mas-alla-sol-playa",
     slug: "republica-dominicana-mas-alla-sol-playa-proximo-gran-salto-turismo",
     title: "República Dominicana más allá del sol y playa: el próximo gran salto del turismo",

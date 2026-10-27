@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700">
+<rect width="1400" height="700" rx="32" fill="#f6f9fc"/>
+<text x="70" y="85" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" fill="#073B8C">Ocoa: evolución del episodio de lluvias</text>
+<text x="70" y="130" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#52606d">Situación reportada y tendencia esperada · 27–30 octubre 2026</text>
+
+<line x1="150" y1="335" x2="1250" y2="335" stroke="#aab7c4" stroke-width="8" stroke-linecap="round"/>
+<circle cx="220" cy="335" r="26" fill="#f4c542"/>
+<circle cx="680" cy="335" r="26" fill="#f4c542"/>
+<circle cx="1160" cy="335" r="26" fill="#1f77b4"/>
+
+<rect x="95" y="185" width="250" height="110" rx="18" fill="#fff" stroke="#d7e0e8"/>
+<text x="125" y="225" font-family="Arial" font-size="25" font-weight="700" fill="#1b2733">Martes 27</text>
+<text x="125" y="260" font-family="Arial" font-size="21" fill="#404b55">Alerta amarilla</text>
+<text x="125" y="288" font-family="Arial" font-size="21" fill="#404b55">Aguaceros fuertes</text>
+
+<rect x="545" y="185" width="300" height="110" rx="18" fill="#fff" stroke="#d7e0e8"/>
+<text x="575" y="225" font-family="Arial" font-size="25" font-weight="700" fill="#1b2733">Miércoles 28 · Jueves 29</text>
+<text x="575" y="260" font-family="Arial" font-size="21" fill="#404b55">Lluvias continúan</text>
+<text x="575" y="288" font-family="Arial" font-size="21" fill="#404b55">Suelos saturados bajo vigilancia</text>
+
+<rect x="1030" y="185" width="270" height="110" rx="18" fill="#fff" stroke="#d7e0e8"/>
+<text x="1060" y="225" font-family="Arial" font-size="25" font-weight="700" fill="#1b2733">Viernes 30</text>
+<text x="1060" y="260" font-family="Arial" font-size="21" fill="#404b55">Se espera una</text>
+<text x="1060" y="288" font-family="Arial" font-size="21" fill="#404b55">disminución mayor</text>
+
+<rect x="95" y="420" width="1210" height="165" rx="24" fill="#073B8C"/>
+<text x="130" y="468" font-family="Arial" font-size="25" font-weight="700" fill="#fff">Riesgos principales en San José de Ocoa</text>
+<text x="130" y="515" font-family="Arial" font-size="23" fill="#fff">• Crecidas de ríos y arroyos   • Deslizamientos   • Bloqueos de carreteras</text>
+<text x="130" y="555" font-family="Arial" font-size="23" fill="#fff">• Tormentas eléctricas         • Ráfagas de viento</text>
+<text x="70" y="650" font-family="Arial" font-size="19" fill="#667788">Fuente: INDOMET / COE, reportes disponibles el 27 de octubre de 2026. Gráfico: Actualizard.</text>
+</svg>
