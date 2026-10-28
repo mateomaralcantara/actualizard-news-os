@@ -37,13 +37,33 @@ function database() {
   return isSupabaseConfigured() ? createSupabaseServerClient() : null;
 }
 
+function logSafeCommentError(action: string, error: unknown) {
+  // No imprimir el objeto de error: algunos errores de Headers.set incluyen
+  // el valor completo del encabezado y pueden revelar claves de Supabase.
+  const candidate = (error && typeof error === "object")
+    ? error as Record<string, unknown>
+    : {};
+  const name = typeof candidate.name === "string" &&
+    /^[A-Za-z]{1,40}$/.test(candidate.name)
+    ? candidate.name
+    : "UnknownError";
+  const code = typeof candidate.code === "string" &&
+    /^[A-Za-z0-9_-]{1,32}$/.test(candidate.code)
+    ? candidate.code
+    : undefined;
+  const status = typeof candidate.status === "number" &&
+    candidate.status >= 100 && candidate.status <= 599
+    ? candidate.status
+    : undefined;
+  console.error("Error en comentarios:", { action, name, code, status });
+}
+
 export async function GET(_request: NextRequest, context: RouteContext) {
   const { slug } = await context.params;
   if (!articleExists(slug)) return responseError("Noticia no encontrada.", 404);
-  const db = database();
-  if (!db) return responseError("Comentarios pendientes de configuración.", 503);
-
   try {
+    const db = database();
+    if (!db) return responseError("Comentarios pendientes de configuración.", 503);
     const { data, error } = await db.from("article_comments")
       .select(fields)
       .eq("article_slug", slug)
@@ -57,7 +77,7 @@ export async function GET(_request: NextRequest, context: RouteContext) {
       { headers: { "Cache-Control": "no-store" } }
     );
   } catch (error) {
-    console.error("Error al obtener los comentarios:", error);
+    logSafeCommentError("lectura", error);
     return responseError("No se pudieron cargar los comentarios.", 503);
   }
 }
@@ -65,7 +85,13 @@ export async function GET(_request: NextRequest, context: RouteContext) {
 export async function POST(request: NextRequest, context: RouteContext) {
   const { slug } = await context.params;
   if (!articleExists(slug)) return responseError("Noticia no encontrada.", 404);
-  const db = database();
+  let db: ReturnType<typeof database>;
+  try {
+    db = database();
+  } catch (error) {
+    logSafeCommentError("configuracion", error);
+    return responseError("Configuración de comentarios inválida.", 503);
+  }
   if (!db) return responseError("Comentarios pendientes de configuración.", 503);
 
   const origin = request.headers.get("origin");
@@ -157,7 +183,7 @@ export async function POST(request: NextRequest, context: RouteContext) {
       { status: 201, headers: { "Cache-Control": "no-store" } }
     );
   } catch (error) {
-    console.error("Error al publicar comentario:", error);
+    logSafeCommentError("escritura", error);
     return responseError("No se pudo publicar el comentario.", 503);
   }
 }
