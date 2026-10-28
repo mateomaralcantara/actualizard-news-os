@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { ArticleBlocks } from "@/components/ArticleBlocks";
+import { ArticleComments } from "@/components/ArticleComments";
 import { absoluteUrl } from "@/lib/site-url";
 import { store } from "@/lib/store";
 
@@ -184,6 +185,8 @@ export default async function ArticlePage({
           </div>
         </section>
       )}
+
+      <ArticleComments slug={article.slug} />
 
       <section className="card card-pad block">
         <strong>Transparencia editorial</strong>

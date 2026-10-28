@@ -2664,3 +2664,42 @@ body {
     width: 100%;
   }
 }
+
+
+/* Comentarios públicos y respuestas en las noticias. */
+.article-comments { max-width: 980px; margin: 60px auto 46px; padding: clamp(20px,4vw,36px); border: 1px solid #e0e8f2; border-radius: 24px; background: #fff; box-shadow: 0 12px 38px rgba(20,49,84,.07); }
+.article-comments-topline { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; }
+.article-comments h2 { color: #092858; margin: 5px 0; font-size: clamp(24px,3vw,31px); }
+.article-comments h3 { color: #13345e; font-size: 19px; margin: 0 0 16px; }
+.article-comments-count { background: #ebf3ff; color: #0753a3; border-radius: 999px; padding: 7px 13px; font-weight: 750; font-size: 13px; }
+.article-comments-intro { color: #526274; margin: 10px 0 22px; line-height: 1.6; }
+.article-comments-form { background: #f6faff; border: 1px solid #dce9f6; border-radius: 18px; padding: 21px; display: flex; flex-direction: column; align-items: flex-start; gap: 9px; }
+.article-comments-form label { font-weight: 730; color: #1d3556; margin-top: 4px; }
+.article-comments-form input, .article-comments-form textarea { width: 100%; border: 1px solid #bacbdc; border-radius: 12px; background: white; color: #162d46; padding: 13px 14px; font: inherit; }
+.article-comments-form textarea { resize: vertical; min-height: 110px; line-height: 1.55; }
+.article-comments-form :is(input,textarea):focus-visible { outline: 3px solid rgba(20,106,221,.28); border-color: #1365c5; }
+.article-comments-hint { margin: 0 0 4px; font-size: 12px; color: #63748a; }
+.article-comments-submit { display: inline-flex; justify-content: center; align-items: center; padding: 12px 20px; border: 0; border-radius: 12px; background: #073b8c; color: #fff; font: inherit; font-weight: 750; cursor: pointer; }
+.article-comments-submit:hover { background: #005bcc; }
+.article-comments-submit:disabled { opacity: .5; cursor: not-allowed; }
+.article-comments-notice, .article-comments-alert { margin: 8px 0; border-left: 4px solid #0d68bf; padding: 10px 13px; background: #eef6ff; color: #16447e; border-radius: 7px; }
+.article-comments-reply-target { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; background: #e9f2fb; border-radius: 9px; padding: 9px 12px; color: #21456c; }
+.article-comments-reply-target button, .article-comments-answer { background: transparent; color: #065ab0; border: 0; padding: 3px 0; cursor: pointer; font: inherit; font-size: 13px; font-weight: 780; }
+.article-comments-reply-target button { margin-left: auto; }
+.article-comments-list { margin-top: 25px; display: flex; flex-direction: column; gap: 13px; }
+.article-comments-empty { color: #64748b; background: #f8fafc; border: 1px dashed #cbd5e1; border-radius: 14px; padding: 24px; text-align: center; }
+.article-comment { display: flex; gap: 11px; margin-left: min(calc(var(--thread-depth, 0) * 22px), 66px); padding: 15px; border: 1px solid #e6edf6; background: #fff; border-radius: 14px; overflow-wrap: anywhere; }
+.article-comment[style*="--thread-depth: 1"], .article-comment[style*="--thread-depth: 2"], .article-comment[style*="--thread-depth: 3"] { border-left: 3px solid #8eb5e3; background: #fbfdff; }
+.article-comment-avatar { background: #e4effc; color: #0755a1; border-radius: 50%; width: 36px; height: 36px; flex: 0 0 36px; display: grid; place-items: center; font-weight: 800; }
+.article-comment-main { flex: 1; min-width: 0; }
+.article-comment-meta { display: flex; gap: 7px 13px; align-items: baseline; flex-wrap: wrap; }
+.article-comment-meta strong { color: #0c315d; }
+.article-comment-meta time { font-size: 12px; color: #718096; }
+.article-comment-main p { white-space: pre-wrap; margin: 8px 0 10px; line-height: 1.55; color: #263b54; }
+.article-comments-answer:hover { text-decoration: underline; }
+@media (max-width: 600px) {
+  .article-comments { padding: 18px 13px; margin-top: 35px; }
+  .article-comments-form { padding: 16px 12px; }
+  .article-comment { padding: 12px 9px; margin-left: min(calc(var(--thread-depth, 0) * 12px), 36px); }
+  .article-comment-avatar { width: 29px; height: 29px; flex-basis: 29px; }
+}
