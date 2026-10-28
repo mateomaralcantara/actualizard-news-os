@@ -25,6 +25,18 @@ export function ArticleBlocks({ blocks }: { blocks: ContentBlock[] }) {
   return (
     <div className="article-body">
       {blocks.map((block, index) => {
+        if (block.type === "heading") {
+          return block.level === 3 ? (
+            <h3 key={index} className="article-section-heading" style={{ marginTop: 38, marginBottom: 14 }}>
+              {renderInlineEditorial(block.text)}
+            </h3>
+          ) : (
+            <h2 key={index} className="article-section-heading" style={{ marginTop: 42, marginBottom: 16 }}>
+              {renderInlineEditorial(block.text)}
+            </h2>
+          );
+        }
+
         if (block.type === "paragraph") {
           return <p key={index}>{renderInlineEditorial(block.text)}</p>;
         }

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="670" viewBox="0 0 1100 670">
+<rect width="1100" height="670" rx="30" fill="#f4f8ff"/>
+<rect x="0" y="0" width="1100" height="158" rx="30" fill="#071e3d"/>
+<rect x="0" y="120" width="1100" height="38" fill="#071e3d"/>
+<text x="60" y="63" fill="#f9fbfd" font-size="37" font-weight="800" font-family="Arial,sans-serif">El poder de los aportes compartidos</text>
+<text x="60" y="111" fill="#d9e9ff" font-size="22" font-family="Arial,sans-serif">Escenarios matemáticos para sumar RD$1,500,000</text>
+<text x="60" y="205" fill="#334760" font-size="22" font-weight="bold" font-family="Arial,sans-serif">APORTE POR PERSONA</text>
+<text x="870" y="205" fill="#334760" font-size="22" font-weight="bold" font-family="Arial,sans-serif">PERSONAS</text>
+<text x="60" y="265" font-size="24" font-family="Arial,sans-serif" fill="#08264c" font-weight="700">RD$500</text><rect x="265" y="243" width="550" height="28" rx="14" fill="#e0e8f3"/><rect x="265" y="243" width="520" height="28" rx="14" fill="#145fc5"/><text x="877" y="266" font-size="27" font-family="Arial,sans-serif" fill="#102a43" font-weight="bold">3,000</text>
+<text x="60" y="335" font-size="24" font-family="Arial,sans-serif" fill="#08264c" font-weight="700">RD$1,000</text><rect x="265" y="313" width="550" height="28" rx="14" fill="#e0e8f3"/><rect x="265" y="313" width="260" height="28" rx="14" fill="#167eab"/><text x="877" y="336" font-size="27" font-family="Arial,sans-serif" fill="#102a43" font-weight="bold">1,500</text>
+<text x="60" y="405" font-size="24" font-family="Arial,sans-serif" fill="#08264c" font-weight="700">RD$3,000</text><rect x="265" y="383" width="550" height="28" rx="14" fill="#e0e8f3"/><rect x="265" y="383" width="87" height="28" rx="14" fill="#145fc5"/><text x="877" y="406" font-size="27" font-family="Arial,sans-serif" fill="#102a43" font-weight="bold">500</text>
+<text x="60" y="475" font-size="24" font-family="Arial,sans-serif" fill="#08264c" font-weight="700">RD$5,000</text><rect x="265" y="453" width="550" height="28" rx="14" fill="#e0e8f3"/><rect x="265" y="453" width="52" height="28" rx="14" fill="#167eab"/><text x="877" y="476" font-size="27" font-family="Arial,sans-serif" fill="#102a43" font-weight="bold">300</text>
+<text x="60" y="545" font-size="24" font-family="Arial,sans-serif" fill="#08264c" font-weight="700">RD$10,000</text><rect x="265" y="523" width="550" height="28" rx="14" fill="#e0e8f3"/><rect x="265" y="523" width="28" height="28" rx="14" fill="#145fc5"/><text x="877" y="546" font-size="27" font-family="Arial,sans-serif" fill="#102a43" font-weight="bold">150</text>
+<rect x="50" y="606" width="1000" height="43" rx="12" fill="#e8f0fa"/>
+<text x="70" y="634" font-size="17" font-family="Arial,sans-serif" fill="#47657d">Cálculos ilustrativos, NO donaciones recibidas. Presupuesto y cobertura por verificar.</text>
+</svg>

@@ -92,6 +92,257 @@ export const sources: SourceRecord[] = [
 
 export const articles: Article[] = [
   {
+    id: "cronica-20261027-ocoa-yaser-alejandro-telemaraton",
+    slug: "cuando-un-hermano-ofrece-un-rinon-y-un-pueblo-responde-yaser-alejandro-ocoa",
+    title: "Cuando un hermano ofrece un riñón y un pueblo responde: la historia de Yaser, Alejandro y Ocoa Unida",
+    dek: "Yaser Melo enfrenta una enfermedad renal; su hermano Alejandro Ivanovich se ha ofrecido como donante. Una familia con raíces ocoeñas convoca a un telemaratón el viernes 30 de octubre, entre la esperanza, el sacrificio y la solidaridad.",
+    category: "RD",
+    author: "Redacción Actualizard",
+    heroImage: "/uploads/ocoa-yaser-alejandro-cronica-portada.webp",
+    heroCaption: "Leandro Yaser Melo Castillo (izquierda), paciente renal, y Alejandro Ivanovich Melo Castillo (derecha), su hermano y donante propuesto. Composición editorial con fotografías suministradas por los organizadores.",
+    status: "published",
+    confidence: 89,
+    sourceCount: 5,
+    createdAt: "2026-10-27T19:45:00-04:00",
+    updatedAt: "2026-10-27T19:45:00-04:00",
+    publishedAt: "2026-10-27T19:45:00-04:00",
+    tags: [
+      "San José de Ocoa",
+      "Leandro Yaser Melo",
+      "Alejandro Ivanovich Melo Castillo",
+      "Ocoa Unida",
+      "trasplante renal",
+      "telemaratón",
+      "solidaridad",
+      "familia",
+      "30 octubre 2026"
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "**SAN JOSÉ DE OCOA, 27 DE OCTUBRE DE 2026.** El próximo viernes, cuando las cámaras de Canal 12 de Telecable Ocoa se enciendan para transmitir el gran telemaratón **«Ocoa Unida»**, el país conocerá una causa que tiene un rostro, una familia y dos hermanos. Uno necesita un trasplante de riñón para procurar una vida con menos limitaciones; el otro ha manifestado su voluntad de ofrecerle uno de sus propios riñones."
+      },
+      {
+        type: "paragraph",
+        text: "No es solamente una historia de medicina. Es el relato de lo que ocurre cuando la fragilidad de la vida se presenta en una casa, cuando una madre debe mirar con preocupación a dos de sus hijos y cuando una comunidad decide que el dolor de una familia merece algo más que un mensaje de ánimo."
+      },
+      {
+        type: "paragraph",
+        text: "Los protagonistas son **Leandro Yaser Melo Castillo**, de 42 años, y **Alejandro Ivanovich Melo Castillo —Iván para quienes así lo llaman—**. La documentación clínica facilitada a esta redacción describe a Yaser como paciente con enfermedad renal crónica avanzada y tratamiento de diálisis, y a Alejandro como donante vivo relacionado propuesto. La inclusión en un programa de trasplante no garantiza que la cirugía se realice: el proceso está sujeto a las evaluaciones y decisiones médicas correspondientes."
+      },
+      {
+        type: "heading",
+        text: "Yaser: el hombre que trabajó para construir un futuro",
+        level: 2
+      },
+      {
+        type: "image",
+        url: "/uploads/yaser-melo-ocoa-retrato.webp",
+        caption: "Leandro Yaser Melo Castillo. Fotografía aportada a la redacción."
+      },
+      {
+        type: "paragraph",
+        text: "Mucho antes de que la diálisis se convirtiera en parte de su rutina, Yaser era un niño que, según sus allegados, había aprendido a combinar los estudios con el trabajo. Creció con la idea de que el futuro no se espera: se construye. Con los años se dedicó a las ventas, particularmente a los negocios inmobiliarios, y formó una familia."
+      },
+      {
+        type: "paragraph",
+        text: "Para sus seres queridos, esa trayectoria importa porque recuerda que una enfermedad nunca puede reducir a una persona a un diagnóstico. Yaser es también padre, trabajador y miembro de una familia que ha conocido el valor del esfuerzo. Detrás de los tratamientos hay días que se reorganizan, oportunidades laborales que se aplazan y personas que esperan volver a compartir una vida cotidiana menos condicionada por los procedimientos médicos."
+      },
+      {
+        type: "paragraph",
+        text: "Los materiales de la campaña familiar relatan años de insuficiencia renal, con diálisis peritoneal y nuevos estudios después de interrupciones relacionadas con la pandemia y períodos sin seguro médico. No se trata de un desenlace anunciado, sino de una búsqueda de atención y de una oportunidad de tratamiento que requiere seguimiento especializado."
+      },
+      {
+        type: "heading",
+        text: "Alejandro Ivanovich: la decisión que cambió la conversación familiar",
+        level: 2
+      },
+      {
+        type: "image",
+        url: "/uploads/alejandro-ivanovich-melo-retrato.webp",
+        caption: "Alejandro Ivanovich Melo Castillo, conocido también como Iván, identificado por la familia como donante propuesto."
+      },
+      {
+        type: "paragraph",
+        text: "Alejandro Ivanovich aparece identificado en la constancia clínica como **hermano y donante vivo relacionado**. Sus familiares lo describen como un joven inteligente, reflexivo y dedicado a sus proyectos. Todavía no ha tenido hijos, una circunstancia personal que vuelve especialmente íntima la conversación sobre el futuro, la salud y las responsabilidades que implica una intervención quirúrgica."
+      },
+      {
+        type: "paragraph",
+        text: "Su decisión no debe narrarse a partir de un supuesto médico incorrecto: **donar un riñón no implica perder la posibilidad de ser padre**. El Servicio Nacional de Donación de Órganos del Reino Unido señala que no existe evidencia de que la extracción de un riñón afecte la fertilidad masculina. Eso no elimina los riesgos de una cirugía mayor ni la necesidad de una evaluación completa del donante."
+      },
+      {
+        type: "paragraph",
+        text: "El significado real del gesto es otro: estar dispuesto a pasar por estudios, consultas, una operación, recuperación y controles futuros con el propósito de ayudar a otra persona. Alejandro tiene derecho a decidir libremente, a recibir toda la información y a retirar su consentimiento si así lo considera. El afecto entre hermanos no debe convertirse nunca en presión."
+      },
+      {
+        type: "quote",
+        text: "Hay actos de amor que no se cuentan por lo que prometen, sino por la responsabilidad con la que alguien decide estar al lado de otra persona.",
+        attribution: "Reflexión editorial de Actualizard"
+      },
+      {
+        type: "heading",
+        text: "Francia Castillo: una vida dedicada a cuidar a otros",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "En el corazón de esta familia está **Francia Castillo**, una enfermera de larga trayectoria en el Hospital San José, de acuerdo con el relato de sus allegados. La vida la llevó a acompañar a pacientes y familias que atravesaban momentos difíciles. Hoy le corresponde vivir, desde su propia casa, la incertidumbre de una enfermedad grave."
+      },
+      {
+        type: "paragraph",
+        text: "De un lado está Yaser, el hijo que recibe diálisis y espera acceder al tratamiento indicado. Del otro está Alejandro, el hijo dispuesto a someterse al proceso de evaluación para una donación. No hace falta imaginar conversaciones privadas ni inventar lágrimas para comprender el peso emocional de ese escenario. Una madre conoce el valor de la esperanza y también la necesidad de proteger la vida y la salud de sus dos hijos."
+      },
+      {
+        type: "heading",
+        text: "Una familia de Ocoa que conservó sus raíces en Santo Domingo",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "La familia recuerda con afecto al padre, ya fallecido, a quien sus allegados describen como un hombre sereno, honrado y de fuertes convicciones cristianas. Aunque más tarde se establecieron en Santo Domingo, conservaron sus vínculos con San José de Ocoa y una manera de entender el trabajo, la fe y la convivencia."
+      },
+      {
+        type: "paragraph",
+        text: "Junto a Yaser y Alejandro forman parte de esta historia **Sandy Rosado**, conocido en ambientes cristianos y comunitarios de Ocoa; **Robertico Melo**, asesor y vendedor inmobiliario; y **la doctora Carolina Melo**. Sus trayectorias son distintas, pero en el relato familiar aparece un mismo hilo: acompañarse cuando las circunstancias dejan de ser sencillas."
+      },
+      {
+        type: "paragraph",
+        text: "Ninguna familia es perfecta ni está obligada a serlo. Su dignidad se manifiesta en algo más cotidiano: permanecer presente ante la dificultad y pedir ayuda cuando los recursos propios dejan de ser suficientes."
+      },
+      {
+        type: "heading",
+        text: "La cifra del presupuesto y lo que realmente queda por financiar",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "Un presupuesto del **Instituto Dominicano de Trasplantes Renales**, fechado el 1 de octubre de 2026 y facilitado a esta redacción, asciende a **RD$1,500,000** para servicios quirúrgicos relacionados con el receptor y el donante. Incluye preparación, hospitalización, intervenciones, honorarios y laboratorios señalados en el documento. Se contemplan tres días de hospitalización del donante y seis del receptor."
+      },
+      {
+        type: "paragraph",
+        text: "La propuesta **excluye** determinados gastos por complicaciones posteriores, reintervenciones, cuidados intensivos extraordinarios, pruebas y medicamentos fuera del procedimiento previsto. Por tanto, RD$1.5 millones es el **presupuesto base presentado**, no una cifra final ni el saldo efectivamente pendiente de recaudar."
+      },
+      {
+        type: "paragraph",
+        text: "Hay una cuestión de transparencia que merece atención. La **SISALRIL** informa que existe cobertura integral de trasplante renal dentro del Seguro Familiar de Salud, con condiciones de afiliación, centros autorizados y límites aplicables; la cobertura también contempla a donantes bajo reglas específicas. Aún no se ha documentado ante esta redacción qué cobertura corresponde a Yaser ni qué montos ya fueron autorizados o pagados. Es indispensable aclararlo con la familia, el prestador y la ARS antes de presentar la totalidad del presupuesto como deuda."
+      },
+      {
+        type: "heading",
+        text: "¿Cuánto puede hacer una comunidad cuando se organiza?",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "Para dimensionar la cifra presupuestada, imaginemos aportes voluntarios dirigidos a una meta hipotética de RD$1,500,000: **3,000 personas dando RD$500**, **1,500 aportando RD$1,000**, **500 aportando RD$3,000**, **300 aportando RD$5,000** o **150 aportando RD$10,000**. Cada combinación alcanza el mismo total. Son ejemplos matemáticos y no representan aportes recibidos ni una estimación de la recaudación real."
+      },
+      {
+        type: "image",
+        url: "/uploads/ocoa-unida-escenarios-solidarios.svg",
+        caption: "Escenarios ilustrativos de contribución colectiva calculados sobre el presupuesto base de RD$1.5 millones. No son aportes registrados ni reflejan coberturas de seguro."
+      },
+      {
+        type: "paragraph",
+        text: "La transmisión anunciada durará **cinco horas**, de 5:00 a 10:00 de la noche del viernes 30 de octubre. Dividir el presupuesto base entre ese tiempo equivale a **RD$300,000 por hora** o **RD$5,000 por minuto**. Es una referencia matemática, no una obligación para los organizadores ni un pronóstico de ingresos; la meta real debe definirse después de descontar las coberturas y aportes existentes."
+      },
+      {
+        type: "heading",
+        text: "Ocoa Unida: una cita que va más allá de las cámaras",
+        level: 2
+      },
+      {
+        type: "image",
+        url: "/uploads/ocoa-unida-telemaraton-30-octubre.webp",
+        caption: "Afiche de la convocatoria al Gran Telemaratón Ocoa Unida para el viernes 30 de octubre de 2026, por Canal 12 de Telecable Ocoa. Verifique los datos de aportes con los organizadores."
+      },
+      {
+        type: "paragraph",
+        text: "La convocatoria difundida por la familia anuncia el **Gran Telemaratón Ocoa Unida**, el **viernes 30 de octubre de 2026**, de **5:00 p. m. a 10:00 p. m.**, por **Canal 12 de Telecable Ocoa**. El llamado busca reunir a comerciantes, empresarios, iglesias, comunicadores, vecinos y ocoeños que viven dentro y fuera de la provincia."
+      },
+      {
+        type: "paragraph",
+        text: "Una contribución no tiene que ser grande para ser importante. Alguien puede brindar recursos, otro puede prestar equipos, otros pueden abrir un espacio en sus medios, confirmar una información médica o ayudar a divulgar la jornada sin caer en cifras o promesas engañosas. La solidaridad también consiste en acompañar con respeto."
+      },
+      {
+        type: "paragraph",
+        text: "Este encuentro todavía no tiene un resultado escrito. Nadie sabe cuánto se recaudará ni cuál será el desenlace clínico. Pero la simple disposición de organizarse alrededor de una familia recuerda que la identidad de un pueblo se construye tanto con sus logros como con su capacidad de responder ante el sufrimiento."
+      },
+      {
+        type: "heading",
+        text: "Una carta abierta a los medios: el llamado de esta redacción",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "Desde **Actualizard** invitamos a los medios de comunicación de Ocoa y de todo el país a dar visibilidad responsable a esta causa. Las cámaras y los micrófonos no solo sirven para registrar una noticia: también pueden ayudar a que una historia llegue hasta personas e instituciones dispuestas a colaborar. La cobertura debe respetar la privacidad médica, la voluntad del donante y el derecho de la audiencia a conocer el destino de los fondos."
+      },
+      {
+        type: "paragraph",
+        text: "Extendemos una invitación especial al **ingeniero Geovanny Arias**, a quien esta columna reconoce por su sensibilidad hacia iniciativas comunitarias. Su participación, así como la de cualquier otra persona convocada, dependerá de su propia decisión."
+      },
+      {
+        type: "paragraph",
+        text: "También reconocemos la trayectoria solidaria del **exsenador Pedro José Alegría Soto**, conocido en Ocoa como el «senador histórico». La familia señala que ha contribuido a esta causa; este dato corresponde al testimonio recibido y no a una cuantificación independiente de los aportes. Su condición de exsenador está documentada en los registros históricos del Senado de la República."
+      },
+      {
+        type: "heading",
+        text: "Un viernes que podría permanecer en la memoria",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "Cuando termine la transmisión, quedarán números por contar, autorizaciones por comprobar y necesidades médicas a las que habrá que seguir dando respuesta. Pero quedará también una pregunta: **¿qué hicimos cuando alguien de nuestra comunidad necesitó que estuviéramos presentes?**"
+      },
+      {
+        type: "paragraph",
+        text: "Yaser espera una oportunidad médica. Alejandro ha expresado la voluntad de ayudarlo a través de una posible donación. Su familia intenta sostener a ambos. Ocoa está convocada a acompañarlos."
+      },
+      {
+        type: "paragraph",
+        text: "Ojalá que el viernes no sea recordado únicamente por una cifra. Ojalá sea recordado como un día en que la esperanza de una familia consiguió despertar lo mejor de un pueblo: **que el amor entre hermanos encuentre una comunidad capaz de responder con solidaridad y con responsabilidad.**"
+      },
+      {
+        type: "heading",
+        text: "Cómo participar y qué verificar",
+        level: 2
+      },
+      {
+        type: "bullets",
+        items: [
+          "**Actividad anunciada:** Gran Telemaratón Ocoa Unida.",
+          "**Fecha y horario:** viernes 30 de octubre de 2026, de 5:00 p. m. a 10:00 p. m.",
+          "**Medio anunciado:** Canal 12, Telecable Ocoa.",
+          "**Objetivo:** ayudar a financiar las necesidades documentadas del proceso de trasplante y atención médica.",
+          "**Antes de transferir:** confirmar beneficiarios, cuentas, saldo pendiente, cobertura de ARS y mecanismos de rendición de cuentas con los organizadores."
+        ]
+      },
+      {
+        type: "paragraph",
+        text: "**Nota de transparencia y respeto:** los retratos y el afiche de campaña fueron facilitados para esta cobertura. No se publican números de cédula ni copias completas de constancias clínicas. Los detalles familiares corresponden al relato facilitado a la redacción y requieren corroboración testimonial independiente; la información de costos proviene del presupuesto presentado. No se afirma que ya exista autorización definitiva para el trasplante ni que se haya confirmado la totalidad del importe como saldo sin cobertura."
+      },
+      {
+        type: "sources",
+        items: [
+          {
+            name: "NHS Organ Donation — Donación renal, embarazo y fertilidad",
+            url: "https://www.organdonation.nhs.uk/become-a-living-donor/donating-your-kidney/who-can-become-a-living-kidney-donor/kidney-donation-pregnancy-and-fertility/"
+          },
+          {
+            name: "SISALRIL — Cobertura integral de trasplante renal",
+            url: "https://www.sisalril.gob.do/sisalril-actualiza-a-medicos-nefrologos-sobre-la-cobertura-integral-en-trasplante-renal/"
+          },
+          {
+            name: "SISALRIL — Información de coberturas del Seguro Familiar de Salud",
+            url: "https://www.sisalril.gob.do/seguro-familiar-de-salud/"
+          },
+          {
+            name: "SenadoRD — Registro histórico de Pedro José Alegría Soto",
+            url: "https://memoriahistorica.senadord.gob.do/items/9191ae00-a123-433b-b741-60b1b389388a"
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "weather-20261027-radiografia-rd-vaguada",
     slug: "radiografia-tiempo-republica-dominicana-vaguada-lluvias-tormentas-27-octubre-2026",
     title:

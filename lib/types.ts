@@ -9,6 +9,7 @@ export type ArticleStatus =
   | "archived";
 
 export type ContentBlock =
+  | { type: "heading"; text: string; level?: 2 | 3 }
   | { type: "paragraph"; text: string }
   | { type: "image"; url: string; caption?: string }
   | { type: "video"; url: string; caption?: string }
