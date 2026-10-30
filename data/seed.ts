@@ -92,6 +92,126 @@ export const sources: SourceRecord[] = [
 
 export const articles: Article[] = [
   {
+    id: "rd-20261029-geovanny-arias-maniel-fm-radiotelemaraton",
+    slug: "juan-geovanny-arias-maniel-fm-retransmite-radiotelemaraton-yaser-melo",
+    title: "Ing. Juan Geovanny Arias cede Maniel FM para retransmitir RadioTelemaratón en favor de Yaser Melo",
+    dek: "La emisora se suma a la jornada solidaria prevista para este viernes 30 de octubre, ampliando por radio el alcance del llamado comunitario en favor de Yaser Melo.",
+    category: "RD",
+    author: "Redacción Actualizard",
+    heroImage: "/uploads/ocoa-unida-telemaraton-30-octubre.webp",
+    heroCaption: "Convocatoria del RadioTelemaratón Ocoa Unida, cuya retransmisión contará también con Maniel FM.",
+    status: "published",
+    confidence: 90,
+    sourceCount: 1,
+    createdAt: "2026-10-29T23:01:00-04:00",
+    updatedAt: "2026-10-29T23:01:00-04:00",
+    publishedAt: "2026-10-29T23:01:00-04:00",
+    tags: [
+      "Juan Geovanny Arias",
+      "Maniel FM",
+      "RadioTelemaratón",
+      "Yaser Melo",
+      "San José de Ocoa",
+      "Ocoa Unida",
+      "solidaridad"
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "**SAN JOSÉ DE OCOA.** El ingeniero **Juan Geovanny Arias** anunció la disposición de **Maniel FM** para retransmitir el RadioTelemaratón que se realizará este viernes **30 de octubre** en apoyo a **Yaser Melo**, cuya familia y comunidad impulsan una jornada solidaria para contribuir con los gastos asociados a su tratamiento y proceso de trasplante renal."
+      },
+      {
+        type: "paragraph",
+        text: "La integración de Maniel FM amplía considerablemente el alcance de la actividad, originalmente concebida con transmisión a través de **Canal 12 de Telecable Ocoa**, y permitirá que el mensaje llegue también a la audiencia radial de San José de Ocoa y comunidades cercanas."
+      },
+      {
+        type: "paragraph",
+        text: "La jornada está programada de **5:00 de la tarde a 10:00 de la noche** y busca movilizar a ciudadanos, comerciantes, empresarios, instituciones y ocoeños residentes dentro y fuera del país."
+      },
+      {
+        type: "heading",
+        text: "Una historia que ha movilizado a Ocoa",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "Detrás del RadioTelemaratón existe una historia familiar que ha generado una amplia reacción de solidaridad. Yaser Melo atraviesa un proceso de salud renal que requiere un trasplante, mientras su hermano, **Alejandro Ivanovich Melo Castillo**, se ha presentado como donante propuesto para contribuir a salvar la vida de su hermano."
+      },
+      {
+        type: "paragraph",
+        text: "El presupuesto base relacionado con el procedimiento ha sido estimado en aproximadamente **RD$1.5 millones**, razón por la cual familiares, amigos y sectores de San José de Ocoa han promovido diferentes iniciativas para ayudar a cubrir los costos y necesidades asociadas."
+      },
+      {
+        type: "paragraph",
+        text: "La historia de los hermanos fue presentada anteriormente por Actualizard bajo el título **«Cuando un hermano ofrece un riñón y un pueblo responde: la historia de Yaser, Alejandro y Ocoa Unida»**, destacando no solamente la necesidad económica, sino también la dimensión humana de una familia acompañada por su comunidad."
+      },
+      {
+        type: "heading",
+        text: "Maniel FM se suma a la causa",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "La decisión del Ing. Juan Geovanny Arias de poner la plataforma de **Maniel FM** al servicio de la retransmisión fortalece la capacidad de convocatoria del RadioTelemaratón y suma la radio a una cadena de medios locales alrededor de una causa humana."
+      },
+      {
+        type: "paragraph",
+        text: "La participación de la estación permitirá que personas que no tengan acceso a la señal televisiva puedan seguir la actividad por radio, conocer el desarrollo de la jornada y sumarse al llamado de solidaridad."
+      },
+      {
+        type: "heading",
+        text: "Medios unidos por una misma causa",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "La incorporación de Maniel FM refuerza una característica que comienza a definir esta jornada: la coordinación entre televisión, radio, plataformas digitales y redes sociales para multiplicar el alcance de la convocatoria."
+      },
+      {
+        type: "paragraph",
+        text: "El objetivo no es únicamente alcanzar una cifra económica. También se busca que la historia de Yaser llegue a cada comunidad de Ocoa y a los miles de ocoeños que viven en Santo Domingo, otras provincias y el extranjero."
+      },
+      {
+        type: "heading",
+        text: "Un gesto que trasciende la radio",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "La decisión de Geovanny Arias representa además un aporte logístico y comunicacional. En una actividad de este tipo, cada minuto de transmisión aumenta las posibilidades de encontrar nuevos colaboradores. La radio conserva una capacidad especial para llegar a hogares, vehículos, comercios y comunidades rurales."
+      },
+      {
+        type: "heading",
+        text: "Ocoa vuelve a responder",
+        level: 2
+      },
+      {
+        type: "paragraph",
+        text: "San José de Ocoa ha demostrado en diferentes ocasiones una fuerte capacidad de movilización frente a situaciones que afectan a miembros de su comunidad. Ahora, la historia de Yaser y Alejandro vuelve a colocar a la provincia frente a uno de esos momentos."
+      },
+      {
+        type: "quote",
+        text: "Un hermano está dispuesto a donar. Una familia lucha. Una comunidad se organiza. Y los medios comienzan a unirse para multiplicar el mensaje.",
+        attribution: "Actualizard"
+      },
+      {
+        type: "paragraph",
+        text: "Este viernes, durante cinco horas de transmisión, **Canal 12 de Telecable Ocoa y Maniel FM** formarán parte de una jornada cuyo objetivo será transformar solidaridad en una oportunidad concreta para Yaser."
+      },
+      {
+        type: "sources",
+        items: [
+          {
+            name: "Actualizard — Cuando un hermano ofrece un riñón y un pueblo responde: la historia de Yaser, Alejandro y Ocoa Unida",
+            url: "https://www.actualizard.com/noticias/cuando-un-hermano-ofrece-un-rinon-y-un-pueblo-responde-yaser-alejandro-ocoa"
+          }
+        ]
+      }
+    ]
+  },
+
+
+  {
     id: "cronica-20261027-ocoa-yaser-alejandro-telemaraton",
     slug: "cuando-un-hermano-ofrece-un-rinon-y-un-pueblo-responde-yaser-alejandro-ocoa",
     title: "Cuando un hermano ofrece un riñón y un pueblo responde: la historia de Yaser, Alejandro y Ocoa Unida",
