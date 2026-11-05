@@ -17,8 +17,8 @@ export default function YaenquiPage() {
       <h1>Noticias de Yaenqui Paredes</h1>
       {posts[0]?.authorImage && (
         <img src={posts[0].authorImage} alt="Yaenqui Paredes"
-          width={170} height={170}
-          style={{ borderRadius: "50%", display: "block", margin: "24px auto",
+          width={96} height={96}
+          style={{ borderRadius: "50%", display: "block", margin: "16px auto",
                    border: "4px solid #00a9a3", objectFit: "cover" }} />
       )}
       <p className="article-lead">
