@@ -4,6 +4,7 @@ import {
 } from "@/data/seed";
 
 import { currentNewsArticles } from "@/data/current-news";
+import { correspondentNewsArticles } from "@/data/correspondents-news";
 
 import type {
   Article,
@@ -20,6 +21,7 @@ const runtimeArticles =
 
 const initialArticles: Article[] = [
   ...runtimeArticles,
+  ...correspondentNewsArticles,
 
   ...currentNewsArticles.filter(
     current =>
