@@ -65,7 +65,6 @@ export interface Article {
   category: string;
   author: string;
   authorImage?: string;
-  authorImageFeatured?: boolean;
   heroImage: string;
   heroCaption?: string;
   status: ArticleStatus;

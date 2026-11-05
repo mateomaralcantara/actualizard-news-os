@@ -105,20 +105,19 @@ export default async function ArticlePage({
           justifyContent: "center",
           gap: 16,
           margin: "22px auto 28px",
-          textAlign: article.authorImageFeatured ? "center" : "left",
-          flexDirection: article.authorImageFeatured ? "column" : "row"
+          textAlign: "left"
         }}
       >
         {article.authorImage && (
           <img
             src={article.authorImage}
             alt={article.author}
-            width={article.authorImageFeatured ? 220 : 76}
-            height={article.authorImageFeatured ? 220 : 76}
+            width={112}
+            height={112}
             style={{
-              width: article.authorImageFeatured ? 220 : 76,
-              height: article.authorImageFeatured ? 220 : 76,
-              borderRadius: article.authorImageFeatured ? 18 : "50%",
+              width: 112,
+              height: 112,
+              borderRadius: "50%",
               objectFit: "cover",
               objectPosition: "center 30%",
               border: "3px solid white",
