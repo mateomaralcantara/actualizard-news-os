@@ -1,6 +1,8 @@
 import { ArticleCard } from "@/components/ArticleCard";
 import { store } from "@/lib/store";
 
+export const dynamic = "force-dynamic";
+
 function normalizeCategory(value: string) {
   return value
     .normalize("NFD")
