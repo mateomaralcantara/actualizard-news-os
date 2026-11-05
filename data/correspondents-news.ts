@@ -15,7 +15,7 @@ export const correspondentNewsArticles: Article[] = [
     "confidence": 90,
     "sourceCount": 1,
     "createdAt": "2026-11-05T09:00:00-04:00",
-    "updatedAt": "2026-11-05T09:00:00-04:00",
+    "updatedAt": "2026-11-05T10:30:00-04:00",
     "publishedAt": "2026-11-05T09:00:00-04:00",
     "tags": [
       "Yaenqui Paredes",
@@ -44,11 +44,78 @@ export const correspondentNewsArticles: Article[] = [
         "text": "El seguimiento periodístico después de la cumbre será esencial: corresponde preguntar por documentos oficiales, mecanismos de supervisión y beneficios para empresas y ciudadanos. La noticia inmediata es la participación y la agenda; el balance deberá construirse cuando existan resultados públicos."
       },
       {
+        "type": "heading",
+        "text": "El escenario diplomático y la agenda dominicana",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La XXX Cumbre Iberoamericana reúne en Madrid los días 4 y 5 de noviembre de 2026 a representantes de gobiernos que comparten vínculos históricos, culturales y económicos. La Presidencia dominicana informó que Luis Abinader llegó a la capital española el 3 de noviembre y que su programa oficial se extendería hasta el día 6. Este dato permite distinguir entre las sesiones propias de la cumbre y las reuniones bilaterales, empresariales y protocolares que acompañan el viaje. La agenda constituye una oportunidad de negociación y presentación internacional, pero el hecho de programar una reunión no prueba que se haya cerrado un acuerdo. Las declaraciones posteriores deberán contrastarse con documentos, cifras y compromisos verificables."
+      },
+      {
+        "type": "heading",
+        "text": "Las reuniones previstas y su significado",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Entre los encuentros anunciados figuran contactos con representantes del Banco de Desarrollo de América Latina y el Caribe, del Banco Europeo de Inversiones, de ONU Turismo y del sector empresarial, además de conversaciones bilaterales con Costa Rica. Cada interlocutor representa un tipo distinto de posible cooperación: financiamiento para desarrollo, promoción turística, colaboración comercial o coordinación diplomática. Una lectura responsable evita presentar esas posibilidades como créditos aprobados, desembolsos recibidos o proyectos adjudicados. Para hablar de resultados es necesario identificar instrumentos firmados, condiciones financieras, instituciones responsables, calendarios y mecanismos de seguimiento. Si tales documentos no se publican, el balance debe expresarse como agenda diplomática y no como inversión ejecutada."
+      },
+      {
+        "type": "heading",
+        "text": "La dimensión económica: del anuncio al proyecto",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "República Dominicana mantiene interés en atraer proyectos productivos, mejorar su infraestructura y fortalecer cadenas vinculadas al turismo y la vivienda. La feria inmobiliaria Más Cerca de Casa, incluida en la agenda comunicada por la Presidencia, ofrece un ejemplo de promoción sectorial orientada a potenciales compradores e inversionistas. Sin embargo, la promoción y la contratación son fases diferentes. El periodista debe comprobar si los proyectos exhibidos tienen permisos, financiamiento y cronogramas; si las condiciones ofrecidas a los compradores son claras; y si existen mecanismos adecuados para prevenir conflictos de interés o publicidad engañosa. El número de asistentes a una feria tampoco equivale automáticamente al volumen de ventas firmadas."
+      },
+      {
+        "type": "heading",
+        "text": "Cooperación internacional sin perder el enfoque ciudadano",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Las relaciones internacionales no se agotan en las reuniones de jefes de Estado. La cooperación educativa, la conectividad, la digitalización de trámites y la movilidad de profesionales pueden producir efectos más cercanos a la población que un anuncio protocolar. Por eso conviene examinar qué iniciativas contemplan transferencia de conocimiento, formación y servicios concretos. Cuando una institución financiera habla de apoyo, también importa saber qué entidad gestionará los recursos y cuáles comunidades podrían recibir beneficios. Cuando un organismo turístico participa en el diálogo, deben evaluarse sostenibilidad, empleo local y capacidad de las comunidades receptoras, no solo las proyecciones agregadas de visitantes."
+      },
+      {
+        "type": "heading",
+        "text": "Qué elementos deben seguir los medios",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La cobertura puede organizarse en cuatro niveles: lo que figura en la agenda oficial; lo que efectivamente se celebró; los anuncios que cada parte formuló; y los resultados materializados posteriormente. Esta secuencia reduce la confusión entre intención y ejecución. Un comunicado sobre un memorando de entendimiento debe identificar su naturaleza no vinculante, si corresponde, antes de atribuirle efectos financieros. La publicación de montos necesita indicar moneda, período, beneficiario y origen de los fondos. También es esencial escuchar a especialistas y sectores potencialmente afectados, incluyendo pequeñas empresas, comunidades receptoras de inversión y organizaciones que monitorean la contratación pública."
+      },
+      {
+        "type": "heading",
+        "text": "Diplomacia, continuidad y transparencia",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Las relaciones económicas internacionales requieren continuidad más allá de una visita. Un proyecto anunciado en noviembre puede necesitar evaluación técnica, aprobación presupuestaria, licitaciones o permisos antes de convertirse en una obra. La ciudadanía tiene derecho a conocer esos pasos y a distinguir los avances de los retrasos. Una agenda diplomática eficaz también debe permitir la fiscalización pública y garantizar que los compromisos asumidos no comprometan recursos sin explicación suficiente. Resulta conveniente establecer un registro abierto de acuerdos, responsables y fechas para que periodistas y ciudadanos puedan contrastar promesas con resultados."
+      },
+      {
+        "type": "heading",
+        "text": "Balance provisional de la participación dominicana",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Con la información oficial disponible, la noticia verificable es la participación del mandatario en la cumbre y la amplitud de su agenda de contactos hasta el 6 de noviembre. No corresponde anticipar conclusiones sobre convenios o inversiones cuya materialización no se haya documentado. El valor periodístico de este encuentro estará en las preguntas posteriores: qué conversaciones produjeron acuerdos firmados, cuáles requieren negociación, qué instituciones darán seguimiento y qué impacto puede medirse en el país. Una cobertura seria reconoce la utilidad de la diplomacia y, al mismo tiempo, exige evidencia para evaluar sus resultados."
+      },
+      {
         "type": "sources",
         "items": [
           {
             "name": "ActualizaRD — cobertura de referencia",
             "url": "https://www.actualizard.com/noticias/abinader-participa-inauguracion-cumbre-iberoamericana-madrid"
+          },
+          {
+            "name": "Presidencia de la República Dominicana — Agenda en Madrid",
+            "url": "https://presidencia.gob.do/noticias/presidente-luis-abinader-llega-madrid-donde-participara-en-la-xxx-cumbre-iberoamericana-de"
           }
         ]
       }
@@ -68,7 +135,7 @@ export const correspondentNewsArticles: Article[] = [
     "confidence": 90,
     "sourceCount": 1,
     "createdAt": "2026-11-05T09:00:00-04:00",
-    "updatedAt": "2026-11-05T09:00:00-04:00",
+    "updatedAt": "2026-11-05T10:30:00-04:00",
     "publishedAt": "2026-11-05T09:00:00-04:00",
     "tags": [
       "Yaenqui Paredes",
@@ -97,6 +164,69 @@ export const correspondentNewsArticles: Article[] = [
         "text": "El desafío es informar sobre el control migratorio con precisión y sin convertir la nacionalidad en sinónimo de una infracción. Los próximos comunicados oficiales deberán permitir comparar períodos y aclarar eventuales diferencias entre los totales y los desgloses publicados."
       },
       {
+        "type": "heading",
+        "text": "Lo que dicen las cifras y lo que no dicen",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La Dirección General de Migración ha difundido reportes sobre operativos realizados en distintas localidades del país. Uno de los balances referidos al 2 de noviembre de 2026 informó 1,331 deportaciones. La cifra debe atribuirse a la DGM, precisar su fecha y leerse dentro del alcance de ese reporte institucional. No sería correcto extrapolarla automáticamente al mes completo ni suponer que representa la totalidad de personas detenidas durante un período distinto. Para que las estadísticas sean comparables, las autoridades deberían publicar desgloses por provincia, tipo de procedimiento, fecha y resultado, así como aclarar la metodología de registro."
+      },
+      {
+        "type": "heading",
+        "text": "Interdicción, detención y deportación son conceptos diferentes",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "En la conversación pública se utilizan con frecuencia términos migratorios como si fueran intercambiables. Una interdicción puede describir una actuación de control; una detención supone una restricción de libertad sujeta a garantías; una deportación es una medida administrativa con consecuencias específicas; y un retorno puede tener otra base jurídica o procedimental. Aunque una persona aparezca en distintas etapas de un procedimiento, sus registros no deben sumarse como si correspondieran a personas diferentes. Esa distinción es indispensable para comprender los comunicados oficiales. También ayuda a preguntar si las cifras se refieren a actuaciones, individuos identificados, decisiones ejecutadas o traslados realizados."
+      },
+      {
+        "type": "heading",
+        "text": "Documentación y revisión individual",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La gestión migratoria requiere identificar correctamente a las personas y revisar su situación individual. La exigencia de documentos debe convivir con mecanismos claros para comprobar su autenticidad y considerar circunstancias particulares. Un control adecuado permite corregir errores de identidad, registrar reclamaciones y explicar a cada persona la decisión adoptada. Los procedimientos deben ajustarse a la legislación aplicable y a los compromisos internacionales del Estado. Resulta especialmente importante que exista una ruta para examinar situaciones de niñez, reunificación familiar, personas con necesidades de protección y quienes alegan riesgo ante una devolución. Mencionar estas garantías no implica negar la potestad estatal para ejecutar controles legales."
+      },
+      {
+        "type": "heading",
+        "text": "El papel de las instituciones y la rendición de cuentas",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Los informes de operativos suelen mencionar la participación de distintas entidades públicas. Para evaluar su eficacia conviene conocer qué institución dirige cada fase, quién verifica la documentación, qué registros se generan y cómo se investigan eventuales incidentes. Una operación con varias agencias requiere coordinación, pero también responsabilidades delimitadas. Las auditorías, los protocolos publicados y los mecanismos de queja permiten distinguir una actuación legítima de un error que debe corregirse. En materia migratoria, la transparencia de los procedimientos fortalece la credibilidad institucional porque facilita verificar que las medidas se aplican conforme a reglas previamente definidas."
+      },
+      {
+        "type": "heading",
+        "text": "Consecuencias económicas y comunitarias",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Los controles migratorios pueden influir en sectores productivos, zonas fronterizas, transporte y vida comunitaria. Ese efecto no debe presumirse uniforme. En algunas áreas el debate se relaciona con contratación laboral y cumplimiento de normas; en otras, con circulación fronteriza, mercados o servicios básicos. Para evaluar consecuencias se requieren datos específicos, entrevistas y series temporales comparables. Una variación de la actividad económica, por ejemplo, no puede atribuirse automáticamente a un operativo sin descartar otros factores. Los medios deben escuchar distintas voces sin convertir testimonios aislados en conclusiones generales ni presentar a una comunidad nacional como responsable colectiva de conductas individuales."
+      },
+      {
+        "type": "heading",
+        "text": "Lenguaje preciso y derechos humanos",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "El uso de expresiones alarmistas puede deformar el debate. Las noticias deben distinguir entre una persona investigada, una persona sin documentación regular y alguien acusado de un delito, pues se trata de situaciones distintas. La nacionalidad no determina responsabilidad penal. Las autoridades pueden aplicar las normas migratorias, mientras periodistas y observadores evalúan la proporcionalidad, legalidad y consistencia de su aplicación. La cobertura debe evitar imágenes que expongan innecesariamente a menores o a personas en condiciones de vulnerabilidad. Del mismo modo, ninguna denuncia puede tratarse como un hecho probado sin comprobación suficiente y oportunidad de respuesta de las entidades implicadas."
+      },
+      {
+        "type": "heading",
+        "text": "Preguntas pendientes para la próxima publicación",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "El seguimiento al reporte de noviembre debería pedir tablas verificables y definiciones operativas: cuántas personas fueron identificadas, cuántas recibieron una decisión, cuáles fueron los motivos y qué recursos estuvieron disponibles. También sería útil conocer el tiempo promedio de cada procedimiento, el número de revisiones y cómo se resuelven las reclamaciones. Estos datos ayudarían a comparar reportes sin duplicaciones ni interpretaciones engañosas. La información disponible permite afirmar que la DGM comunicó actuaciones y resultados, pero no sustituye una auditoría independiente. El objetivo del periodismo es aportar contexto, no amplificar cifras sin explicar sus límites."
+      },
+      {
         "type": "sources",
         "items": [
           {
@@ -121,7 +251,7 @@ export const correspondentNewsArticles: Article[] = [
     "confidence": 90,
     "sourceCount": 1,
     "createdAt": "2026-11-05T09:00:00-04:00",
-    "updatedAt": "2026-11-05T09:00:00-04:00",
+    "updatedAt": "2026-11-05T10:30:00-04:00",
     "publishedAt": "2026-11-05T09:00:00-04:00",
     "tags": [
       "Yaenqui Paredes",
@@ -150,11 +280,91 @@ export const correspondentNewsArticles: Article[] = [
         "text": "El siguiente examen será práctico: identificar las instituciones que adopten sistemas automatizados, los controles aplicados, las auditorías realizadas y los procedimientos para corregir errores. El avance tecnológico debe medirse por mejoras comprobables en el servicio a la población."
       },
       {
+        "type": "heading",
+        "text": "Un decreto que introduce obligaciones concretas",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "El Poder Ejecutivo aprobó mediante el Decreto 787-26, fechado el 2 de noviembre de 2026, el Código de Ética de la Inteligencia Artificial para los Servicios Públicos. La Consultoría Jurídica y la Presidencia describen un marco aplicable a instituciones que diseñen, compren, contraten o empleen sistemas de inteligencia artificial en funciones públicas. El anuncio es relevante porque la digitalización estatal puede influir en trámites, prestaciones y decisiones que afectan derechos. La cuestión ya no es solamente si las herramientas automatizadas permiten procesar expedientes con rapidez, sino qué reglas impiden que una decisión opaca perjudique a una persona y cómo puede impugnarse un resultado incorrecto."
+      },
+      {
+        "type": "heading",
+        "text": "Transparencia algorítmica y derecho a explicación",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La normativa reconoce la importancia de informar a los ciudadanos cuando una decisión administrativa ha contado con apoyo de inteligencia artificial. También contempla explicaciones comprensibles y vías de revisión humana. En la práctica, una notificación útil debe identificar el trámite, explicar el papel del sistema, facilitar un canal de contacto y permitir corregir información inexacta. No basta con colocar una advertencia genérica en un portal. Las administraciones tendrán que demostrar que una persona puede comprender por qué recibió una respuesta y que existe un funcionario capaz de revisar casos complejos. La supervisión humana no debería limitarse a ratificar automáticamente lo sugerido por una máquina."
+      },
+      {
+        "type": "heading",
+        "text": "Sistemas de alto impacto y evaluación previa",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Entre las medidas anunciadas figuran evaluaciones de impacto ético y de derechos antes de poner en funcionamiento sistemas de alto impacto. Esto resulta especialmente importante cuando el software influye sobre beneficios sociales, servicios esenciales o decisiones con consecuencias sancionadoras. Una evaluación seria debe documentar finalidad, datos usados, grupos potencialmente afectados, margen de error, riesgos de discriminación y medidas de mitigación. Además, conviene repetir la evaluación cuando cambian las fuentes de datos, el modelo o su contexto de uso. La publicación de resultados agregados, sin revelar información sensible, permitiría comprobar si se cumplieron las salvaguardas."
+      },
+      {
+        "type": "heading",
+        "text": "Prohibiciones y límites de vigilancia",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La información oficial describe prohibiciones a sistemas de clasificación social generalizada y restricciones estrictas a determinadas modalidades de vigilancia biométrica indiscriminada y perfilamiento criminal basado en sesgos. La distinción entre identificación legítima y vigilancia masiva exige criterios claros, pues la aplicación tecnológica puede afectar privacidad, libertad de circulación y presunción de inocencia. Un proyecto no se vuelve legal simplemente porque prometa reducir costos o detectar riesgos. Corresponde revisar sus finalidades, base jurídica, necesidad y proporcionalidad, así como la posibilidad de recurrir decisiones. También deben prevenirse aplicaciones que produzcan conclusiones sobre una persona a partir de su barrio, condición económica o características protegidas."
+      },
+      {
+        "type": "heading",
+        "text": "Responsables institucionales y un plazo de transición",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La Consultoría Jurídica identifica responsabilidades para el Ministerio de Administración Pública, la Dirección General de Ética e Integridad Gubernamental y la Oficina Gubernamental de Tecnologías de la Información y Comunicación. También se anunció la creación de un Consejo Nacional de Ética de la Inteligencia Artificial y un registro institucional de sistemas utilizados. La normativa prevé un período de adecuación de 180 días desde su publicación. Ese plazo debe entenderse como una oportunidad para inventariar herramientas, revisar contratos y designar responsables; no como evidencia de que todos los organismos ya cumplen. El seguimiento deberá comprobar avances en instituciones concretas."
+      },
+      {
+        "type": "heading",
+        "text": "La contratación tecnológica bajo examen",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Cuando el Estado adquiere un sistema automatizado, debe saber qué información utiliza, cómo se auditan sus resultados y qué ocurre si el proveedor cambia el modelo. Los contratos necesitan obligaciones sobre seguridad, trazabilidad, conservación de registros y control de datos. Dependencias excesivas de soluciones cerradas pueden dificultar revisiones y aumentar costos futuros. Es recomendable evaluar mecanismos de portabilidad, pruebas independientes y controles de acceso, siempre adecuados a la sensibilidad del servicio. La soberanía digital no significa rechazar la tecnología internacional, sino asegurar que la administración conserve capacidad de supervisión y decisión sobre sistemas que afectan a sus ciudadanos."
+      },
+      {
+        "type": "heading",
+        "text": "Niñez, inclusión y acceso desigual",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Los algoritmos pueden reproducir desigualdades si se alimentan con bases incompletas o si sus interfaces excluyen a personas con discapacidad, adultos mayores o ciudadanos con conectividad limitada. Por eso, las salvaguardas deben observar no solo el software, sino el canal de atención. Una persona debería poder solicitar asistencia humana cuando no entiende un resultado o no tiene medios digitales para reclamar. El documento gubernamental destaca además protección reforzada para niños, niñas y adolescentes. Implementar ese principio requiere procedimientos claros de evaluación y de respuesta ante contenido o decisiones que puedan afectarlos. La inclusión debe medirse mediante pruebas reales de usabilidad."
+      },
+      {
+        "type": "heading",
+        "text": "Cómo medir el éxito del nuevo marco",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La aprobación del código abre una etapa de implementación que tendrá que producir evidencias verificables. Una evaluación pública podría consultar cuántas instituciones completaron su inventario de sistemas, cuántas evaluaciones de impacto se realizaron, qué mecanismos de revisión humana están activos y cuántas reclamaciones se resolvieron. También importan las auditorías sobre seguridad y errores, así como los recursos asignados a capacitación. El balance no debe confundirse con publicidad institucional: un decreto puede ser ambicioso y aun así enfrentar dificultades operativas. La transparencia permanente y la posibilidad real de corregir decisiones serán las pruebas de su utilidad."
+      },
+      {
         "type": "sources",
         "items": [
           {
             "name": "ActualizaRD — cobertura de referencia",
             "url": "https://www.actualizard.com/noticias/gobierno-aprueba-codigo-etica-ia-servicios-publicos"
+          },
+          {
+            "name": "Presidencia de la República Dominicana — Declaración sobre el código de IA",
+            "url": "https://www.presidencia.gob.do/noticias/el-gobierno-aprueba-el-codigo-de-etica-de-la-inteligencia-artificial-para-garantizar-un"
+          },
+          {
+            "name": "Consultoría Jurídica — Decreto 787-26",
+            "url": "https://consultoria.gob.do/noticias/poder-ejecutivo-aprueba-mediante-decreto-codigo-de-etica-para-el-uso-de-inteligencia-artificial-en-los-servicios-publicos-0003"
           }
         ]
       }
