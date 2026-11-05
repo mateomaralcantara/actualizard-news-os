@@ -3,6 +3,8 @@ import {
   sources
 } from "@/data/seed";
 
+import { currentNewsArticles } from "@/data/current-news";
+
 import type {
   Article,
   RawStory,
@@ -19,12 +21,26 @@ const runtimeArticles =
 const initialArticles: Article[] = [
   ...runtimeArticles,
 
+  ...currentNewsArticles.filter(
+    current =>
+      !runtimeArticles.some(
+        live =>
+          live.id === current.id ||
+          live.slug === current.slug
+      )
+  ),
+
   ...seedArticles.filter(
     seed =>
       !runtimeArticles.some(
         live =>
           live.id === seed.id ||
           live.slug === seed.slug
+      ) &&
+      !currentNewsArticles.some(
+        current =>
+          current.id === seed.id ||
+          current.slug === seed.slug
       )
   )
 ];
@@ -53,7 +69,6 @@ export const store =
 if (
   !globalStore.__actualizard
 ) {
-
   globalStore.__actualizard =
     store;
 }
