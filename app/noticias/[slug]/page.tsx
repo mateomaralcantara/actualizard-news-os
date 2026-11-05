@@ -138,7 +138,7 @@ export default async function ArticlePage({
         </div>
       </div>
 
-      {article.author !== "Yaenqui Paredes" && (
+      {article.author !== "Yaenqui Paredes" && article.author !== "Kendy Pérez" && (
         <>
       <img
         className="article-hero-image"
@@ -157,7 +157,7 @@ export default async function ArticlePage({
 
       <ArticleBlocks blocks={article.blocks} />
 
-      {article.authorImage && article.author !== "Yaenqui Paredes" && (
+      {article.authorImage && article.author !== "Yaenqui Paredes" && article.author !== "Kendy Pérez" && (
         <section
           className="card card-pad block"
           style={{
