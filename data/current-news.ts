@@ -26,25 +26,123 @@ export const currentNewsArticles: Article[] = [
       "seguridad"
     ],
     "blocks": [
+  {
+    "type": "heading",
+    "text": "El recorrido y la versión oficial",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "El ministro de Defensa, Carlos Antonio Fernández Onofre, y el ministro de la Presidencia, José Ignacio Paliza, recorrieron el 4 de noviembre los principales pasos formales entre República Dominicana y Haití. La Presidencia identificó las paradas en Dajabón, Elías Piña, Jimaní y Pedernales, con la participación de mandos militares, del Cesfront y de organismos de inteligencia. La explicación oficial fue que la visita buscaba observar las condiciones de seguridad y el funcionamiento cotidiano de la frontera. El comunicado gubernamental sostuvo que las operaciones comerciales y el tránsito autorizado de personas se desarrollaban con normalidad. Esa frase debe leerse como la valoración transmitida por las autoridades tras su recorrido, no como una medición independiente de toda la frontera. La nota no publicó conteos de cruces, volúmenes de carga, tiempos de espera ni incidencias desglosadas por paso. Tampoco incluyó entrevistas a comerciantes, transportistas o residentes. Separar esos elementos permite informar con rigor: la visita y sus participantes son hechos comunicados; la normalidad del comercio es una conclusión oficial que todavía requiere indicadores comparables."
+  },
+  {
+    "type": "heading",
+    "text": "Cuatro pasos, realidades distintas",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Los puntos visitados conectan comunidades y corredores diferentes. Dajabón alberga uno de los mercados binacionales más conocidos; Elías Piña tiene como referencia el paso de Carrizal; Jimaní conecta con Malpaso y rutas hacia el sur haitiano; Pedernales comunica comunidades del extremo suroeste. No es correcto tratarlos como si tuvieran idéntico flujo, infraestructura, horario o dinámica comercial. Una visita a pasos formales ofrece una fotografía de la supervisión en esos lugares, pero no necesariamente describe todos los caminos, puestos, comunidades ni movimientos en la zona limítrofe. El Ministerio de Economía ubica la verja perimetral en cinco provincias dominicanas: Montecristi, Dajabón, Elías Piña, Independencia y Pedernales. Esa extensión territorial ayuda a entender por qué cuatro paradas no agotan el panorama. Para conocer la situación diaria se necesitan datos separados por punto, hora y tipo de movimiento, así como información sobre cierres, controles, servicios y condiciones comunitarias. La coordinación de seguridad puede aportar una mirada institucional; la evaluación de efectos civiles y comerciales requiere además escuchar a quienes viven y trabajan allí."
+  },
+  {
+    "type": "heading",
+    "text": "El comercio también forma parte de la noticia",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "La frontera no es solamente una línea de seguridad. En Dajabón funciona un mercado binacional que conecta compradores, vendedores, transportistas y productores de ambos lados. Una estimación publicada por El Día, atribuida a un representante local del Ministerio de Industria, Comercio y Mipymes, sitúa entre 18,000 y 25,000 las personas que cruzan desde Haití durante jornadas de mercado. Esa cifra es una estimación citada, no un conteo oficial del recorrido del 4 de noviembre ni un promedio para todos los pasos. Los días de mercado tienen ritmos propios y los cuatro puntos no comparten necesariamente el mismo volumen. La actividad comercial puede sostener venta de alimentos, productos manufacturados, transporte, almacenamiento y servicios. Una alteración de horarios o de controles puede afectar de forma desigual a negocios pequeños, aun si el tránsito autorizado continúa. También hay diferencias entre comercio formal registrado por Aduanas y operaciones de mercado; sus cifras no deben sumarse sin comprobar que miden lo mismo. La declaración de normalidad es útil como reporte oficial, pero no responde cuánto se movió ese día, cuánto duró el cruce o si cada comerciante pudo operar."
+  },
+  {
+    "type": "heading",
+    "text": "La crisis haitiana como contexto, no como etiqueta",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "La inspección ocurrió en medio de una crisis de seguridad en Haití. En una comparecencia ante el Consejo de Seguridad el 19 de octubre, representantes de Naciones Unidas dijeron que los grupos armados seguían desafiando la autoridad estatal y afectando a la población. La ONU informó entonces de 1,123 personas muertas y 440 heridas por violencia relacionada con pandillas entre julio y comienzos de octubre. Esas cifras corresponden al periodo y al método de registro presentado ante el Consejo; no describen lo ocurrido en los pasos dominicanos durante la visita. La misma intervención mencionó desplazamiento e inseguridad como obstáculos para las elecciones y la prestación de servicios. Naciones Unidas estima que 6.4 millones de personas necesitarán asistencia humanitaria en Haití durante 2026. Ese panorama explica por qué las autoridades dominicanas monitorean la frontera y por qué el tema tiene dimensiones humanitarias, económicas y de seguridad. Sin embargo, la crisis no debe usarse para atribuir conductas colectivas a las personas haitianas que cruzan legalmente ni para presumir que todo movimiento representa una amenaza. Los controles deben basarse en hechos concretos, datos y procedimientos individuales."
+  },
+  {
+    "type": "heading",
+    "text": "Lo que demuestra una visita de supervisión",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Un recorrido de campo permite a las autoridades observar instalaciones, conversar con personal y coordinar operaciones. Puede servir para identificar necesidades logísticas, revisar turnos y comprobar presencia institucional. Pero una visita breve no sustituye una serie estadística ni una auditoría. El comunicado no publicó hora de cada parada, número de funcionarios desplegados, hallazgos por punto ni recomendaciones derivadas. Tampoco dijo si había variaciones frente a la semana anterior. Por eso, “actividad normal” describe la impresión institucional comunicada; no equivale a una evaluación de la percepción de comerciantes, viajeros, comunidades haitianas o dominicanas, ni a un informe de derechos humanos. El valor de la afirmación aumenta cuando se puede contrastar con otras evidencias. Diario Libre y otros medios confirmaron el recorrido, mientras las autoridades ofrecieron su valoración sobre el funcionamiento habitual. Esa coincidencia confirma la existencia de la visita; no transforma automáticamente la valoración oficial en un conteo independiente. Una cobertura rigurosa precisa quién hizo la afirmación y qué datos publicó para sustentarla."
+  },
+  {
+    "type": "heading",
+    "text": "Indicadores que permitirían medir la normalidad",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Una cobertura sostenida podría solicitar cifras comparables para los cuatro pasos. Entre los indicadores útiles están personas autorizadas por jornada, carga transportada, inspecciones, tiempo de espera, horas de apertura y cierres excepcionales. Los datos deberían separar días de mercado de días ordinarios, ya que la actividad de Dajabón fluctúa según calendario y demanda. Las instituciones también deben definir conceptos: “cruce”, “persona”, “interdicción”, “deportación” y “operación comercial” no son categorías intercambiables. Si se publican series, deben incluir periodo, unidad de medida y método de conteo. Para las comunidades, una mirada completa incorporaría datos sobre transporte, precios, ventas, acceso a salud y educación y continuidad de servicios. La información debe proteger datos personales y evitar exponer a residentes de zonas vulnerables. Un recorrido puede iniciar el seguimiento, no concluirlo. Si las mismas variables se registran semanalmente, el público podría comparar si la situación se mantiene o cambia en cada punto. Sin esa continuidad, “normalidad” queda como descripción oficial puntual, no como tendencia medida."
+  },
+  {
+    "type": "heading",
+    "text": "Seguridad, derechos y lenguaje periodístico",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "El debate fronterizo suele combinar dos preocupaciones legítimas: seguridad estatal y vida cotidiana de las comunidades. La cobertura debe evitar reducir a la población haitiana a una categoría de riesgo o describir una nacionalidad como si todos sus integrantes compartieran una conducta. Las autoridades pueden investigar redes criminales y aplicar controles migratorios conforme a la ley; los medios deben verificar cada caso y presentar las cifras con precisión. También hay que diferenciar a quienes cruzan por comercio, familia, trabajo o razones humanitarias de quienes son señalados por una infracción concreta. Una visita ministerial puede transmitir respaldo a los agentes y reforzar la coordinación; el efecto sobre mercados, comunidades y derechos requiere observación específica. Las declaraciones deben atribuirse y las fuentes secundarias identificarse. Si aparece una denuncia o interrupción, debe confirmarse con más de una parte antes de publicarla como hecho. Titulares alarmistas pueden generar temor y estigmatización; formulaciones demasiado generales pueden ocultar problemas reales. El objetivo es mostrar qué ocurrió, qué dijeron las autoridades y qué información aún falta, sin adjudicar la visita a Edely como una cobertura presencial."
+  },
+  {
+    "type": "heading",
+    "text": "Qué conviene seguir después del recorrido",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "La próxima etapa es comprobar si el Gobierno publicará resultados detallados y mantendrá un canal regular de información. Las preguntas son concretas: ¿cuál fue el flujo por paso?, ¿hubo cambios de horario?, ¿qué acuerdos se adoptaron?, ¿qué recursos se asignaron?, ¿cómo se reciben quejas de comerciantes y viajeros? El mercado binacional es un termómetro económico, pero no representa por sí solo toda la frontera. En Elías Piña, Jimaní y Pedernales, los patrones pueden ser distintos. Las publicaciones de Aduanas, Migración, Defensa, gobiernos locales y organismos humanitarios pueden complementar el reporte central, siempre que fechas y definiciones coincidan. El seguimiento puede evaluar políticas sin asumir de antemano que funcionaron o fracasaron. Por ahora, el dato principal es el recorrido de Defensa y Presidencia del 4 de noviembre y la afirmación oficial de que el comercio y el tránsito autorizado se desenvolvían con normalidad. Los indicadores posteriores permitirían poner esa valoración en perspectiva y mostrar si cada paso vivió la misma situación."
+  },
+  {
+    "type": "heading",
+    "text": "Una frontera que necesita datos continuos",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Las comunidades fronterizas requieren información que les sirva para planificar sus actividades. Comerciantes y transportistas necesitan conocer horarios, requisitos y posibles cambios; viajeros necesitan saber qué documentos llevar y cuáles pasos están operativos. Esa información puede publicarse sin revelar despliegues sensibles ni datos personales. La coordinación interinstitucional anunciada por el Gobierno podría incluir un boletín periódico con cifras agregadas, avisos de servicio y mecanismos de contacto. El Ministerio de Economía señala que la frontera combina comercio, turismo, manufactura y producción agropecuaria; por eso la gestión debe considerar más de un objetivo público. Si la atención se concentra únicamente en seguridad, pueden quedar fuera los costos de transporte, el acceso a mercados o el efecto sobre empleos locales. Si se habla únicamente de comercio, también se pierde de vista la protección de las comunidades y los riesgos documentados en Haití. Una cobertura útil conecta ambas dimensiones con información verificable. La visita ministerial aporta un punto de partida; el valor público dependerá de si produce datos, respuestas y seguimiento en los meses siguientes."
+  },
+  {
+    "type": "heading",
+    "text": "Lo que se sabe y lo que no",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Se sabe que dos ministros y mandos militares visitaron cuatro pasos formales el 4 de noviembre. La Presidencia afirmó que las operaciones comerciales y el tránsito autorizado se desarrollaban con normalidad bajo vigilancia. También existe contexto sobre la crisis haitiana y sobre el peso económico de los mercados fronterizos. No se sabe, a partir del comunicado, cuántas personas cruzaron durante la inspección, cuánto tardaron, qué mercancías se movilizaron ni si hubo variaciones respecto a días comparables. Tampoco se publicaron conclusiones individuales para Dajabón, Elías Piña, Jimaní y Pedernales. Mantener esos límites visibles evita que un titular general suplante la evidencia. ActualizaRD puede ampliar esta noticia si las instituciones entregan datos por punto o si los comerciantes y residentes aportan testimonios contrastables. La información oficial será una fuente central, acompañada de observación y verificación independiente cuando existan datos. La frontera merece una cobertura que informe seguridad y comercio sin simplificar a sus habitantes."
+  },
+  {
+    "type": "sources",
+    "items": [
       {
-        "type": "paragraph",
-        "text": "El ministro de Defensa, Carlos Antonio Fernández Onofre, y el ministro de la Presidencia, José Ignacio Paliza, recorrieron los pasos formales de Dajabón, Elías Piña, Jimaní y Pedernales, informó la Presidencia el 4 de noviembre."
+        "name": "Presidencia de la República Dominicana",
+        "url": "https://presidencia.gob.do/noticias/ministros-de-defensa-y-de-la-presidencia-recorren-principales-pasos-fronterizos-y"
       },
       {
-        "type": "paragraph",
-        "text": "El comunicado oficial afirma que el comercio y el tránsito autorizado de personas se desarrollaban con normalidad bajo vigilancia de los organismos de seguridad. La visita incluyó mandos militares y responsables de seguridad fronteriza; el reporte no constituye una evaluación independiente de las condiciones en cada comunidad."
+        "name": "Diario Libre",
+        "url": "https://www.diariolibre.com/politica/gobierno/2026/11/04/inspeccionan-seguridad-en-la-frontera-ante-crisis-en-haiti/3710570"
       },
       {
-        "type": "sources",
-        "items": [
-          {
-            "name": "Presidencia de la República Dominicana",
-            "url": "https://presidencia.gob.do/noticias/ministros-de-defensa-y-de-la-presidencia-recorren-principales-pasos-fronterizos-y"
-          }
-        ]
+        "name": "Ministerio de Economía, Planificación y Desarrollo",
+        "url": "https://mepyd.gob.do/frontera-caribe/"
+      },
+      {
+        "name": "El Día: mercado binacional de Dajabón",
+        "url": "https://eldia.com.do/mercado-binacional-de-dajabon-entre-calma-y-dinamismo-comercial/"
+      },
+      {
+        "name": "Naciones Unidas: actualización sobre Haití",
+        "url": "https://dppa.un.org/en/news/haiti-elections-on-hold-as-gangs-adapt-to-security-crackdown-security-council-hears"
       }
     ]
-  },
+  }
+]
+  }
   {
     "id": "rd-20261105-dgm-deportaciones-1331",
     "slug": "dgm-reporta-1331-deportaciones-en-operativo-del-2-de-noviembre",
