@@ -578,10 +578,3 @@ export function getLocalDatabase() {
   return database;
 }
 
-
-export function localDatabaseExists() {
-
-  return fs.existsSync(
-    getActualizardDatabasePath()
-  );
-}
