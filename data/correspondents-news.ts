@@ -384,7 +384,7 @@ export const correspondentNewsArticles: Article[] = [
     "confidence": 90,
     "sourceCount": 1,
     "createdAt": "2026-11-05T09:00:00-04:00",
-    "updatedAt": "2026-11-05T09:00:00-04:00",
+    "updatedAt": "2026-11-05T11:15:00-04:00",
     "publishedAt": "2026-11-05T09:00:00-04:00",
     "tags": [
       "Kendy Pérez",
@@ -413,6 +413,69 @@ export const correspondentNewsArticles: Article[] = [
         "text": "El seguimiento ciudadano debe centrarse en metas medibles: escuelas, centros de salud, obras terminadas y servicios efectivamente prestados. El presupuesto es un instrumento de política pública y su valoración definitiva depende de cómo se ejecute."
       },
       {
+        "type": "heading",
+        "text": "Cómo leer el Presupuesto 2027",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La presentación de un proyecto de Presupuesto General del Estado es el inicio de un proceso de deliberación, no su conclusión. El Congreso examina cifras propuestas, prioridades sectoriales, fuentes de financiamiento y mecanismos de control antes de convertir el texto en una ley. Para evaluar el ejercicio de 2027 conviene comparar las partidas con la ejecución efectiva de 2026 y con las necesidades de servicios públicos que persisten en distintas provincias. Una cifra elevada en pesos no representa necesariamente una mejora real, porque los precios, el crecimiento de la población y los costos de operación pueden cambiar entre un año y otro. La comparación debe hacerse con documentos de la Dirección General de Presupuesto y con los anexos técnicos entregados a los legisladores, no únicamente con discursos y titulares."
+      },
+      {
+        "type": "heading",
+        "text": "Educación, salud e infraestructura como prioridades",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Las asignaciones para educación, salud e infraestructura suelen concentrar atención por su impacto inmediato sobre hogares y empresas. En educación importa conocer cuánto se destina a personal, mantenimiento, materiales y construcción, y si se incluyen metas verificables de aprendizaje. En salud, la disponibilidad de medicamentos, equipamiento y personal ofrece indicadores más concretos que una asignación global. En infraestructura, debe distinguirse entre obras nuevas, proyectos en ejecución y mantenimiento de inversiones existentes. Las prioridades también tienen una dimensión territorial: una misma cantidad invertida puede atender necesidades muy diferentes en municipios rurales, grandes ciudades y comunidades fronterizas. Una evaluación responsable requiere observar tanto el monto presupuestado como los indicadores de servicios y los compromisos de resultado."
+      },
+      {
+        "type": "heading",
+        "text": "Déficit y deuda: las preguntas fundamentales",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "El financiamiento del gasto público exige evaluar ingresos esperados, recaudación, obligaciones existentes y posibles necesidades de endeudamiento. Cuando un presupuesto proyecta déficit, debe explicarse qué partidas lo generan, cómo se cubrirá y cuál sería el efecto sobre los pagos futuros. Una operación de deuda puede financiar infraestructura de larga duración o cubrir otras necesidades, pero sus condiciones y riesgos deben comunicarse con claridad. El análisis también debe contemplar sensibilidad ante variaciones de inflación, tasas de interés, crecimiento y tipo de cambio. Los supuestos económicos son proyecciones y no resultados garantizados. El seguimiento posterior permitirá contrastar las estimaciones oficiales con el desempeño observado, evitando presentar como hechos futuros valores que dependen del entorno económico."
+      },
+      {
+        "type": "heading",
+        "text": "La ejecución es tan importante como la autorización",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "El presupuesto aprobado autoriza una distribución de recursos, pero no prueba por sí mismo que esos fondos se gasten ni que produzcan los beneficios anunciados. La ejecución presupuestaria muestra cuánto se comprometió, cuánto se pagó y qué proporción de las metas programadas se alcanzó. Una obra puede tener asignación y registrar retrasos; un servicio puede disponer de recursos y seguir presentando dificultades logísticas. Para conocer esos problemas es necesario examinar reportes periódicos, cronogramas y evaluaciones independientes. También conviene comparar instituciones que reciben recursos similares y que muestran resultados diferentes. Esta mirada permite identificar obstáculos administrativos, falta de planificación o necesidades de ajustes, en lugar de reducir el debate a quién recibe una cifra más alta."
+      },
+      {
+        "type": "heading",
+        "text": "Transparencia y control ciudadano",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La discusión sobre el presupuesto adquiere valor cuando sus documentos pueden consultarse y entenderse. Los anexos deben detallar objetivos, programas, instituciones y unidades de gasto; las modificaciones durante el año deben quedar registradas de manera accesible. La transparencia también alcanza las contrataciones, los pagos y la identificación de los proyectos beneficiados. Periodistas, investigadores y organizaciones ciudadanas pueden comparar los registros oficiales con las condiciones observadas en escuelas, hospitales y carreteras, siempre diferenciando observaciones de campo de auditorías formales. Una fiscalización basada en datos comparables ayuda a reconocer avances verificables y a detectar inconsistencias. Las autoridades, por su parte, deben contar con canales para responder preguntas y explicar cambios sin convertir cada cuestionamiento en confrontación política."
+      },
+      {
+        "type": "heading",
+        "text": "Qué significa el presupuesto para las familias",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Las decisiones presupuestarias pueden modificar la calidad de los servicios que reciben las familias y el entorno de inversión de los negocios. Una partida para transporte puede afectar movilidad; una inversión en agua potable puede reducir gastos de tiempo y salud; un programa de capacitación puede crear nuevas oportunidades laborales. Sin embargo, la existencia de una partida no significa que todos los ciudadanos obtendrán el mismo beneficio. Importa saber dónde se ejecuta, a quién alcanza y bajo qué criterios. También hay que examinar los costos de oportunidad: destinar recursos a una iniciativa puede limitar la capacidad de atender otra. Esa elección es legítima dentro de la política pública, pero necesita explicaciones, indicadores y mecanismos para evaluar resultados."
+      },
+      {
+        "type": "heading",
+        "text": "Seguimiento legislativo y conclusión",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "El debate legislativo ofrece la ocasión de precisar el alcance de las partidas y documentar compromisos de los organismos públicos. Las preguntas centrales son qué necesidades se priorizan, cómo se financiarán, cuáles indicadores se utilizarán y qué mecanismos permitirán corregir desviaciones. La cobertura debe separar el texto sometido al Congreso de las eventuales modificaciones y del presupuesto finalmente promulgado. En una etapa posterior corresponderá estudiar los informes de ejecución y los efectos sobre la economía real. El objetivo no es declarar exitoso o fallido un proyecto antes de implementarlo, sino ofrecer herramientas para seguir su evolución. El verdadero valor del Presupuesto 2027 se conocerá en la calidad de los servicios y proyectos realizados con los recursos públicos."
+      },
+      {
         "type": "sources",
         "items": [
           {
@@ -437,7 +500,7 @@ export const correspondentNewsArticles: Article[] = [
     "confidence": 90,
     "sourceCount": 1,
     "createdAt": "2026-11-05T09:00:00-04:00",
-    "updatedAt": "2026-11-05T09:00:00-04:00",
+    "updatedAt": "2026-11-05T11:15:00-04:00",
     "publishedAt": "2026-11-05T09:00:00-04:00",
     "tags": [
       "Kendy Pérez",
@@ -466,6 +529,69 @@ export const correspondentNewsArticles: Article[] = [
         "text": "Por ahora se trata de una propuesta legislativa y no de una norma vigente por el solo hecho de haber sido recibida. Los debates y eventuales modificaciones permitirán conocer su alcance definitivo y sus efectos para quienes transitan diariamente por las carreteras."
       },
       {
+        "type": "heading",
+        "text": "Una propuesta legislativa, no una ley en vigor",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La recepción de un proyecto para modernizar el sistema de peajes y establecer mecanismos frente a la evasión inicia una discusión que todavía puede modificarse durante el trámite legislativo. Los cambios propuestos no deben confundirse con obligaciones ya vigentes. Antes de afirmar que habrá nuevas multas, sistemas de cobro o procedimientos, corresponde consultar la versión oficial del texto, sus artículos y el estado de la iniciativa en el Senado. Las propuestas pueden ser ajustadas en comisiones, recibir observaciones de otras instituciones o experimentar modificaciones en la Cámara de Diputados. La cobertura informativa debe explicar esos pasos con claridad, especialmente cuando una iniciativa afecta gastos cotidianos de conductores y transportistas."
+      },
+      {
+        "type": "heading",
+        "text": "Por qué importa modernizar la gestión de peajes",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Un sistema de peajes combina recaudación, control de tránsito y financiamiento de infraestructura vial. La modernización tecnológica puede buscar pagos más rápidos, menor circulación de efectivo, registros operativos transparentes y reducción de tiempos de espera. Pero la tecnología no elimina automáticamente problemas de organización, señalización o atención al usuario. Su utilidad debe medirse con datos: tiempos promedio por carril, incidencias, costo por operación y disponibilidad del servicio. Si se implementan dispositivos electrónicos, deben existir protocolos de soporte y alternativas para quienes no dispongan de ellos. Los beneficios esperados deben presentarse como objetivos y compararse después con resultados, sin anticipar una mejora que todavía no se haya medido."
+      },
+      {
+        "type": "heading",
+        "text": "Protección de datos y posibles errores de cobro",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Los sistemas automatizados pueden registrar matrículas, horarios, trayectos y medios de pago, información que requiere controles proporcionales de acceso y conservación. Es fundamental aclarar quién administra esos registros, con qué finalidad pueden consultarse y durante cuánto tiempo se almacenan. También deben establecerse mecanismos para resolver cobros duplicados, identificaciones erróneas y fallos de lectura. Un usuario que recibe un cargo indebido necesita una vía sencilla de reclamación y una respuesta documentada. Si se utilizan cámaras y algoritmos de reconocimiento, la institución responsable debe conocer sus limitaciones técnicas. Un sistema de cobro confiable no depende solamente de recaudar: también debe corregir errores y proteger los derechos de quienes lo utilizan."
+      },
+      {
+        "type": "heading",
+        "text": "Evasión, sanciones y debido proceso",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Las medidas destinadas a enfrentar la evasión de peajes deben definir las conductas sancionables con precisión, establecer procedimientos de notificación y garantizar la posibilidad de impugnar una decisión. No es lo mismo una acción deliberada para evitar el pago que un fallo del equipo, una confusión de carril o un error administrativo. Las eventuales sanciones necesitan proporcionalidad y una base normativa clara. Las autoridades deberán explicar qué pruebas se utilizan y quién toma la decisión final. La automatización puede aportar evidencia, pero no debería eliminar la revisión humana en casos controvertidos. Es importante que el reglamento futuro, si llega a aprobarse, sea accesible para usuarios frecuentes, empresas de transporte y conductores ocasionales."
+      },
+      {
+        "type": "heading",
+        "text": "Impacto en empresas y trabajadores",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "El costo y el tiempo de tránsito son variables relevantes para servicios de distribución, rutas interurbanas y negocios que dependen de entregas periódicas. Una operación de cobro más fluida podría mejorar la previsibilidad de los viajes, mientras cambios mal comunicados pueden generar confusión y demoras. La evaluación de impacto debe separar efectos sobre vehículos particulares, transporte colectivo, carga y flotas empresariales. Asimismo, la transición tecnológica puede requerir capacitación del personal que actualmente trabaja en estaciones de peaje. No conviene suponer que todos los sectores tendrán iguales costos o beneficios. Consultar operadores, asociaciones de usuarios y especialistas en infraestructura ayudaría a construir un balance más completo del proyecto."
+      },
+      {
+        "type": "heading",
+        "text": "Ingresos y mantenimiento vial",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La discusión sobre recaudación debe relacionarse con el mantenimiento, seguridad y calidad de la infraestructura. Los usuarios necesitan información clara sobre quién administra los fondos, qué proporción se destina a operación y qué proyectos de mantenimiento se financian. Si existe una estructura de concesión o un fideicomiso, corresponde analizar los contratos y obligaciones aplicables sin asumir que todas las vías comparten el mismo modelo. La publicación periódica de ingresos, costos y obras completadas permitiría evaluar resultados concretos. También contribuiría a distinguir inversiones programadas de reparaciones efectivamente entregadas. Un sistema transparente ofrece trazabilidad del dinero y hace posible debatir tarifas sobre una base de datos verificables."
+      },
+      {
+        "type": "heading",
+        "text": "Los pasos siguientes y el debate público",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La aprobación de un marco de modernización, si finalmente ocurre, debería ir acompañada de cronogramas, pruebas técnicas y procedimientos de transición divulgados con anticipación. Será importante comprobar qué instituciones serán responsables, cómo se atenderán reclamaciones y qué criterios determinarán el éxito del sistema. Una prueba piloto puede identificar fallos antes de ampliar una solución a toda una red vial. El seguimiento periodístico debe centrarse en las versiones definitivas de la normativa y no en supuestos sobre su contenido. La cuestión principal es si el proyecto consigue equilibrar eficiencia de cobro, seguridad jurídica y buen servicio a la ciudadanía."
+      },
+      {
         "type": "sources",
         "items": [
           {
@@ -490,7 +616,7 @@ export const correspondentNewsArticles: Article[] = [
     "confidence": 90,
     "sourceCount": 1,
     "createdAt": "2026-11-05T09:00:00-04:00",
-    "updatedAt": "2026-11-05T09:00:00-04:00",
+    "updatedAt": "2026-11-05T11:15:00-04:00",
     "publishedAt": "2026-11-05T09:00:00-04:00",
     "tags": [
       "Kendy Pérez",
@@ -517,6 +643,69 @@ export const correspondentNewsArticles: Article[] = [
       {
         "type": "paragraph",
         "text": "Una cobertura de seguimiento deberá examinar los acuerdos que efectivamente se firmen, su calendario de implementación y los indicadores públicos de resultados. Hasta entonces, lo confirmado es la convocatoria anunciada por la institución policial."
+      },
+      {
+        "type": "heading",
+        "text": "La convocatoria anunciada en Santo Domingo",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La Policía Nacional informó que Santo Domingo acogería los días 11 y 12 de noviembre de 2026 la XVI Cumbre Ordinaria de la Comunidad de Policías de América, conocida como Ameripol. La convocatoria fue presentada como un espacio de diálogo entre autoridades de América Latina y el Caribe sobre amenazas a la seguridad interior. Al tratarse de un encuentro anunciado para fechas posteriores, el reportaje distingue entre el programa previsto y los resultados que eventualmente se conozcan. No corresponde atribuir a la cumbre acuerdos firmados, operaciones ejecutadas o decisiones que aún no se han documentado públicamente. Una cobertura rigurosa deberá verificar las delegaciones participantes y las conclusiones mediante fuentes oficiales al término de las sesiones."
+      },
+      {
+        "type": "heading",
+        "text": "Criminalidad organizada y cooperación transnacional",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Las redes criminales pueden operar en varios países mediante rutas de tráfico ilícito, fraude, lavado de activos y aprovechamiento de tecnologías digitales. Esa dimensión transnacional hace relevante la coordinación entre organismos especializados, pero los retos varían según la legislación y la capacidad institucional de cada Estado. Compartir experiencias puede facilitar la identificación de patrones y la formación técnica, siempre que existan acuerdos adecuados y controles de protección de información. El discurso de cooperación no equivale a una operación policial conjunta automática. Cada intervención debe respetar competencias legales, reglas de intercambio de datos y mecanismos de supervisión. La efectividad dependerá de acciones posteriores que puedan evaluarse con indicadores públicos."
+      },
+      {
+        "type": "heading",
+        "text": "Intercambio de información y límites legales",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "El intercambio de datos entre policías es uno de los temas más sensibles de la cooperación regional. Las instituciones necesitan verificar la calidad y pertinencia de la información compartida, evitar registros erróneos y establecer controles sobre quién puede acceder a ellos. La protección de información personal y de investigaciones en curso obliga a mantener salvaguardas técnicas y jurídicas. Un error de identidad en una base internacional puede causar consecuencias importantes; por eso deben existir mecanismos de corrección. También es necesario separar información de inteligencia, indicios de investigación y pruebas admisibles ante un tribunal. La cooperación legítima se fortalece cuando sus procedimientos son claros y sus límites respetan el debido proceso."
+      },
+      {
+        "type": "heading",
+        "text": "Ciberdelitos y capacidades técnicas",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Las amenazas digitales requieren especialistas en informática forense, preservación de evidencia electrónica y cooperación con proveedores de servicios cuando corresponda legalmente. Los delincuentes pueden aprovechar plataformas transfronterizas y mover recursos con rapidez, lo que complica la investigación. La respuesta no depende únicamente de adquirir herramientas tecnológicas; exige formación, protocolos, laboratorios y coordinación con fiscalías. También es necesario prevenir accesos indebidos a información privada y documentar la cadena de custodia. Una cumbre puede facilitar iniciativas de capacitación y acuerdos de colaboración, pero el alcance de cualquier compromiso futuro debe verificarse mediante documentos y resultados mensurables."
+      },
+      {
+        "type": "heading",
+        "text": "La realidad dominicana dentro de la agenda regional",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Como país anfitrión, República Dominicana tiene la oportunidad de presentar experiencias y preocupaciones relacionadas con seguridad ciudadana, puertos, turismo, comercio y delitos financieros. El intercambio regional puede aportar buenas prácticas que deban adaptarse al marco jurídico y a las capacidades del país. Ninguna estrategia se vuelve aplicable solamente por haber dado resultados en otra nación. Antes de incorporar una práctica deben evaluarse costos, protección de derechos, preparación del personal y capacidad de fiscalización. También conviene considerar programas preventivos y colaboración comunitaria, además de herramientas investigativas. La política de seguridad es más sólida cuando integra prevención, investigación profesional y control institucional."
+      },
+      {
+        "type": "heading",
+        "text": "Cómo evaluar los compromisos de la cumbre",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Después del encuentro, los medios podrán solicitar una declaración final, acuerdos de cooperación, responsables de ejecución y calendarios de seguimiento. Los anuncios deberán diferenciarse entre compromisos generales de intención y medidas con presupuesto, capacitación o procedimientos definidos. Para valorar el avance con el tiempo podrían observarse iniciativas conjuntas efectivamente realizadas, intercambios formativos y mejoras de coordinación documentadas. Las cifras sobre criminalidad requerirán metodología y contexto, ya que una variación anual no puede atribuirse automáticamente a una sola conferencia. Los resultados tendrán más valor si se divulgan con suficiente detalle para permitir escrutinio público sin comprometer investigaciones sensibles."
+      },
+      {
+        "type": "heading",
+        "text": "Seguridad y derechos como objetivos compatibles",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "La cooperación internacional contra el crimen organizado debe regirse por principios de legalidad, necesidad y proporcionalidad. Los derechos fundamentales no son un obstáculo externo a la seguridad: su protección ayuda a prevenir errores y sostiene la confianza en las instituciones. El control judicial y las reglas de rendición de cuentas permiten evaluar las herramientas adoptadas y responder a eventuales abusos. La cita de Ameripol puede convertirse en un punto de partida para discutir estándares compartidos, siempre que las decisiones se traduzcan en prácticas verificables. Por ahora, la noticia es la convocatoria y su agenda de cooperación; el balance definitivo corresponde a la documentación que produzcan las sesiones del 11 y 12 de noviembre."
       },
       {
         "type": "sources",
