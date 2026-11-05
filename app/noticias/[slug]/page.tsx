@@ -105,19 +105,20 @@ export default async function ArticlePage({
           justifyContent: "center",
           gap: 16,
           margin: "22px auto 28px",
-          textAlign: "left"
+          textAlign: article.authorImageFeatured ? "center" : "left",
+          flexDirection: article.authorImageFeatured ? "column" : "row"
         }}
       >
         {article.authorImage && (
           <img
             src={article.authorImage}
             alt={article.author}
-            width={76}
-            height={76}
+            width={article.authorImageFeatured ? 220 : 76}
+            height={article.authorImageFeatured ? 220 : 76}
             style={{
-              width: 76,
-              height: 76,
-              borderRadius: "50%",
+              width: article.authorImageFeatured ? 220 : 76,
+              height: article.authorImageFeatured ? 220 : 76,
+              borderRadius: article.authorImageFeatured ? 18 : "50%",
               objectFit: "cover",
               objectPosition: "center 30%",
               border: "3px solid white",
@@ -180,7 +181,9 @@ export default async function ArticlePage({
               {article.author}
             </strong>
             <p className="meta" style={{ margin: "5px 0 0" }}>
-              Columna de análisis sobre turismo, innovación y desarrollo.
+              {article.author === "Edely Adames"
+                ? "Autora de ActualizaRD. Esta noticia conserva sus fuentes consultadas."
+                : "Columna de análisis sobre turismo, innovación y desarrollo."}
             </p>
           </div>
         </section>

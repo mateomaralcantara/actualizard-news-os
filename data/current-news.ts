@@ -4,19 +4,148 @@ const publishedAt = "2026-11-04T22:30:00-04:00";
 
 export const currentNewsArticles: Article[] = [
   {
+    "id": "rd-20261105-supervision-pasos-fronterizos-haiti",
+    "slug": "gobierno-supervisa-cuatro-pasos-fronterizos-con-haiti",
+    "title": "Gobierno supervisa cuatro pasos fronterizos con Haití y reporta actividad normal",
+    "dek": "Defensa y Presidencia recorrieron Dajabón, Elías Piña, Jimaní y Pedernales; la valoración sobre el comercio y el tránsito autorizado proviene de la versión oficial.",
+    "category": "RD",
+    "author": "Edely Adames",
+    "authorImage": "/uploads/edely-adames.jpg",
+    "authorImageFeatured": true,
+    "heroImage": "/uploads/edely-adames.jpg",
+    "heroCaption": "Edely Adames, autora de ActualizaRD. Retrato de perfil; no corresponde a una cobertura presencial en la frontera.",
+    "status": "published",
+    "confidence": 92,
+    "sourceCount": 1,
+    "createdAt": "2026-11-05T07:11:49-04:00",
+    "updatedAt": "2026-11-05T07:11:49-04:00",
+    "publishedAt": "2026-11-05T07:11:49-04:00",
+    "tags": [
+      "Haití",
+      "frontera",
+      "Dajabón",
+      "seguridad"
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "El ministro de Defensa, Carlos Antonio Fernández Onofre, y el ministro de la Presidencia, José Ignacio Paliza, recorrieron los pasos formales de Dajabón, Elías Piña, Jimaní y Pedernales, informó la Presidencia el 4 de noviembre."
+      },
+      {
+        "type": "paragraph",
+        "text": "El comunicado oficial afirma que el comercio y el tránsito autorizado de personas se desarrollaban con normalidad bajo vigilancia de los organismos de seguridad. La visita incluyó mandos militares y responsables de seguridad fronteriza; el reporte no constituye una evaluación independiente de las condiciones en cada comunidad."
+      },
+      {
+        "type": "sources",
+        "items": [
+          {
+            "name": "Presidencia de la República Dominicana",
+            "url": "https://presidencia.gob.do/noticias/ministros-de-defensa-y-de-la-presidencia-recorren-principales-pasos-fronterizos-y"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-20261105-dgm-deportaciones-1331",
+    "slug": "dgm-reporta-1331-deportaciones-en-operativo-del-2-de-noviembre",
+    "title": "DGM reporta 1,331 deportaciones en operativos del 2 de noviembre",
+    "dek": "Migración también informó 1,576 interdicciones; el desglose publicado por puntos fronterizos no explica 230 deportaciones del total.",
+    "category": "RD",
+    "author": "Edely Adames",
+    "authorImage": "/uploads/edely-adames.jpg",
+    "heroImage": "https://idmphsmkuxkn.compat.objectstorage.us-ashburn-1.oraclecloud.com/elcaribe-bucket/uploads/2025/07/foto-nota-de-prensa-2-del-16-de-julio-del-ano-2025-2048x1366-1.jpg.webp",
+    "heroCaption": "Imagen de archivo de un operativo migratorio; no corresponde a la jornada del 2 de noviembre. Fuente: El Caribe.",
+    "status": "published",
+    "confidence": 92,
+    "sourceCount": 1,
+    "createdAt": "2026-11-05T07:11:49-04:00",
+    "updatedAt": "2026-11-05T07:11:49-04:00",
+    "publishedAt": "2026-11-05T07:11:49-04:00",
+    "tags": [
+      "DGM",
+      "migración",
+      "Haití",
+      "frontera"
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "La Dirección General de Migración informó que deportó a 1,331 personas en situación migratoria irregular durante los operativos realizados el lunes 2 de noviembre. La institución indicó que también interceptó a 1,576 personas en distintas provincias."
+      },
+      {
+        "type": "paragraph",
+        "text": "El desglose divulgado señala 388 deportaciones por Dajabón, 288 por Jimaní, 223 en Santiago, 94 por Pedernales y 108 por Elías Piña. Esas cifras suman 1,101, por lo que el comunicado no detalla en ese desglose los puntos correspondientes a las 230 restantes."
+      },
+      {
+        "type": "sources",
+        "items": [
+          {
+            "name": "Dirección General de Migración",
+            "url": "https://migracion.gob.do/dgm-deporta-este-lunes-1331-extranjeros-indocumentados-hacia-haiti/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-20261105-onu-apoyo-logistico-haiti",
+    "slug": "onu-valora-apoyo-logistico-dominicano-a-operaciones-en-haiti",
+    "title": "ONU valora apoyo logístico dominicano a las operaciones de seguridad en Haití",
+    "dek": "La Cancillería informó que un buque trasladó cerca de 525 toneladas de suministros y equipos desde el puerto de Haina hacia Haití.",
+    "category": "Mundo",
+    "author": "Edely Adames",
+    "authorImage": "/uploads/edely-adames.jpg",
+    "authorImageFeatured": true,
+    "heroImage": "/uploads/edely-adames.jpg",
+    "heroCaption": "Edely Adames, autora de ActualizaRD. Retrato de perfil; no corresponde a la carga ni al embarque descritos.",
+    "status": "published",
+    "confidence": 93,
+    "sourceCount": 1,
+    "createdAt": "2026-11-05T07:11:49-04:00",
+    "updatedAt": "2026-11-05T07:11:49-04:00",
+    "publishedAt": "2026-11-05T07:11:49-04:00",
+    "tags": [
+      "Haití",
+      "ONU",
+      "MIREX",
+      "cooperación internacional"
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Daniela Kroslak, subsecretaria general de la ONU y jefa de la Oficina de Apoyo de las Naciones Unidas en Haití, calificó de esencial el respaldo logístico dominicano para facilitar operaciones de la Fuerza de Supresión de Pandillas, informó la Cancillería el 1 de noviembre."
+      },
+      {
+        "type": "paragraph",
+        "text": "MIREX reportó que desde el puerto de Haina salió un buque con aproximadamente 525 toneladas de suministros, vehículos especializados y equipos. El cargamento procedía de Bangladesh y su traslado contó con apoyo financiero de Alemania, de acuerdo con la información oficial."
+      },
+      {
+        "type": "sources",
+        "items": [
+          {
+            "name": "Ministerio de Relaciones Exteriores (MIREX)",
+            "url": "https://mirex.gob.do/onu-califica-de-esencial-apoyo-del-gobierno-dominicano-a-las-operaciones-de-la-fuerza-de-supresion-de-pandillas-en-haiti/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "rd-20261104-autopista-ambar-inicio-15-dias",
     slug: "abinader-anuncia-inicio-autopista-ambar-en-15-dias",
     title: "Abinader anuncia primer picazo de la Autopista del Ámbar dentro de 15 días",
     dek: "El Gobierno informó que entregó RD$5,780 millones como primera partida; la vía de unos 35 kilómetros conectaría Santiago y Puerto Plata.",
-    category: "Infraestructura",
-    author: "Redacción Actualizard",
+    category: "Negocios",
+    author: "Edely Adames",
+    authorImage: "/uploads/edely-adames.jpg",
     heroImage: "https://www.presidencia.gob.do/sites/default/files/news/2023-10/Palacio-Nacional2%20%282%29%20%281%29.jpg",
     heroCaption: "Palacio Nacional, fotografía de archivo. Fuente: Presidencia de la República.",
     status: "published",
     confidence: 96,
     sourceCount: 1,
     createdAt: publishedAt,
-    updatedAt: publishedAt,
+    updatedAt: "2026-11-05T07:11:49-04:00",
     publishedAt,
     tags: ["Autopista del Ámbar", "Santiago", "Puerto Plata", "infraestructura"],
     blocks: [
@@ -30,21 +159,22 @@ export const currentNewsArticles: Article[] = [
     slug: "gobierno-aprueba-codigo-etica-ia-servicios-publicos",
     title: "Gobierno aprueba código de ética para el uso de inteligencia artificial en servicios públicos",
     dek: "El Decreto 787-26 establece pautas para aplicar IA en la Administración Pública con transparencia, protección de derechos y supervisión humana.",
-    category: "Tecnología",
-    author: "Redacción Actualizard",
+    category: "IA",
+    author: "Edely Adames",
+    authorImage: "/uploads/edely-adames.jpg",
     heroImage: "https://resources.diariolibre.com/images/2026/06/25/rd-aprobara-codigo-de-etica-para-inteligencia-artificial-d49c9f03-focus-0-0-896-504.jpg",
     heroCaption: "Imagen de archivo de una actividad pública sobre ética de IA. Fuente: Diario Libre.",
     status: "published",
     confidence: 96,
     sourceCount: 1,
     createdAt: publishedAt,
-    updatedAt: publishedAt,
+    updatedAt: "2026-11-05T07:11:49-04:00",
     publishedAt,
     tags: ["inteligencia artificial", "servicios públicos", "Decreto 787-26", "República Dominicana"],
     blocks: [
-      { type: "paragraph", text: "El Poder Ejecutivo aprobó mediante el Decreto 787-26 un Código de Ética para el uso de inteligencia artificial en los servicios públicos. La Consultoría Jurídica indicó que la norma busca orientar el uso responsable de estas tecnologías en la Administración Pública." },
-      { type: "paragraph", text: "Entre los principios citados están la protección de los derechos fundamentales, la transparencia y la supervisión humana. La disposición crea un marco de referencia para las instituciones; su aplicación concreta dependerá de las medidas y procedimientos que adopte cada organismo." },
-      { type: "sources", items: [{ name: "Consultoría Jurídica del Poder Ejecutivo", url: "https://consultoria.gov.do/" }] }
+      { type: "paragraph", text: "El Gobierno aprobó mediante el Decreto 787-26 un Código de Ética para el uso de inteligencia artificial en los servicios públicos. La Presidencia informó que la norma se aplica a instituciones de la Administración pública centralizada y descentralizada." },
+      { type: "paragraph", text: "El documento contempla evaluaciones de impacto para sistemas de alto impacto, información a la ciudadanía cuando una decisión administrativa use IA y mecanismos de revisión humana. Las instituciones tienen 180 días calendario para adecuar sus procesos, según el comunicado oficial." },
+      { type: "sources", items: [{ name: "Presidencia de la República Dominicana", url: "https://www.presidencia.gob.do/noticias/el-gobierno-aprueba-el-codigo-de-etica-de-la-inteligencia-artificial-para-garantizar-un" }] }
     ]
   },
   {
@@ -96,15 +226,16 @@ export const currentNewsArticles: Article[] = [
     slug: "abinader-participa-inauguracion-cumbre-iberoamericana-madrid",
     title: "Abinader participa en la inauguración de la Cumbre Iberoamericana en Madrid",
     dek: "La XXX edición reunió a representantes de los países iberoamericanos; en el acto inaugural se destacaron el diálogo, la cooperación y la solidaridad.",
-    category: "Internacionales",
-    author: "Redacción Actualizard",
+    category: "Mundo",
+    author: "Edely Adames",
+    authorImage: "/uploads/edely-adames.jpg",
     heroImage: "https://idmphsmkuxkn.compat.objectstorage.us-ashburn-1.oraclecloud.com/cdn-bucket/uploads/2023/03/WhatsApp-Image-2023-03-24-at-7.01.56-PM.jpeg",
     heroCaption: "Fotografía de archivo de una cumbre iberoamericana anterior. Fuente: CDN.",
     status: "published",
     confidence: 94,
     sourceCount: 1,
     createdAt: publishedAt,
-    updatedAt: publishedAt,
+    updatedAt: "2026-11-05T07:11:49-04:00",
     publishedAt,
     tags: ["Cumbre Iberoamericana", "Madrid", "Luis Abinader", "relaciones exteriores"],
     blocks: [
