@@ -21,186 +21,92 @@ import {
 export async function publishCluster(
   clusterId: string
 ) {
-
-  const clusters =
-    loadClustersSync();
-
-  const cluster =
-    clusters.find(
-      item =>
-        item.id === clusterId
-    );
+  const clusters = loadClustersSync();
+  const cluster = clusters.find(item => item.id === clusterId);
 
   if (!cluster) {
-
-    throw new Error(
-      "Cluster no encontrado."
-    );
+    throw new Error("Cluster no encontrado.");
   }
 
-  const minimum =
-    Number(
-      process.env
-        .ACTUALIZARD_MIN_PUBLISH_SCORE ||
-      75
-    );
+  const minimum = Number(process.env.ACTUALIZARD_MIN_PUBLISH_SCORE || 75);
 
-  if (
-    cluster.confidence <
-    minimum
-  ) {
-
+  if (cluster.confidence < minimum) {
     throw new Error(
       `Confianza ${cluster.confidence}. El mínimo configurado es ${minimum}.`
     );
   }
 
-  let draft =
-    getDraftForCluster(
-      clusterId
-    );
+  let draft = getDraftForCluster(clusterId);
 
   if (!draft) {
-
-    draft =
-      await createEditorialDraft(
-        clusterId
-      );
+    draft = await createEditorialDraft(clusterId);
   }
 
-  const stories =
-    loadStoriesSync()
-      .filter(
-        story =>
-          cluster.storyIds.includes(
-            story.id
-          )
-      );
+  if (draft.generatedBy !== "ai") {
+    throw new Error(
+      "No se publica: Gemini no produjo un borrador válido. Revisa GEMINI_API_KEY y vuelve a generar el borrador."
+    );
+  }
+
+  const stories = loadStoriesSync().filter(story =>
+    cluster.storyIds.includes(story.id)
+  );
 
   const heroImage =
-    stories.find(
-      story =>
-        Boolean(story.image)
-    )?.image ||
+    stories.find(story => Boolean(story.image))?.image ||
     "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1600&q=80";
 
-  const blocks:
-    ContentBlock[] = [];
+  const blocks: ContentBlock[] = [];
 
-  for (
-    const paragraph
-    of draft.paragraphs
-  ) {
-
+  for (const paragraph of draft.paragraphs) {
     blocks.push({
       type: "paragraph",
       text: paragraph
     });
   }
 
-  if (
-    draft.bullets.length
-  ) {
-
+  if (draft.bullets.length) {
     blocks.push({
       type: "bullets",
-      items:
-        draft.bullets
+      items: draft.bullets
     });
   }
 
-  const firstVideo =
-    stories.find(
-      story =>
-        Boolean(story.video)
-    )?.video;
+  const firstVideo = stories.find(story => Boolean(story.video))?.video;
 
-  if (
-    firstVideo &&
-    firstVideo.includes(
-      "youtube"
-    )
-  ) {
-
+  if (firstVideo && firstVideo.includes("youtube")) {
     blocks.push({
       type: "video",
       url: firstVideo,
-      caption:
-        "Video relacionado con la historia."
+      caption: "Video relacionado con la historia."
     });
   }
 
   blocks.push({
     type: "paragraph",
-
-    text:
-      `Fuentes consultadas: ${
-        draft.sources
-          .map(
-            source =>
-              source.name
-          )
-          .join(", ")
-      }.`
+    text: `Fuentes consultadas: ${draft.sources.map(source => source.name).join(", ")}.`
   });
 
-  const now =
-    new Date().toISOString();
+  const now = new Date().toISOString();
 
-  const article:
-    Article = {
-
-    id:
-      `live-${cluster.id}`,
-
-    slug:
-      `${slugify(
-        draft.title
-      )}-${
-        cluster.id.slice(-6)
-      }`,
-
-    title:
-      draft.title,
-
-    dek:
-      draft.dek,
-
-    category:
-      cluster.category,
-
-    author:
-      "Redacción Actualizard",
-
+  const article: Article = {
+    id: `live-${cluster.id}`,
+    slug: `${slugify(draft.title)}-${cluster.id.slice(-6)}`,
+    title: draft.title,
+    dek: draft.dek,
+    category: cluster.category,
+    author: "Redacción Actualizard",
     heroImage,
-
-    status:
-      "published",
-
-    confidence:
-      cluster.confidence,
-
-    sourceCount:
-      cluster.sourceCount,
-
-    createdAt:
-      now,
-
-    updatedAt:
-      now,
-
-    publishedAt:
-      now,
-
+    status: "published",
+    confidence: cluster.confidence,
+    sourceCount: cluster.sourceCount,
+    createdAt: now,
+    updatedAt: now,
+    publishedAt: now,
     blocks,
-
-    tags:
-      draft.tags
+    tags: draft.tags
   };
 
-  savePublishedArticleSync(
-    article
-  );
-
+  savePublishedArticleSync(article);
   return article;
 }
