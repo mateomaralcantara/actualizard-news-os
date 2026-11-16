@@ -167,10 +167,12 @@ export default function HomePage() {
                 aria-label={`Abrir artículo: ${article.title}`}
               >
 
-                <img
-                  src={article.heroImage}
-                  alt=""
-                />
+                {article.heroImage && (
+                  <img
+                    src={article.heroImage}
+                    alt=""
+                  />
+                )}
 
 
                 <div>

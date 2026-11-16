@@ -65,7 +65,7 @@ export interface Article {
   category: string;
   author: string;
   authorImage?: string;
-  heroImage: string;
+  heroImage?: string;
   heroCaption?: string;
   status: ArticleStatus;
   confidence: number;

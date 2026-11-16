@@ -2703,3 +2703,10 @@ body {
   .article-comment { padding: 12px 9px; margin-left: min(calc(var(--thread-depth, 0) * 12px), 36px); }
   .article-comment-avatar { width: 29px; height: 29px; flex-basis: 29px; }
 }
+
+/* Filas de noticias sin foto: el texto ocupa la columna de la imagen. */
+.story-row:not(:has(> img)) {
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto;
+}
