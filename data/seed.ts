@@ -1,8 +1,5 @@
 import type { Article, SourceRecord } from "@/lib/types";
 
-const ILLUSTRATIVE =
-  "Imagen ilustrativa. La información de esta historia procede de las fuentes enlazadas.";
-
 export const sources: SourceRecord[] = [
   {
     id: "src-presidencia-rd",
@@ -98,8 +95,6 @@ export const articles: Article[] = [
     dek: "La emisora se suma a la jornada solidaria prevista para este viernes 30 de octubre, ampliando por radio el alcance del llamado comunitario en favor de Yaser Melo.",
     category: "RD",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/ocoa-unida-telemaraton-30-octubre.webp",
-    heroCaption: "Convocatoria del RadioTelemaratón Ocoa Unida, cuya retransmisión contará también con Maniel FM.",
     status: "published",
     confidence: 90,
     sourceCount: 1,
@@ -218,8 +213,6 @@ export const articles: Article[] = [
     dek: "Yaser Melo enfrenta una enfermedad renal; su hermano Alejandro Ivanovich se ha ofrecido como donante. Una familia con raíces ocoeñas convoca a un telemaratón el viernes 30 de octubre, entre la esperanza, el sacrificio y la solidaridad.",
     category: "RD",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/ocoa-yaser-alejandro-cronica-portada.webp",
-    heroCaption: "Leandro Yaser Melo Castillo (izquierda), paciente renal, y Alejandro Ivanovich Melo Castillo (derecha), su hermano y donante propuesto. Composición editorial con fotografías suministradas por los organizadores.",
     status: "published",
     confidence: 89,
     sourceCount: 5,
@@ -256,11 +249,6 @@ export const articles: Article[] = [
         level: 2
       },
       {
-        type: "image",
-        url: "/uploads/yaser-melo-ocoa-retrato.webp",
-        caption: "Leandro Yaser Melo Castillo. Fotografía aportada a la redacción."
-      },
-      {
         type: "paragraph",
         text: "Mucho antes de que la diálisis se convirtiera en parte de su rutina, Yaser era un niño que, según sus allegados, había aprendido a combinar los estudios con el trabajo. Creció con la idea de que el futuro no se espera: se construye. Con los años se dedicó a las ventas, particularmente a los negocios inmobiliarios, y formó una familia."
       },
@@ -276,11 +264,6 @@ export const articles: Article[] = [
         type: "heading",
         text: "Alejandro Ivanovich: la decisión que cambió la conversación familiar",
         level: 2
-      },
-      {
-        type: "image",
-        url: "/uploads/alejandro-ivanovich-melo-retrato.webp",
-        caption: "Alejandro Ivanovich Melo Castillo, conocido también como Iván, identificado por la familia como donante propuesto."
       },
       {
         type: "paragraph",
@@ -356,11 +339,6 @@ export const articles: Article[] = [
         text: "Para dimensionar la cifra presupuestada, imaginemos aportes voluntarios dirigidos a una meta hipotética de RD$1,500,000: **3,000 personas dando RD$500**, **1,500 aportando RD$1,000**, **500 aportando RD$3,000**, **300 aportando RD$5,000** o **150 aportando RD$10,000**. Cada combinación alcanza el mismo total. Son ejemplos matemáticos y no representan aportes recibidos ni una estimación de la recaudación real."
       },
       {
-        type: "image",
-        url: "/uploads/ocoa-unida-escenarios-solidarios.svg",
-        caption: "Escenarios ilustrativos de contribución colectiva calculados sobre el presupuesto base de RD$1.5 millones. No son aportes registrados ni reflejan coberturas de seguro."
-      },
-      {
         type: "paragraph",
         text: "La transmisión anunciada durará **cinco horas**, de 5:00 a 10:00 de la noche del viernes 30 de octubre. Dividir el presupuesto base entre ese tiempo equivale a **RD$300,000 por hora** o **RD$5,000 por minuto**. Es una referencia matemática, no una obligación para los organizadores ni un pronóstico de ingresos; la meta real debe definirse después de descontar las coberturas y aportes existentes."
       },
@@ -368,11 +346,6 @@ export const articles: Article[] = [
         type: "heading",
         text: "Ocoa Unida: una cita que va más allá de las cámaras",
         level: 2
-      },
-      {
-        type: "image",
-        url: "/uploads/ocoa-unida-telemaraton-30-octubre.webp",
-        caption: "Afiche de la convocatoria al Gran Telemaratón Ocoa Unida para el viernes 30 de octubre de 2026, por Canal 12 de Telecable Ocoa. Verifique los datos de aportes con los organizadores."
       },
       {
         type: "paragraph",
@@ -471,8 +444,6 @@ export const articles: Article[] = [
       "El panorama meteorológico de este martes 27 de octubre está marcado por una vaguada que mantiene condiciones húmedas e inestables en buena parte del país, con aguaceros moderados a fuertes, tormentas eléctricas, ráfagas de viento y provincias bajo alerta y aviso.",
     category: "Meteorología",
     author: "Redacción Actualizard",
-    heroImage: "/media/meteorologia-la-vega-portada",
-    heroCaption: "Panorámica editorial de La Vega bajo fuertes lluvias y nubosidad intensa, utilizada como imagen principal de la cobertura meteorológica nacional de Actualizard.",
     status: "published",
     confidence: 97,
     sourceCount: 3,
@@ -651,8 +622,6 @@ export const articles: Article[] = [
       "La provincia permanece en alerta amarilla mientras una vaguada mantiene aguaceros fuertes, tormentas eléctricas y ráfagas; el desbordamiento de Arroyo La Piedra ya afectó temporalmente varias comunidades.",
     category: "Meteorología",
     author: "Redacción Actualizard",
-    heroImage: "/media/ocoa-lluvias-portada",
-    heroCaption: "Imagen aportada para ilustrar la cobertura de las lluvias, crecidas y riesgo de deslizamientos en San José de Ocoa.",
     status: "published",
     confidence: 96,
     sourceCount: 2,
@@ -678,12 +647,6 @@ export const articles: Article[] = [
         type: "paragraph",
         text:
           "Las precipitaciones ya han dejado efectos concretos. El desbordamiento del **río Arroyo La Piedra** afectó temporalmente la comunicación terrestre con La Ciénega, Los Tramojos, Los Limones, Los Negros, Mesa de Domingo, Sabana Abajo, El Cercado, El Mancebo, Arroyo Hondo y Palo Esquina. La comunicación fue restablecida, pero las autoridades mantienen vigilancia por la saturación de los suelos."
-      },
-      {
-        type: "image",
-        url: "/uploads/grafico-meteorologico-ocoa-2026-10-27.svg",
-        caption:
-          "Gráfico meteorológico de Actualizard basado en los reportes de INDOMET y COE disponibles este 27 de octubre de 2026."
       },
       {
         type: "paragraph",
@@ -728,8 +691,6 @@ export const articles: Article[] = [
     category: "Turismo",
     author: "Francelis Solís",
     authorImage: "/uploads/francelis-solis-autora-v2.jpg",
-    heroImage: "/uploads/francelis-turismo-diversificacion.svg",
-    heroCaption: "Ilustración editorial de Actualizard sobre la diversificación del turismo dominicano más allá del modelo tradicional de sol y playa.",
     status: "published",
     confidence: 94,
     sourceCount: 3,
@@ -820,8 +781,6 @@ export const articles: Article[] = [
     category: "Turismo",
     author: "Francelis Solís",
     authorImage: "/uploads/francelis-solis-autora-v2.jpg",
-    heroImage: "/uploads/francelis-turismo-ia.svg",
-    heroCaption: "Ilustración editorial de Actualizard sobre inteligencia artificial, datos, planificación y experiencias personalizadas aplicadas al turismo dominicano.",
     status: "published",
     confidence: 91,
     sourceCount: 3,
@@ -924,8 +883,6 @@ export const articles: Article[] = [
     category: "Turismo",
     author: "Francelis Solís",
     authorImage: "/uploads/francelis-solis-autora-v2.jpg",
-    heroImage: "/uploads/francelis-turismo-sostenible.svg",
-    heroCaption: "Ilustración editorial de Actualizard sobre turismo responsable, conservación, comunidades y desarrollo sostenible en República Dominicana.",
     status: "published",
     confidence: 92,
     sourceCount: 3,
@@ -1037,9 +994,6 @@ export const articles: Article[] = [
       "La expresión popular resume una demanda social de respuestas contundentes frente a la delincuencia, pero también abre un debate sobre uso legítimo de la fuerza, debido proceso, percepción de impunidad y los límites que debe conservar el Estado.",
     category: "RD",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/29-seguridad-derechos-humanos-rd.svg",
-    heroCaption:
-      "Ilustración editorial de Actualizard sobre el debate entre seguridad ciudadana, actuación policial, justicia y derechos fundamentales en República Dominicana.",
     status: "published",
     confidence: 92,
     sourceCount: 4,
@@ -1170,8 +1124,6 @@ export const articles: Article[] = [
       "Especialistas reunidos en la edición dedicada a la salud mental coincidieron en fortalecer la prevención desde la familia y la escuela, ampliar el acceso a atención profesional y enfrentar la desinformación que circula en redes y herramientas digitales.",
     category: "Salud",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/rd-debate-salud-mental-portada-v3.webp",
-    heroCaption: "Imagen de la edición de RD Debate dedicada a la salud mental. Fotografía aportada a Actualizard.",
     status: "published",
     confidence: 92,
     sourceCount: 5,
@@ -1291,9 +1243,6 @@ export const articles: Article[] = [
       "La plataforma integra generación de libros, maquetación profesional y comercialización web. Martín Mateo, CEO de TServ, presentó además su visión sobre la superinteligencia y el futuro de la automatización.",
     category: "Tecnología",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/tserv-libroseller-57-martin-mateo.jpg",
-    heroCaption:
-      "Imagen editorial a partir de referencias aportadas para representar la presentación de Martín Mateo, CEO de TServ, durante la cobertura de Libroseller 5.7.",
     status: "published",
     confidence: 88,
     sourceCount: 1,
@@ -1363,9 +1312,6 @@ export const articles: Article[] = [
       "La nueva plataforma busca conectar personas y negocios que necesitan resolver gestiones cotidianas con trabajadores independientes y propietarios de vehículos disponibles para ejecutarlas, bajo una visión centrada en tiempo, movilidad y nuevas oportunidades de ingreso.",
     category: "Negocios",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/diligencias-portada.jpg",
-    heroCaption:
-      "Imagen editorial ilustrativa. El artículo presenta los objetivos, la propuesta y las expectativas declaradas para el lanzamiento de DILIGENCIAS.",
     status: "published",
     confidence: 90,
     sourceCount: 1,
@@ -1481,9 +1427,6 @@ export const articles: Article[] = [
       "Los rendimientos soberanos de Estados Unidos subieron con fuerza mientras el crudo siguió encareciéndose, una combinación que vuelve a colocar inflación, tasas y costo del financiamiento en el centro de la agenda económica.",
     category: "Geoeconomía",
     author: "Redacción Actualizard",
-    heroImage:
-      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 94,
     sourceCount: 2,
@@ -1557,9 +1500,6 @@ export const articles: Article[] = [
       "Los contactos indirectos buscan reducir un conflicto que ha alterado rutas energéticas y comercio internacional; sanciones, activos congelados, seguridad marítima y el programa nuclear siguen entre los puntos centrales.",
     category: "Geopolítica",
     author: "Redacción Actualizard",
-    heroImage:
-      "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1600&q=80",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 92,
     sourceCount: 2,
@@ -1633,8 +1573,6 @@ export const articles: Article[] = [
       "La 81.ª sesión llega marcada por reclamos de mayor representación, cuestionamientos al funcionamiento del Consejo de Seguridad y una agenda internacional dominada por guerras, inteligencia artificial y presiones sobre el multilateralismo.",
     category: "Mundo",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/onu-reforma-representacion-global.svg",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 93,
     sourceCount: 3,
@@ -1708,9 +1646,6 @@ export const articles: Article[] = [
       "La propuesta remitida al Congreso combina una proyección de crecimiento real de 4.75 % con mayores partidas sociales y obras de transporte, agua, vivienda y energía; ahora comienza su discusión legislativa.",
     category: "Política",
     author: "Redacción Actualizard",
-    heroImage:
-      "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1600&q=80",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 96,
     sourceCount: 2,
@@ -1784,8 +1719,6 @@ export const articles: Article[] = [
       "El IPC subió 0.38 % en agosto y la inflación interanual descendió por segundo mes consecutivo, mientras la economía mantiene señales de crecimiento y la política monetaria continúa siendo restrictiva.",
     category: "RD",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/bcrd-inflacion-actividad-economica.svg",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 98,
     sourceCount: 2,
@@ -1855,8 +1788,6 @@ export const articles: Article[] = [
       "La DGA reportó RD$66.45 millones en diferencias de impuestos determinadas entre enero y agosto y explicó que mantiene fiscalizaciones posteriores al despacho para revisar declaraciones y obligaciones aduaneras.",
     category: "RD",
     author: "Redacción Actualizard",
-    heroImage: "/uploads/aduanas-fiscalizacion-comercio.svg",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 97,
     sourceCount: 1,
@@ -1916,8 +1847,6 @@ export const articles: Article[] = [
       "Los nuevos modelos apuntan a agentes de voz que pueden mantener conversaciones fluidas, interpretar contexto visual, cambiar entre idiomas y ejecutar herramientas mientras la conversación continúa.",
     category: "IA",
     author: "Actualizard Tecnología",
-    heroImage: "/uploads/gemini-live-razonamiento-tiempo-real.svg",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 98,
     sourceCount: 2,
@@ -1986,8 +1915,6 @@ export const articles: Article[] = [
       "La nueva ola de integraciones incluye herramientas de productividad, creatividad y estilo de vida; el cambio refuerza la transición desde el chatbot que responde hacia el asistente que también ejecuta tareas.",
     category: "Tecnología",
     author: "Actualizard Tecnología",
-    heroImage: "/uploads/gemini-apps-conectadas.svg",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 98,
     sourceCount: 1,
@@ -2047,9 +1974,6 @@ export const articles: Article[] = [
       "La propuesta de Google une diálogo en vivo con video de baja latencia para crear agentes visuales capaces de escuchar, observar, hablar y ejecutar herramientas sin detener la conversación.",
     category: "Video",
     author: "Actualizard Video",
-    heroImage:
-      "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1600&q=80",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 98,
     sourceCount: 1,
@@ -2114,9 +2038,6 @@ export const articles: Article[] = [
       "La postemporada comienza con Phillies-Braves, White Sox-Astros, Red Sox-Yankees y Cubs-Padres en un formato al mejor de tres que concentra toda la presión en pocos partidos.",
     category: "Deportes",
     author: "Actualizard Deportes",
-    heroImage:
-      "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1600&q=80",
-    heroCaption: ILLUSTRATIVE,
     status: "published",
     confidence: 99,
     sourceCount: 2,

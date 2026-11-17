@@ -15,10 +15,12 @@ export function ArticleCard({
       aria-label={`Abrir artículo: ${article.title}`}
     >
       <article className="card">
-        <img
-          src={article.heroImage}
-          alt={article.heroCaption ?? article.title}
-        />
+        {article.heroImage && (
+          <img
+            src={article.heroImage}
+            alt={article.heroCaption ?? article.title}
+          />
+        )}
 
         <div className="card-pad">
           <span className="badge">{article.category}</span>

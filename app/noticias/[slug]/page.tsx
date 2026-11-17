@@ -29,9 +29,11 @@ export async function generateMetadata({
 
   // Una sola fuente para Facebook, WhatsApp, X y otros previsualizadores.
   // La versión cambia al actualizar la noticia y evita reutilizar la portada anterior.
-  const socialImage = absoluteUrl(
-    `/api/social-image/${encodeURIComponent(article.slug)}?v=${encodeURIComponent(article.updatedAt || article.createdAt)}`
-  );
+  const socialImage = article.heroImage
+    ? absoluteUrl(
+        `/api/social-image/${encodeURIComponent(article.slug)}?v=${encodeURIComponent(article.updatedAt || article.createdAt)}`
+      )
+    : undefined;
 
   return {
     title: article.title,
@@ -52,26 +54,30 @@ export async function generateMetadata({
       authors: [article.author],
       section: article.category,
       tags: article.tags,
-      images: [
-        {
-          url: socialImage,
-          width: 1200,
-          height: 630,
-          type: "image/jpeg",
-          alt: article.heroCaption ?? article.title
-        }
-      ]
+      images: socialImage
+        ? [
+            {
+              url: socialImage,
+              width: 1200,
+              height: 630,
+              type: "image/jpeg",
+              alt: article.heroCaption ?? article.title
+            }
+          ]
+        : undefined
     },
     twitter: {
-      card: "summary_large_image",
+      card: socialImage ? "summary_large_image" : "summary",
       title: article.title,
       description: article.dek,
-      images: [
-        {
-          url: socialImage,
-          alt: article.heroCaption ?? article.title
-        }
-      ]
+      images: socialImage
+        ? [
+            {
+              url: socialImage,
+              alt: article.heroCaption ?? article.title
+            }
+          ]
+        : undefined
     }
   };
 }
@@ -138,7 +144,7 @@ export default async function ArticlePage({
         </div>
       </div>
 
-      {article.author !== "Yaenqui Paredes" && article.author !== "Kendy Pérez" && (
+      {article.heroImage && article.author !== "Yaenqui Paredes" && article.author !== "Kendy Pérez" && (
         <>
       <img
         className="article-hero-image"
