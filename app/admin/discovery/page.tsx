@@ -194,10 +194,7 @@ export default function DiscoveryPage() {
             <span>
               IA:{" "}
               {
-                process.env
-                  .OPENAI_API_KEY
-                  ? "CONECTADA"
-                  : "MODO FALLBACK"
+                process.env.GEMINI_API_KEY ? "GEMINI CONECTADO" : "GEMINI NO CONFIGURADO"
               }
             </span>
           </div>

@@ -3,6 +3,8 @@ import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { store } from "@/lib/store";
 
+export const dynamic = "force-dynamic";
+
 export default function HomePage() {
 
   const published =

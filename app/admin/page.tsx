@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { store, sources } from "@/lib/store";
 
+export const dynamic = "force-dynamic";
+
 export default function AdminPage() {
   const published = store.articles.filter(a => a.status === "published").length;
   const scheduled = store.articles.filter(a => a.status === "scheduled").length;

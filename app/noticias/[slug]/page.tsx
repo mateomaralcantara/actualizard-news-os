@@ -6,6 +6,8 @@ import { ArticleComments } from "@/components/ArticleComments";
 import { absoluteUrl } from "@/lib/site-url";
 import { store } from "@/lib/store";
 
+export const dynamic = "force-dynamic";
+
 type ArticlePageProps = {
   params: Promise<{ slug: string }>;
 };
